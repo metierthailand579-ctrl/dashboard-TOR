@@ -41,11 +41,24 @@ export default function TablePage() {
     count: projects.filter((p) => p.budgetRange === budget).length,
   }));
 
+  // กลุ่มงาน (ระบบ A) — เรียงตามเลขนำหน้า "1." .. "7."
   const groupMap = new Map<string, number>();
-  for (const p of projects) groupMap.set(p.group, (groupMap.get(p.group) ?? 0) + 1);
+  for (const p of projects) groupMap.set(p.workGroup, (groupMap.get(p.workGroup) ?? 0) + 1);
   const byGroup = Array.from(groupMap.entries())
     .map(([group, count]) => ({ group, count }))
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => a.group.localeCompare(b.group, "th"));
+
+  // Metier (ระบบ B) — โอกาสก่อน, NOT_APPLICABLE ท้าย
+  const metierMap = new Map<string, number>();
+  for (const p of projects) metierMap.set(p.metierGroup, (metierMap.get(p.metierGroup) ?? 0) + 1);
+  const byMetier = Array.from(metierMap.entries())
+    .map(([group, count]) => ({ group, count }))
+    .sort((a, b) => {
+      if (a.group === "NOT_APPLICABLE") return 1;
+      if (b.group === "NOT_APPLICABLE") return -1;
+      return b.count - a.count;
+    });
+  const metierOpportunities = projects.filter((p) => p.metierGroup !== "NOT_APPLICABLE").length;
 
   const summary = {
     totalProjects: projects.length,
@@ -56,6 +69,8 @@ export default function TablePage() {
     byType,
     byBudget,
     byGroup,
+    byMetier,
+    metierOpportunities,
   };
 
   return (

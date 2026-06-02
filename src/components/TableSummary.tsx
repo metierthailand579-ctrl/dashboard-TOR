@@ -1,6 +1,9 @@
 import type { FileSummary, ProcurementType } from "@/types";
 import {
   BUDGET_SHORT,
+  METIER_LABEL,
+  METIER_NA,
+  METIER_STYLE,
   READ_STATUS_ORDER,
   READ_STATUS_STYLE,
   TYPE_STYLE,
@@ -16,6 +19,8 @@ interface Summary {
   byType: { type: ProcurementType; projectCount: number; fileCount: number }[];
   byBudget: { budget: string; count: number }[];
   byGroup: { group: string; count: number }[];
+  byMetier: { group: string; count: number }[];
+  metierOpportunities: number;
 }
 
 /** สีแท่งประจำประเภท (literal ให้ Tailwind สแกนเจอ) */
@@ -63,10 +68,10 @@ export function TableSummary({ summary }: { summary: Summary }) {
           tone="emerald"
         />
         <Kpi
-          label="เข้าถึงข้อความไม่ได้"
-          value={fs.total - fs.accessible}
-          unit={`${fs.ocrFail} OCR ไม่ได้ · ${fs.corrupt} ไฟล์เสีย`}
-          tone="orange"
+          label="โอกาสธุรกิจ Metier"
+          value={summary.metierOpportunities}
+          unit={`จาก ${summary.totalProjects} โครงการ`}
+          tone="indigo"
         />
       </div>
 
@@ -124,11 +129,11 @@ export function TableSummary({ summary }: { summary: Summary }) {
           </ul>
         </Panel>
 
-        <Panel title={`หมวดพัสดุ (Group) · ${summary.byGroup.length} หมวด`}>
+        <Panel title={`กลุ่มงาน (ระบบ A) · ${summary.byGroup.length} กลุ่ม`}>
           <ul className="space-y-2 pr-1">
             {summary.byGroup.map((g) => (
               <li key={g.group} className="flex items-center gap-2">
-                <span className="w-36 shrink-0 truncate text-xs text-slate-600" title={g.group}>
+                <span className="w-40 shrink-0 truncate text-xs text-slate-600" title={g.group}>
                   {g.group}
                 </span>
                 <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-100">
@@ -143,6 +148,36 @@ export function TableSummary({ summary }: { summary: Summary }) {
           </ul>
         </Panel>
       </div>
+
+      {/* โอกาสธุรกิจ Metier */}
+      <Panel
+        title="โอกาสธุรกิจ Metier (ระบบ B)"
+        subtitle={`${summary.metierOpportunities} โอกาส จาก ${summary.totalProjects} โครงการ`}
+      >
+        <ul className="grid gap-2 sm:grid-cols-2">
+          {summary.byMetier.map((m) => {
+            const style = METIER_STYLE[m.group] ?? METIER_STYLE[METIER_NA];
+            const isNa = m.group === METIER_NA;
+            return (
+              <li
+                key={m.group}
+                className={cn(
+                  "flex items-center gap-2 rounded-lg border px-3 py-2",
+                  isNa ? "border-slate-100 bg-slate-50" : "border-slate-200 bg-white"
+                )}
+              >
+                <span className={cn("h-2.5 w-2.5 shrink-0 rounded-full", style.dot)} />
+                <span className={cn("flex-1 text-sm", isNa ? "text-slate-400" : "text-slate-700")}>
+                  {METIER_LABEL[m.group] ?? m.group}
+                </span>
+                <span className={cn("text-sm font-semibold", isNa ? "text-slate-400" : "text-slate-800")}>
+                  {m.count}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+      </Panel>
     </section>
   );
 }
@@ -154,6 +189,7 @@ const KPI_TONE: Record<string, string> = {
   slate: "text-slate-700",
   emerald: "text-emerald-600",
   orange: "text-orange-600",
+  indigo: "text-indigo-600",
 };
 
 function Kpi({

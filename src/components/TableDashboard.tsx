@@ -11,6 +11,9 @@ import type {
 import {
   BUDGET_ORDER,
   BUDGET_SHORT,
+  METIER_LABEL,
+  METIER_NA,
+  METIER_STYLE,
   PROCUREMENT_TYPES,
   READ_STATUS_ORDER,
   READ_STATUS_STYLE,
@@ -24,19 +27,22 @@ type SortKey =
   | "budgetRange"
   | "group"
   | "subGroup"
+  | "metier"
   | "code"
   | "name"
   | "fileCount"
   | "health";
 type SortDir = "asc" | "desc";
 type ViewMode = "flat" | "grouped";
+type GroupDim = "work" | "metier";
 
 const COLUMNS: { key: SortKey; label: string; align?: "center" }[] = [
   { key: "order", label: "ลำดับ", align: "center" },
   { key: "type", label: "ประเภท" },
   { key: "budgetRange", label: "ช่วงวงเงิน" },
-  { key: "group", label: "Group" },
-  { key: "subGroup", label: "Sub Group" },
+  { key: "group", label: "กลุ่มงาน" },
+  { key: "subGroup", label: "กลุ่มย่อย" },
+  { key: "metier", label: "Metier" },
   { key: "code", label: "รหัสโครงการ" },
   { key: "name", label: "ชื่อโครงการ" },
   { key: "fileCount", label: "ไฟล์", align: "center" },
@@ -56,18 +62,33 @@ export function TableDashboard({
   const [types, setTypes] = useState<Set<ProcurementType>>(new Set());
   const [budgets, setBudgets] = useState<Set<string>>(new Set());
   const [groups, setGroups] = useState<Set<string>>(new Set());
+  const [metiers, setMetiers] = useState<Set<string>>(new Set());
   const [healths, setHealths] = useState<Set<HealthStatus>>(new Set());
   const [onlyTor, setOnlyTor] = useState(false);
+  const [onlyMetier, setOnlyMetier] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>("order");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [view, setView] = useState<ViewMode>("flat");
+  const [groupDim, setGroupDim] = useState<GroupDim>("work");
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
 
+  // ตัวเลือกกลุ่มงาน (เรียงตามเลขนำหน้า 1.-7.)
   const groupOptions = useMemo(() => {
+    return Array.from(new Set(projects.map((p) => p.workGroup))).sort((a, b) =>
+      a.localeCompare(b, "th")
+    );
+  }, [projects]);
+
+  // ตัวเลือก Metier (โอกาสก่อน, NOT_APPLICABLE ท้าย)
+  const metierOptions = useMemo(() => {
     const count = new Map<string, number>();
-    for (const p of projects) count.set(p.group, (count.get(p.group) ?? 0) + 1);
+    for (const p of projects) count.set(p.metierGroup, (count.get(p.metierGroup) ?? 0) + 1);
     return Array.from(count.entries())
-      .sort((a, b) => b[1] - a[1])
+      .sort((a, b) => {
+        if (a[0] === METIER_NA) return 1;
+        if (b[0] === METIER_NA) return -1;
+        return b[1] - a[1];
+      })
       .map(([g]) => g);
   }, [projects]);
 
@@ -78,10 +99,15 @@ export function TableDashboard({
         !q || p.name.toLowerCase().includes(q) || p.code.includes(q);
       const matchType = types.size === 0 || types.has(p.type);
       const matchBudget = budgets.size === 0 || budgets.has(p.budgetRange);
-      const matchGroup = groups.size === 0 || groups.has(p.group);
+      const matchGroup = groups.size === 0 || groups.has(p.workGroup);
+      const matchMetier = metiers.size === 0 || metiers.has(p.metierGroup);
       const matchHealth = healths.size === 0 || healths.has(p.health.status);
       const matchTor = !onlyTor || p.torFiles.length > 0;
-      return matchQuery && matchType && matchBudget && matchGroup && matchHealth && matchTor;
+      const matchOnlyMetier = !onlyMetier || p.metierGroup !== METIER_NA;
+      return (
+        matchQuery && matchType && matchBudget && matchGroup &&
+        matchMetier && matchHealth && matchTor && matchOnlyMetier
+      );
     });
 
     const dir = sortDir === "asc" ? 1 : -1;
@@ -98,6 +124,8 @@ export function TableDashboard({
         case "group":
         case "subGroup":
           return a[sortKey].localeCompare(b[sortKey], "th") * dir;
+        case "metier":
+          return a.metierGroup.localeCompare(b.metierGroup, "th") * dir;
         case "code":
           return a.code.localeCompare(b.code) * dir;
         case "fileCount":
@@ -112,20 +140,28 @@ export function TableDashboard({
           return (a.order - b.order) * dir;
       }
     });
-  }, [projects, query, types, budgets, groups, healths, onlyTor, sortKey, sortDir]);
+  }, [projects, query, types, budgets, groups, metiers, healths, onlyTor, onlyMetier, sortKey, sortDir]);
 
-  // โครงสร้างจัดกลุ่ม: Group -> SubGroup -> โครงการ
+  // โครงสร้างจัดกลุ่ม: (กลุ่มหลัก -> กลุ่มย่อย -> โครงการ) ตามมิติที่เลือก
   const grouped = useMemo(() => {
+    const keyMain = (p: ProjectWithHealth) =>
+      groupDim === "work" ? p.workGroup : p.metierGroup;
+    const keySub = (p: ProjectWithHealth) =>
+      groupDim === "work" ? p.workSubGroup : p.metierSubGroup;
     const map = new Map<string, Map<string, ProjectWithHealth[]>>();
     for (const p of filtered) {
-      const subs = map.get(p.group) ?? new Map<string, ProjectWithHealth[]>();
-      const arr = subs.get(p.subGroup) ?? [];
+      const subs = map.get(keyMain(p)) ?? new Map<string, ProjectWithHealth[]>();
+      const arr = subs.get(keySub(p)) ?? [];
       arr.push(p);
-      subs.set(p.subGroup, arr);
-      map.set(p.group, subs);
+      subs.set(keySub(p), arr);
+      map.set(keyMain(p), subs);
     }
-    return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0], "th"));
-  }, [filtered]);
+    return Array.from(map.entries()).sort((a, b) => {
+      if (a[0] === METIER_NA) return 1;
+      if (b[0] === METIER_NA) return -1;
+      return a[0].localeCompare(b[0], "th");
+    });
+  }, [filtered, groupDim]);
 
   function toggleSet<T>(set: Set<T>, value: T): Set<T> {
     const next = new Set(set);
@@ -146,13 +182,16 @@ export function TableDashboard({
     setTypes(new Set());
     setBudgets(new Set());
     setGroups(new Set());
+    setMetiers(new Set());
     setHealths(new Set());
     setOnlyTor(false);
+    setOnlyMetier(false);
   }
 
   function exportCsv() {
     const header = [
-      "ลำดับ", "ประเภท", "ช่วงวงเงิน", "Group", "Sub Group",
+      "ลำดับ", "ประเภท", "ช่วงวงเงิน", "กลุ่มงาน", "กลุ่มย่อย(งาน)",
+      "Metier กลุ่มหลัก", "Metier กลุ่มย่อย",
       "รหัสโครงการ", "ชื่อโครงการ", "จำนวนไฟล์",
       "TOR Health", "อ่านได้(ไฟล์)", "ต้อง OCR(ไฟล์)", "อ่านไม่ได้(ไฟล์)",
       "สรุปการอ่าน", "รายชื่อไฟล์",
@@ -160,7 +199,8 @@ export function TableDashboard({
     const escape = (v: string | number) => `"${String(v).replace(/"/g, '""')}"`;
     const lines = filtered.map((p) =>
       [
-        p.order, p.type, p.budgetRange, p.group, p.subGroup,
+        p.order, p.type, p.budgetRange, p.workGroup, p.workSubGroup,
+        p.metierGroup, p.metierSubGroup,
         p.code, p.name, p.fileCount,
         p.health.status, p.health.counts.readable, p.health.counts.ocr,
         p.health.counts.unreadable, p.health.summary, p.files.join(" | "),
@@ -183,8 +223,10 @@ export function TableDashboard({
     types.size > 0 ||
     budgets.size > 0 ||
     groups.size > 0 ||
+    metiers.size > 0 ||
     healths.size > 0 ||
-    onlyTor;
+    onlyTor ||
+    onlyMetier;
 
   return (
     <div className="space-y-4">
@@ -224,10 +266,23 @@ export function TableDashboard({
           ))}
         </FilterRow>
 
-        <FilterRow label="Group">
+        <FilterRow label="กลุ่มงาน">
           {groupOptions.map((g) => (
             <Chip key={g} active={groups.has(g)} onClick={() => setGroups((s) => toggleSet(s, g))}>
               {g}
+            </Chip>
+          ))}
+        </FilterRow>
+
+        <FilterRow label="Metier">
+          {metierOptions.map((m) => (
+            <Chip
+              key={m}
+              active={metiers.has(m)}
+              onClick={() => setMetiers((s) => toggleSet(s, m))}
+              className={METIER_STYLE[m]?.badge}
+            >
+              {METIER_LABEL[m] ?? m}
             </Chip>
           ))}
         </FilterRow>
@@ -255,6 +310,15 @@ export function TableDashboard({
             />
             เฉพาะที่มีไฟล์ TOR
           </label>
+          <label className="flex cursor-pointer items-center gap-2 text-sm text-slate-600">
+            <input
+              type="checkbox"
+              checked={onlyMetier}
+              onChange={(e) => setOnlyMetier(e.target.checked)}
+              className="h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"
+            />
+            เฉพาะโอกาสธุรกิจ Metier
+          </label>
 
           {/* สลับมุมมอง */}
           <div className="inline-flex overflow-hidden rounded-lg border border-slate-200">
@@ -265,6 +329,21 @@ export function TableDashboard({
               จัดกลุ่ม
             </ViewButton>
           </div>
+
+          {/* มิติการจัดกลุ่ม (เฉพาะมุมมองจัดกลุ่ม) */}
+          {view === "grouped" && (
+            <div className="inline-flex items-center gap-1.5 text-sm text-slate-500">
+              <span>ตาม:</span>
+              <div className="inline-flex overflow-hidden rounded-lg border border-slate-200">
+                <ViewButton active={groupDim === "work"} onClick={() => setGroupDim("work")}>
+                  กลุ่มงาน
+                </ViewButton>
+                <ViewButton active={groupDim === "metier"} onClick={() => setGroupDim("metier")}>
+                  Metier
+                </ViewButton>
+              </div>
+            </div>
+          )}
 
           {hasFilter && (
             <button
@@ -294,7 +373,7 @@ export function TableDashboard({
       {/* ===== มุมมองตาราง ===== */}
       {view === "flat" && (
         <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
-          <table className="w-full min-w-[1080px] text-sm">
+          <table className="w-full min-w-[1240px] text-sm">
             <thead>
               <tr className="border-b border-slate-200 bg-slate-50 text-left text-slate-500">
                 {COLUMNS.map((col) => (
@@ -324,9 +403,12 @@ export function TableDashboard({
                   <td className="px-4 py-3 text-slate-600" title={p.budgetRange}>
                     {BUDGET_SHORT[p.budgetRange] ?? p.budgetRange}
                   </td>
-                  <td className="px-4 py-3 text-slate-700">{p.group}</td>
-                  <td className="max-w-[200px] px-4 py-3 text-slate-500">
-                    <span className="line-clamp-1" title={p.subGroup}>{p.subGroup}</span>
+                  <td className="px-4 py-3 text-slate-700">{p.workGroup}</td>
+                  <td className="max-w-[180px] px-4 py-3 text-slate-500">
+                    <span className="line-clamp-1" title={p.workSubGroup}>{p.workSubGroup}</span>
+                  </td>
+                  <td className="px-4 py-3">
+                    <MetierPill group={p.metierGroup} sub={p.metierSubGroup} />
                   </td>
                   <td className="px-4 py-3 font-mono text-xs text-slate-500">{p.code}</td>
                   <td className="max-w-md px-4 py-3">
@@ -383,7 +465,9 @@ export function TableDashboard({
                   className="flex w-full items-center gap-2 bg-slate-50 px-4 py-3 text-left transition hover:bg-slate-100"
                 >
                   <span className={cn("text-slate-400 transition", isCollapsed ? "" : "rotate-90")}>▶</span>
-                  <span className="font-semibold text-slate-800">{group}</span>
+                  <span className="font-semibold text-slate-800">
+                    {groupDim === "metier" ? METIER_LABEL[group] ?? group : group}
+                  </span>
                   <span className="rounded-full bg-white px-2 py-0.5 text-xs text-slate-500">
                     {items.length} โครงการ
                   </span>
@@ -502,6 +586,19 @@ function TypePill({ type }: { type: ProcurementType }) {
   return (
     <span className={cn("inline-flex shrink-0 rounded-full px-2 py-0.5 text-xs font-medium", TYPE_STYLE[type].badge)}>
       {type}
+    </span>
+  );
+}
+
+function MetierPill({ group, sub }: { group: string; sub: string }) {
+  if (group === METIER_NA) return <span className="text-xs text-slate-300">—</span>;
+  const style = METIER_STYLE[group] ?? METIER_STYLE[METIER_NA];
+  return (
+    <span
+      className={cn("inline-flex max-w-[150px] rounded-full px-2 py-0.5 text-xs font-medium", style.badge)}
+      title={`${group} · ${sub}`}
+    >
+      <span className="truncate">{METIER_LABEL[group] ?? group}</span>
     </span>
   );
 }

@@ -62,6 +62,25 @@ export const ACCESS_STATUS_STYLE: Record<string, { badge: string; dot: string }>
   ไม่มีข้อมูล: { badge: "bg-slate-100 text-slate-500", dot: "bg-slate-400" },
 };
 
+/** Metier: ค่าที่ไม่ใช่โอกาสธุรกิจ */
+export const METIER_NA = "NOT_APPLICABLE";
+
+/** ป้ายอ่านง่ายของ Metier กลุ่มหลัก */
+export const METIER_LABEL: Record<string, string> = {
+  NOT_APPLICABLE: "ไม่ใช่โอกาส",
+  "SOFTWARE DEVELOPMENT": "Software Dev",
+  "CREATIVE PRODUCTION": "Creative",
+  "MEDIA MANAGEMENT": "Media",
+};
+
+/** สีประจำ Metier กลุ่มหลัก */
+export const METIER_STYLE: Record<string, { badge: string; dot: string }> = {
+  "SOFTWARE DEVELOPMENT": { badge: "bg-indigo-100 text-indigo-700", dot: "bg-indigo-500" },
+  "CREATIVE PRODUCTION": { badge: "bg-pink-100 text-pink-700", dot: "bg-pink-500" },
+  "MEDIA MANAGEMENT": { badge: "bg-cyan-100 text-cyan-700", dot: "bg-cyan-500" },
+  NOT_APPLICABLE: { badge: "bg-slate-100 text-slate-400", dot: "bg-slate-300" },
+};
+
 /** สีผล OCR รายไฟล์ */
 export const OCR_STYLE: Record<string, string> = {
   "OCR อ่านได้": "bg-emerald-50 text-emerald-600",

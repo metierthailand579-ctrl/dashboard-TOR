@@ -8,10 +8,16 @@ export interface Project {
   budgetRange: string;
   code: string;
   name: string;
-  /** หมวดพัสดุกว้าง (สกัดจากชื่อโครงการ) */
+  /** กลุ่มงานหลัก (ระบบ A — work_category) = workGroup */
   group: string;
-  /** หมวดย่อย/รายละเอียดพัสดุ (สกัดจากชื่อโครงการ) */
+  /** กลุ่มงานย่อย (ระบบ A) = workSubGroup */
   subGroup: string;
+  /** ระบบ A: กลุ่มงาน (เหมือน group/subGroup) */
+  workGroup: string;
+  workSubGroup: string;
+  /** ระบบ B: โอกาสธุรกิจ Metier (NOT_APPLICABLE = ไม่ใช่โอกาส) */
+  metierGroup: string;
+  metierSubGroup: string;
   fileCount: number;
   fileTypes: string[];
   files: string[];

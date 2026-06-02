@@ -57,7 +57,15 @@ export default function ProjectPage({ params }: Params) {
         <h1 className="text-lg font-bold leading-relaxed text-slate-800">{project.name}</h1>
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
           <Field label="รหัสโครงการ" value={project.code} mono />
-          <Field label="หมวด (Group)" value={`${project.group} · ${project.subGroup}`} />
+          <Field label="กลุ่มงาน (ระบบ A)" value={`${project.workGroup} · ${project.workSubGroup}`} />
+          <Field
+            label="โอกาส Metier (ระบบ B)"
+            value={
+              project.metierGroup === "NOT_APPLICABLE"
+                ? "ไม่ใช่โอกาส"
+                : `${project.metierGroup} · ${project.metierSubGroup}`
+            }
+          />
           <Field label="ช่วงวงเงิน" value={project.budgetRange} />
           <Field label="จำนวนไฟล์" value={`${project.fileCount} ไฟล์`} />
           <div className="col-span-2 sm:col-span-1">
