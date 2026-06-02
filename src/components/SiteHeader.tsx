@@ -14,6 +14,12 @@ export function SiteHeader() {
 
         <nav className="flex flex-wrap items-center gap-1 text-sm">
           <Link
+            href="/summary"
+            className="rounded-md px-2.5 py-1 font-medium text-brand-700 transition hover:bg-brand-50"
+          >
+            สรุปภาพรวม
+          </Link>
+          <Link
             href="/table"
             className="rounded-md px-2.5 py-1 font-medium text-brand-700 transition hover:bg-brand-50"
           >
