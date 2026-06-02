@@ -521,8 +521,11 @@ function HealthBadge({ health }: { health: ProjectHealth }) {
         {health.status}
       </span>
       {health.counts.total > 0 && (
-        <span className="text-[10px] text-slate-400">
-          {health.counts.readable}/{health.counts.total} อ่านได้
+        <span className="text-[10px] text-slate-400" title={health.accessSummary}>
+          เข้าถึง {health.counts.accessible}/{health.counts.total}
+          {health.counts.ocrOk > 0 && (
+            <span className="text-teal-500"> · OCR {health.counts.ocrOk}</span>
+          )}
         </span>
       )}
     </span>

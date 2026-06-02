@@ -1,4 +1,4 @@
-import type { ProcurementType } from "@/types";
+import type { FileSummary, ProcurementType } from "@/types";
 import {
   BUDGET_SHORT,
   READ_STATUS_ORDER,
@@ -11,6 +11,7 @@ interface Summary {
   totalProjects: number;
   totalFiles: number;
   fileHealth: { readable: number; ocr: number; unreadable: number; total: number };
+  fileSummary: FileSummary;
   healthSummary: Record<string, number>;
   byType: { type: ProcurementType; projectCount: number; fileCount: number }[];
   byBudget: { budget: string; count: number }[];
@@ -28,7 +29,7 @@ const TYPE_BAR: Record<ProcurementType, string> = {
 const pct = (n: number, total: number) => (total ? Math.round((n / total) * 100) : 0);
 
 export function TableSummary({ summary }: { summary: Summary }) {
-  const { fileHealth } = summary;
+  const fs = summary.fileSummary;
 
   // ระดับโครงการ: เรียงตามลำดับสถานะ เฉพาะที่มี
   const projectStatuses = READ_STATUS_ORDER.map((s) => ({
@@ -37,11 +38,12 @@ export function TableSummary({ summary }: { summary: Summary }) {
     color: READ_STATUS_STYLE[s].dot,
   })).filter((s) => s.value > 0);
 
-  // ระดับไฟล์
-  const fileStatuses = [
-    { label: "อ่านได้", value: fileHealth.readable, color: READ_STATUS_STYLE["อ่านได้"].dot },
-    { label: "ต้อง OCR", value: fileHealth.ocr, color: READ_STATUS_STYLE["ต้อง OCR"].dot },
-    { label: "อ่านไม่ได้", value: fileHealth.unreadable, color: READ_STATUS_STYLE["อ่านไม่ได้"].dot },
+  // การเข้าถึงข้อความระดับไฟล์ (รวมผล OCR แล้ว)
+  const accessStatuses = [
+    { label: "มี text อยู่แล้ว", value: fs.textReady, color: "bg-emerald-500" },
+    { label: "OCR สำเร็จ", value: fs.ocrOk, color: "bg-teal-400" },
+    { label: "OCR ไม่สำเร็จ", value: fs.ocrFail, color: "bg-orange-500" },
+    { label: "ไฟล์เสีย", value: fs.corrupt, color: "bg-red-500" },
   ].filter((s) => s.value > 0);
 
   const maxGroup = Math.max(...summary.byGroup.map((g) => g.count), 1);
@@ -55,29 +57,32 @@ export function TableSummary({ summary }: { summary: Summary }) {
         <Kpi label="โครงการทั้งหมด" value={summary.totalProjects} unit="โครงการ" tone="brand" />
         <Kpi label="ไฟล์เอกสาร" value={summary.totalFiles} unit="ไฟล์" tone="slate" />
         <Kpi
-          label="ไฟล์ที่อ่านได้"
-          value={fileHealth.readable}
-          unit={`${pct(fileHealth.readable, fileHealth.total)}%`}
+          label="เข้าถึงข้อความได้ (รวม OCR)"
+          value={fs.accessible}
+          unit={`${pct(fs.accessible, fs.total)}%`}
           tone="emerald"
         />
         <Kpi
-          label="ไฟล์ที่ต้อง OCR"
-          value={fileHealth.ocr}
-          unit={`${pct(fileHealth.ocr, fileHealth.total)}%`}
+          label="เข้าถึงข้อความไม่ได้"
+          value={fs.total - fs.accessible}
+          unit={`${fs.ocrFail} OCR ไม่ได้ · ${fs.corrupt} ไฟล์เสีย`}
           tone="orange"
         />
       </div>
 
-      {/* แถบสถานะการอ่าน */}
+      {/* แถบสถานะ */}
       <div className="grid gap-3 md:grid-cols-2">
         <Panel title="สถานะการอ่าน TOR (ระดับโครงการ)" subtitle={`${summary.totalProjects} โครงการ`}>
           <StackedBar segments={projectStatuses} />
           <Legend segments={projectStatuses} total={summary.totalProjects} />
         </Panel>
 
-        <Panel title="ไฟล์ตามสถานะการอ่าน" subtitle={`${fileHealth.total} ไฟล์ที่ตรวจ`}>
-          <StackedBar segments={fileStatuses} />
-          <Legend segments={fileStatuses} total={fileHealth.total} />
+        <Panel
+          title="การเข้าถึงข้อความในไฟล์ (รวม OCR)"
+          subtitle={`เข้าถึงได้ ${fs.accessible}/${fs.total} ไฟล์`}
+        >
+          <StackedBar segments={accessStatuses} />
+          <Legend segments={accessStatuses} total={fs.total} />
         </Panel>
       </div>
 

@@ -2,7 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllProjects, getProjectByCode, getProjectHealth } from "@/lib/data";
-import { READ_STATUS_STYLE, TYPE_TO_SLUG } from "@/lib/constants";
+import {
+  ACCESS_STATUS_STYLE,
+  OCR_STYLE,
+  READ_STATUS_STYLE,
+  TYPE_TO_SLUG,
+} from "@/lib/constants";
 import { cn, fileUrl, isTorFile } from "@/lib/utils";
 import { TypeBadge } from "@/components/TypeBadge";
 import { BudgetChip } from "@/components/BudgetChip";
@@ -64,6 +69,15 @@ export default function ProjectPage({ params }: Params) {
               )}
             </dd>
           </div>
+          <div className="col-span-2 sm:col-span-1">
+            <dt className="text-xs text-slate-400">การเข้าถึงข้อความ (รวม OCR)</dt>
+            <dd className="mt-0.5">
+              <StatusBadge status={health.accessStatus} />
+              {health.counts.total > 0 && (
+                <span className="ml-2 text-xs text-slate-400">{health.accessSummary}</span>
+              )}
+            </dd>
+          </div>
         </dl>
       </header>
 
@@ -91,6 +105,16 @@ export default function ProjectPage({ params }: Params) {
                   {fileStatus.get(file) && (
                     <>
                       <StatusBadge status={fileStatus.get(file)!.status} />
+                      {OCR_STYLE[fileStatus.get(file)!.ocr] && (
+                        <span
+                          className={cn(
+                            "rounded px-1.5 py-0.5 font-medium",
+                            OCR_STYLE[fileStatus.get(file)!.ocr]
+                          )}
+                        >
+                          {fileStatus.get(file)!.ocr}
+                        </span>
+                      )}
                       <span className="text-slate-400">{fileStatus.get(file)!.detail}</span>
                     </>
                   )}
@@ -132,7 +156,10 @@ function Field({ label, value, mono }: { label: string; value: string; mono?: bo
 }
 
 function StatusBadge({ status }: { status: string }) {
-  const style = READ_STATUS_STYLE[status] ?? READ_STATUS_STYLE["ไม่มีข้อมูล"];
+  const style =
+    READ_STATUS_STYLE[status] ??
+    ACCESS_STATUS_STYLE[status] ??
+    READ_STATUS_STYLE["ไม่มีข้อมูล"];
   return (
     <span
       className={cn(

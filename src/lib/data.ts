@@ -3,6 +3,7 @@ import projectsJson from "@data/projects.json";
 import overviewJson from "@data/overview.json";
 import healthJson from "@data/healthcheck.json";
 import type {
+  FileSummary,
   OverviewRow,
   ProcurementType,
   Project,
@@ -16,15 +17,23 @@ const overview = overviewJson as OverviewRow[];
 const health = healthJson as {
   engine: string;
   summary: Record<string, number>;
+  fileSummary: FileSummary;
   projects: Record<string, ProjectHealth>;
 };
 
 const UNKNOWN_HEALTH: ProjectHealth = {
   status: "ไม่มีข้อมูล",
   summary: "ไม่มีข้อมูล",
-  counts: { readable: 0, ocr: 0, unreadable: 0, total: 0 },
+  accessStatus: "ไม่มีข้อมูล",
+  accessSummary: "ไม่มีข้อมูล",
+  counts: { readable: 0, ocr: 0, unreadable: 0, ocrOk: 0, ocrFail: 0, accessible: 0, total: 0 },
   files: [],
 };
+
+/** สรุปการเข้าถึงข้อความระดับไฟล์ทั้งระบบ */
+export function getFileSummary(): FileSummary {
+  return health.fileSummary;
+}
 
 /** ผลตรวจ health ของโครงการเดียว */
 export function getProjectHealth(code: string): ProjectHealth {

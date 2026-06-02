@@ -54,6 +54,20 @@ export const READ_STATUS_STYLE: Record<string, { badge: string; dot: string }> =
   ไม่มีข้อมูล: { badge: "bg-slate-100 text-slate-500", dot: "bg-slate-400" },
 };
 
+/** สีประจำสถานะการเข้าถึงข้อความ (รวม OCR) */
+export const ACCESS_STATUS_STYLE: Record<string, { badge: string; dot: string }> = {
+  เข้าถึงได้ทั้งหมด: { badge: "bg-emerald-100 text-emerald-700", dot: "bg-emerald-500" },
+  เข้าถึงได้บางส่วน: { badge: "bg-amber-100 text-amber-700", dot: "bg-amber-500" },
+  เข้าถึงไม่ได้: { badge: "bg-red-100 text-red-600", dot: "bg-red-500" },
+  ไม่มีข้อมูล: { badge: "bg-slate-100 text-slate-500", dot: "bg-slate-400" },
+};
+
+/** สีผล OCR รายไฟล์ */
+export const OCR_STYLE: Record<string, string> = {
+  "OCR อ่านได้": "bg-emerald-50 text-emerald-600",
+  "OCR อ่านไม่ได้": "bg-red-50 text-red-600",
+};
+
 /** ป้ายสั้นของช่วงวงเงิน (ใช้ในชิป/ตาราง) */
 export const BUDGET_SHORT: Record<string, string> = {
   "ไม่เกิน 500,000 บาท": "≤ 5 แสน",

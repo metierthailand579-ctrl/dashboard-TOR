@@ -147,6 +147,30 @@ ST_UNREAD = "อ่านไม่ได้"
 ST_PARTIAL = "อ่านได้บางส่วน"
 ST_NONE = "ไม่มีข้อมูล"
 
+# ผล OCR (คอลัมน์ใหม่)
+OCR_OK = "OCR อ่านได้"
+OCR_FAIL = "OCR อ่านไม่ได้"
+
+# สถานะการเข้าถึงข้อความ (รวมผล OCR แล้ว)
+AC_ALL = "เข้าถึงได้ทั้งหมด"
+AC_PARTIAL = "เข้าถึงได้บางส่วน"
+AC_NONE = "เข้าถึงไม่ได้"
+
+
+def file_accessible(status, ocr):
+    """ไฟล์เข้าถึงข้อความได้หรือไม่ (มี text อยู่แล้ว หรือ OCR สำเร็จ)"""
+    return status == ST_READ or ocr == OCR_OK
+
+
+def access_status(accessible, total):
+    if total == 0:
+        return ST_NONE
+    if accessible == total:
+        return AC_ALL
+    if accessible > 0:
+        return AC_PARTIAL
+    return AC_NONE
+
 
 def rollup_status(readable, ocr, unreadable):
     """สรุปสถานะระดับโครงการจากจำนวนไฟล์แต่ละสถานะ"""
@@ -174,9 +198,9 @@ def summary_text(readable, ocr, unreadable):
 
 
 def build_health(ws):
-    """ชีตเช็คการอ่านไฟล์:
-    ลำดับ | ประเภท | ช่วงวงเงิน | โครงการ(code) | ชื่อไฟล์ | ชนิด | ขนาด(KB) | สถานะการอ่าน | รายละเอียด
-    คืน dict {code: health}
+    """ชีตเช็คการอ่านไฟล์ (10 คอลัมน์):
+    ลำดับ|ประเภท|ช่วงวงเงิน|โครงการ(code)|ชื่อไฟล์|ชนิด|ขนาด(KB)|สถานะการอ่าน|ผล OCR|รายละเอียด
+    คืน (health dict {code: ...}, file_summary dict)
     """
     by_code = {}
     for r in list(ws.iter_rows(values_only=True))[1:]:
@@ -184,43 +208,71 @@ def build_health(ws):
         if not code:
             continue
         status = (r[7] or "").strip()
+        ocr = (r[8] or "").strip() if r[8] else ""
         by_code.setdefault(code, []).append({
             "name": (r[4] or "").strip(),
             "status": status,
+            "ocr": ocr,
             "sizeKB": round(float(r[6]), 1) if isinstance(r[6], (int, float)) else None,
-            "detail": (r[8] or "").strip() if r[8] else "",
+            "detail": (r[9] or "").strip() if r[9] else "",
+            "accessible": file_accessible(status, ocr),
         })
 
     health = {}
+    file_summary = {"textReady": 0, "ocrOk": 0, "ocrFail": 0, "corrupt": 0,
+                    "accessible": 0, "total": 0}
     for code, files in by_code.items():
         readable = sum(1 for f in files if f["status"] == ST_READ)
-        ocr = sum(1 for f in files if f["status"] == ST_OCR)
+        ocr_need = sum(1 for f in files if f["status"] == ST_OCR)
         unreadable = sum(1 for f in files if f["status"] == ST_UNREAD)
-        status = rollup_status(readable, ocr, unreadable)
+        ocr_ok = sum(1 for f in files if f["ocr"] == OCR_OK)
+        ocr_fail = sum(1 for f in files if f["ocr"] == OCR_FAIL)
+        accessible = sum(1 for f in files if f["accessible"])
+        total = len(files)
+
+        # สรุปการเข้าถึงข้อความระดับไฟล์ (ทั้งระบบ)
+        file_summary["textReady"] += readable
+        file_summary["ocrOk"] += ocr_ok
+        file_summary["ocrFail"] += ocr_fail
+        file_summary["corrupt"] += unreadable
+        file_summary["accessible"] += accessible
+        file_summary["total"] += total
+
         health[code] = {
-            "status": status,
-            "summary": summary_text(readable, ocr, unreadable),
+            "status": rollup_status(readable, ocr_need, unreadable),
+            "summary": summary_text(readable, ocr_need, unreadable),
+            "accessStatus": access_status(accessible, total),
+            "accessSummary": f"เข้าถึงข้อความได้ {accessible}/{total} ไฟล์",
             "counts": {
                 "readable": readable,
-                "ocr": ocr,
+                "ocr": ocr_need,
                 "unreadable": unreadable,
-                "total": len(files),
+                "ocrOk": ocr_ok,
+                "ocrFail": ocr_fail,
+                "accessible": accessible,
+                "total": total,
             },
             "files": files,
         }
-    return health
+    return health, file_summary
 
 
 def main():
     wb = openpyxl.load_workbook(XLSX, read_only=True, data_only=True)
-    health = build_health(wb["เช็คการอ่านไฟล์"]) if "เช็คการอ่านไฟล์" in wb.sheetnames else {}
+    if "เช็คการอ่านไฟล์" in wb.sheetnames:
+        health, file_summary = build_health(wb["เช็คการอ่านไฟล์"])
+    else:
+        health, file_summary = {}, {"textReady": 0, "ocrOk": 0, "ocrFail": 0,
+                                    "corrupt": 0, "accessible": 0, "total": 0}
     files_by_code = {code: [f["name"] for f in h["files"]] for code, h in health.items()}
     projects = build_projects(wb["รายการโครงการทั้งหมด"], files_by_code)
     overview = build_overview(wb["ภาพรวม"])
 
     # โครงการที่ไม่มีข้อมูลตรวจ → สถานะ "ไม่มีข้อมูล"
     none_health = {"status": ST_NONE, "summary": ST_NONE,
-                   "counts": {"readable": 0, "ocr": 0, "unreadable": 0, "total": 0},
+                   "accessStatus": ST_NONE, "accessSummary": ST_NONE,
+                   "counts": {"readable": 0, "ocr": 0, "unreadable": 0,
+                              "ocrOk": 0, "ocrFail": 0, "accessible": 0, "total": 0},
                    "files": []}
     for p in projects:
         health.setdefault(p["code"], dict(none_health))
@@ -240,6 +292,7 @@ def main():
         json.dump({
             "engine": "excel:เช็คการอ่านไฟล์",
             "summary": project_summary,
+            "fileSummary": file_summary,
             "projects": {p["code"]: health[p["code"]] for p in projects},
         }, f, ensure_ascii=False, indent=2)
 
@@ -248,6 +301,8 @@ def main():
     print(f"✓ projects.json: {len(projects)} โครงการ")
     print(f"✓ overview.json: {len(overview)} แถว")
     print(f"✓ healthcheck.json: สรุปต่อโครงการ {project_summary}")
+    print(f"  เข้าถึงข้อความได้ {file_summary['accessible']}/{file_summary['total']} ไฟล์ "
+          f"(text {file_summary['textReady']} + OCR {file_summary['ocrOk']})")
     print(f"  ประเภท: {types}")
     print(f"  ช่วงวงเงิน: {len(budgets)} ช่วง")
 

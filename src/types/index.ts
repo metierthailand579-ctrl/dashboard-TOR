@@ -29,12 +29,23 @@ export type HealthStatus =
   | "อ่านไม่ได้"
   | "ไม่มีข้อมูล";
 
+/** สถานะการเข้าถึงข้อความ (รวมผล OCR แล้ว) */
+export type AccessStatus =
+  | "เข้าถึงได้ทั้งหมด"
+  | "เข้าถึงได้บางส่วน"
+  | "เข้าถึงไม่ได้"
+  | "ไม่มีข้อมูล";
+
 /** ผลตรวจไฟล์ TOR รายไฟล์ */
 export interface FileHealth {
   name: string;
   status: FileReadStatus | string;
+  /** ผล OCR เช่น "OCR อ่านได้" / "— (มี text อยู่แล้ว)" */
+  ocr: string;
   sizeKB: number | null;
   detail: string;
+  /** เข้าถึงข้อความได้ (มี text หรือ OCR สำเร็จ) */
+  accessible: boolean;
 }
 
 /** จำนวนไฟล์แต่ละสถานะ */
@@ -42,6 +53,10 @@ export interface HealthCounts {
   readable: number;
   ocr: number;
   unreadable: number;
+  ocrOk: number;
+  ocrFail: number;
+  /** เข้าถึงข้อความได้ = readable + ocrOk */
+  accessible: number;
   total: number;
 }
 
@@ -50,8 +65,20 @@ export interface ProjectHealth {
   status: HealthStatus;
   /** สรุปข้อความ เช่น "อ่านได้:2 / ต้อง OCR:4" */
   summary: string;
+  accessStatus: AccessStatus;
+  accessSummary: string;
   counts: HealthCounts;
   files: FileHealth[];
+}
+
+/** สรุปการเข้าถึงข้อความระดับไฟล์ทั้งระบบ */
+export interface FileSummary {
+  textReady: number;
+  ocrOk: number;
+  ocrFail: number;
+  corrupt: number;
+  accessible: number;
+  total: number;
 }
 
 /** โครงการ + ผลตรวจ health (ใช้ในตาราง) */

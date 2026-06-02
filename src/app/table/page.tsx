@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getHealthSummary, getProjectsWithHealth } from "@/lib/data";
+import { getFileSummary, getHealthSummary, getProjectsWithHealth } from "@/lib/data";
 import { BUDGET_ORDER, PROCUREMENT_TYPES } from "@/lib/constants";
 import { TableDashboard } from "@/components/TableDashboard";
 import { TableSummary } from "@/components/TableSummary";
@@ -51,6 +51,7 @@ export default function TablePage() {
     totalProjects: projects.length,
     totalFiles,
     fileHealth,
+    fileSummary: getFileSummary(),
     healthSummary,
     byType,
     byBudget,
