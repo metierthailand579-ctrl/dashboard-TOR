@@ -18,6 +18,66 @@ def slug_files(cell):
     return [f.strip() for f in str(cell or "").split("\n") if f.strip()]
 
 
+# ---- ตัวสกัด Group / Sub Group จากชื่อโครงการ -------------------------------
+# Group = หมวดพัสดุกว้าง, Sub Group = รายละเอียดของพัสดุนั้น
+# (heuristic ปรับแก้คำใน GROUPS ได้ตามต้องการ)
+GROUPS = [
+    ("ครุภัณฑ์คอมพิวเตอร์", ["ครุภัณฑ์คอมพิวเตอร์"]),
+    ("คอมพิวเตอร์/ไอที", ["คอมพิวเตอร์", "workstation", "server", "เซิร์ฟเวอร์",
+                          "ระบบสารสนเทศ", "ซอฟต์แวร์", "software", "เครือข่าย"]),
+    ("เวชภัณฑ์/การแพทย์", ["เวชภัณฑ์", "วัสดุการแพทย์", "การแพทย์", "ทันตกรรม",
+                          "รังสี", "ดมยา", "ผ่าตัด", "ต้อกระจก", "IVF", "ยาฉีด"]),
+    ("ยานพาหนะ", ["รถบรรทุก", "รถโดยสาร", "ยานพาหนะ", "รถยนต์", "รถ"]),
+    ("ครุภัณฑ์วิทยาศาสตร์", ["วิทยาศาสตร์", "ดาราศาสตร์", "กล้องโทรทรรศน์",
+                            "กล้อง", "โฟโตนิกส์", "เวฟไกด์"]),
+    ("งานก่อสร้าง/อาคาร", ["ก่อสร้าง", "อาคาร", "ปรับปรุง", "ซ่อมแซม", "ซ่อมบำรุง",
+                          "ถนน", "สิ่งก่อสร้าง", "สถานที่"]),
+    ("ครุภัณฑ์โฆษณา/เผยแพร่", ["โฆษณาและเผยแพร่", "โฆษณา"]),
+    ("ครุภัณฑ์ไฟฟ้า", ["ไฟฟ้าและวิทยุ", "ไฟฟ้า"]),
+    ("ครุภัณฑ์", ["ครุภัณฑ์"]),
+    ("วัสดุ", ["วัสดุ"]),
+    ("จ้างเหมาบริการ", ["จ้างเหมา", "บริการ", "บำรุงรักษา", "รักษาความปลอดภัย",
+                       "ทำความสะอาด", "ดูแล"]),
+    ("เช่า", ["เช่า"]),
+]
+
+TYPE_FALLBACK = {
+    "ซื้อ": "พัสดุอื่นๆ",
+    "เช่า": "เช่า",
+    "จ้างก่อสร้าง": "งานก่อสร้าง/อาคาร",
+    "จ้างเหมาบริการ": "จ้างเหมาบริการ",
+}
+
+
+def classify(name, ptype):
+    """คืน (group, subGroup) จากชื่อโครงการ"""
+    core = (name or "").strip()
+    core = re.sub(r"^ประกวดราคา", "", core)
+    core = re.sub(r"^(จ้างก่อสร้าง|จ้างเหมาบริการ|จ้างเหมา|จ้าง|เช่า|ซื้อ)", "", core)
+    # ตัดท้ายที่ "จำนวน / ด้วยวิธี / โดยวิธี"
+    core = re.split(r"\s*(?:จำนวน|ด้วยวิธี|โดยวิธี)", core)[0]
+    core = re.sub(r"^\(\S+?\)\s*", "", core)       # ตัด (รหัส) นำหน้า
+    core = re.sub(r"\([^)]*\)", "", core)          # ตัดวงเล็บอื่น
+    obj = core.strip(" -–—")
+
+    group, matched = None, None
+    for label, kws in GROUPS:
+        for kw in kws:
+            if kw in name:
+                group, matched = label, kw
+                break
+        if group:
+            break
+    if not group:
+        group = TYPE_FALLBACK.get(ptype, "อื่นๆ")
+
+    sub = obj
+    if matched and obj.startswith(matched):
+        sub = obj[len(matched):].strip(" -–—")
+    sub = (sub or obj or "").strip()[:50]
+    return group, (sub or "—")
+
+
 def build_projects(ws):
     rows = list(ws.iter_rows(values_only=True))
     projects = []
@@ -28,12 +88,17 @@ def build_projects(ws):
         ftypes = [t.strip() for t in str(r[6] or "").split(",") if t.strip()]
         # นับไฟล์ TOR (ไฟล์ที่ขึ้นต้น/มีคำว่า tor)
         tor_files = [f for f in files if re.search(r"tor", f, re.IGNORECASE)]
+        name = (r[4] or "").strip()
+        ptype = (r[1] or "").strip()
+        group, sub_group = classify(name, ptype)
         projects.append({
             "order": r[0],
-            "type": (r[1] or "").strip(),
+            "type": ptype,
             "budgetRange": (r[2] or "").strip(),
             "code": str(r[3]).strip(),
-            "name": (r[4] or "").strip(),
+            "name": name,
+            "group": group,
+            "subGroup": sub_group,
             "fileCount": r[5] or len(files),
             "fileTypes": ftypes,
             "files": files,

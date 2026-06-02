@@ -1,11 +1,42 @@
 import "server-only";
 import projectsJson from "@data/projects.json";
 import overviewJson from "@data/overview.json";
-import type { OverviewRow, ProcurementType, Project } from "@/types";
+import healthJson from "@data/healthcheck.json";
+import type {
+  OverviewRow,
+  ProcurementType,
+  Project,
+  ProjectHealth,
+  ProjectWithHealth,
+} from "@/types";
 import { BUDGET_ORDER, PROCUREMENT_TYPES } from "@/lib/constants";
 
 const projects = projectsJson as Project[];
 const overview = overviewJson as OverviewRow[];
+const health = healthJson as {
+  engine: string;
+  summary: Record<string, number>;
+  projects: Record<string, ProjectHealth>;
+};
+
+const UNKNOWN_HEALTH: ProjectHealth = {
+  status: "Can't Read",
+  reason: "ยังไม่ได้ตรวจ",
+  files: [],
+};
+
+/** โครงการทั้งหมดพร้อมผลตรวจ health (สำหรับตาราง) */
+export function getProjectsWithHealth(): ProjectWithHealth[] {
+  return projects.map((p) => ({
+    ...p,
+    health: health.projects[p.code] ?? UNKNOWN_HEALTH,
+  }));
+}
+
+/** สรุปผล health รวม */
+export function getHealthSummary() {
+  return health.summary;
+}
 
 /** โครงการทั้งหมด */
 export function getAllProjects(): Project[] {
