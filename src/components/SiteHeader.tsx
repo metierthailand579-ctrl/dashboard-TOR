@@ -1,7 +1,17 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { PROCUREMENT_TYPES, TYPE_TO_SLUG } from "@/lib/constants";
+import { cn } from "@/lib/utils";
 
 export function SiteHeader() {
+  const pathname = usePathname();
+
+  // ลิงก์ active เมื่อ path ตรง หรือเป็น path ย่อย
+  const isActive = (href: string) =>
+    pathname === href || pathname.startsWith(href + "/");
+
   return (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
@@ -13,37 +23,65 @@ export function SiteHeader() {
         </Link>
 
         <nav className="flex flex-wrap items-center gap-1 text-sm">
-          <Link
-            href="/summary"
-            className="rounded-md px-2.5 py-1 font-medium text-brand-700 transition hover:bg-brand-50"
-          >
+          <NavLink href="/summary" active={isActive("/summary")} primary>
             สรุปภาพรวม
-          </Link>
-          <Link
-            href="/table"
-            className="rounded-md px-2.5 py-1 font-medium text-brand-700 transition hover:bg-brand-50"
-          >
+          </NavLink>
+          <NavLink href="/table" active={isActive("/table")} primary>
             ตารางข้อมูล
-          </Link>
-          {PROCUREMENT_TYPES.map((type) => (
-            <Link
-              key={type}
-              href={`/type/${TYPE_TO_SLUG[type]}`}
-              className="rounded-md px-2.5 py-1 text-slate-600 transition hover:bg-slate-100 hover:text-slate-900"
-            >
-              {type}
-            </Link>
-          ))}
+          </NavLink>
+          {PROCUREMENT_TYPES.map((type) => {
+            const href = `/type/${TYPE_TO_SLUG[type]}`;
+            return (
+              <NavLink key={type} href={href} active={isActive(href)}>
+                {type}
+              </NavLink>
+            );
+          })}
         </nav>
 
         <Link
           href="/search"
-          className="ml-auto inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-3 py-1.5 text-sm text-slate-600 transition hover:border-slate-300 hover:text-slate-900"
+          aria-current={isActive("/search") ? "page" : undefined}
+          className={cn(
+            "ml-auto inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-sm transition",
+            isActive("/search")
+              ? "border-brand-600 bg-brand-600 text-white"
+              : "border-slate-200 text-slate-600 hover:border-slate-300 hover:text-slate-900"
+          )}
         >
           <SearchIcon /> ค้นหา
         </Link>
       </div>
     </header>
+  );
+}
+
+function NavLink({
+  href,
+  active,
+  primary,
+  children,
+}: {
+  href: string;
+  active: boolean;
+  primary?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <Link
+      href={href}
+      aria-current={active ? "page" : undefined}
+      className={cn(
+        "rounded-md px-2.5 py-1 font-medium transition",
+        active
+          ? "bg-brand-600 text-white shadow-sm"
+          : primary
+            ? "text-brand-700 hover:bg-brand-50"
+            : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+      )}
+    >
+      {children}
+    </Link>
   );
 }
 
