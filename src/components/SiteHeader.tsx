@@ -13,6 +13,12 @@ export function SiteHeader() {
         </Link>
 
         <nav className="flex flex-wrap items-center gap-1 text-sm">
+          <Link
+            href="/table"
+            className="rounded-md px-2.5 py-1 font-medium text-brand-700 transition hover:bg-brand-50"
+          >
+            ตารางข้อมูล
+          </Link>
           {PROCUREMENT_TYPES.map((type) => (
             <Link
               key={type}
