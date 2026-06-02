@@ -1,2316 +1,5121 @@
 {
-  "engine": "pypdf",
+  "engine": "excel:เช็คการอ่านไฟล์",
   "summary": {
-    "Read": 0,
-    "Can't Read": 139
+    "อ่านได้บางส่วน": 97,
+    "อ่านได้": 18,
+    "อ่านไม่ได้": 6,
+    "ไม่มีข้อมูล": 18
   },
   "projects": {
     "68109277503": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:4",
+      "counts": {
+        "readable": 2,
+        "ocr": 4,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3018.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2287.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3110.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2881.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_68109277503.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.1,
+          "detail": "ดึงข้อความได้ 1,613 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_68109277503.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 183.4,
+          "detail": "ดึงข้อความได้ 30,981 ตัวอักษร"
         }
       ]
     },
     "69039482076": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5631.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69039482076.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.0,
+          "detail": "ดึงข้อความได้ 1,696 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69039482076.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 185.6,
+          "detail": "ดึงข้อความได้ 30,671 ตัวอักษร"
         }
       ]
     },
     "69049338516": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 12699.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69049338516.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 121.8,
+          "detail": "ดึงข้อความได้ 1,692 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69049338516.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 191.1,
+          "detail": "ดึงข้อความได้ 31,162 ตัวอักษร"
         }
       ]
     },
     "69049341903": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 4895.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69049341903.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.4,
+          "detail": "ดึงข้อความได้ 1,647 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69049341903.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.8,
+          "detail": "ดึงข้อความได้ 31,006 ตัวอักษร"
         }
       ]
     },
     "69049449070": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 7462.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69049449070.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 106.8,
+          "detail": "ดึงข้อความได้ 1,636 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69049449070.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 183.3,
+          "detail": "ดึงข้อความได้ 30,607 ตัวอักษร"
         }
       ]
     },
     "69049459797": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2281.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69049459797.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 114.3,
+          "detail": "ดึงข้อความได้ 1,728 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69049459797.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 183.7,
+          "detail": "ดึงข้อความได้ 31,169 ตัวอักษร"
         }
       ]
     },
     "69059046991": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 643.5,
+          "detail": "ดึงข้อความได้ 8,261 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_321000000310000006_69059046991.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 116.8,
+          "detail": "ดึงข้อความได้ 1,727 ตัวอักษร"
+        },
+        {
+          "name": "doc_321000000310000006_69059046991.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.9,
+          "detail": "ดึงข้อความได้ 33,563 ตัวอักษร"
         }
       ]
     },
     "69059047639": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2323.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69059047639.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 104.3,
+          "detail": "ดึงข้อความได้ 1,601 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69059047639.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 182.7,
+          "detail": "ดึงข้อความได้ 30,932 ตัวอักษร"
         }
       ]
     },
     "69059096330": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5307.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69059096330.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.3,
+          "detail": "ดึงข้อความได้ 1,626 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69059096330.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 182.9,
+          "detail": "ดึงข้อความได้ 30,998 ตัวอักษร"
         }
       ]
     },
     "69059243544": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 6144.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69059243544.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 114.1,
+          "detail": "ดึงข้อความได้ 1,674 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69059243544.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 185.6,
+          "detail": "ดึงข้อความได้ 30,632 ตัวอักษร"
         }
       ]
     },
     "69059246429": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2249.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_310000110000052_69059246429.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.9,
+          "detail": "ดึงข้อความได้ 1,487 ตัวอักษร"
+        },
+        {
+          "name": "doc_310000110000052_69059246429.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.8,
+          "detail": "ดึงข้อความได้ 31,444 ตัวอักษร"
         },
         {
           "name": "tor_69059246429_96f8ff7d-df7c-49c5-921d-59bf691c620c.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 172.7,
+          "detail": "ดึงข้อความได้ 6,602 ตัวอักษร"
         }
       ]
     },
     "69059250883": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5684.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69059250883.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.7,
+          "detail": "ดึงข้อความได้ 1,665 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69059250883.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 183.5,
+          "detail": "ดึงข้อความได้ 30,575 ตัวอักษร"
         }
       ]
     },
     "69059339170": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2379.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2011100014_69059339170.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 107.8,
+          "detail": "ดึงข้อความได้ 1,342 ตัวอักษร"
+        },
+        {
+          "name": "doc_2011100014_69059339170.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 184.5,
+          "detail": "ดึงข้อความได้ 31,490 ตัวอักษร"
         }
       ]
     },
     "69019482807": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 155.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509907077_69019482807.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.9,
+          "detail": "ดึงข้อความได้ 1,808 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509907077_69019482807.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.4,
+          "detail": "ดึงข้อความได้ 31,486 ตัวอักษร"
         }
       ]
     },
     "69049305379": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1949.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509904736_69049305379.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.0,
+          "detail": "ดึงข้อความได้ 1,631 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509904736_69049305379.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 185.1,
+          "detail": "ดึงข้อความได้ 32,590 ตัวอักษร"
         }
       ]
     },
     "69049414082": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 500.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 500.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509906633_69049414082.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 120.3,
+          "detail": "ดึงข้อความได้ 1,990 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509906633_69049414082.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 192.1,
+          "detail": "ดึงข้อความได้ 33,904 ตัวอักษร"
         }
       ]
     },
     "69049436454": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2645.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_00107600012000000_69049436454.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.1,
+          "detail": "ดึงข้อความได้ 1,794 ตัวอักษร"
+        },
+        {
+          "name": "doc_00107600012000000_69049436454.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 181.5,
+          "detail": "ดึงข้อความได้ 30,408 ตัวอักษร"
         }
       ]
     },
     "69059075739": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 56.7,
+          "detail": "ดึงข้อความได้ 905 ตัวอักษร"
+        },
+        {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2258.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509902724_69059075739.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.5,
+          "detail": "ดึงข้อความได้ 2,041 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509902724_69059075739.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 191.0,
+          "detail": "ดึงข้อความได้ 35,391 ตัวอักษร"
         }
       ]
     },
     "69059081644": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 226.4,
+          "detail": "ดึงข้อความได้ 12,781 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_2100400015_69059081644.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.6,
+          "detail": "ดึงข้อความได้ 1,738 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100400015_69059081644.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.0,
+          "detail": "ดึงข้อความได้ 32,580 ตัวอักษร"
         }
       ]
     },
     "69059095569": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 1641.4,
+          "detail": "ดึงข้อความได้ 49,004 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_321000000310000006_69059095569.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.8,
+          "detail": "ดึงข้อความได้ 1,376 ตัวอักษร"
+        },
+        {
+          "name": "doc_321000000310000006_69059095569.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 195.2,
+          "detail": "ดึงข้อความได้ 41,378 ตัวอักษร"
         }
       ]
     },
     "69059164711": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 92.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2100200233_69059164711.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 123.2,
+          "detail": "ดึงข้อความได้ 1,834 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100200233_69059164711.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 184.2,
+          "detail": "ดึงข้อความได้ 31,289 ตัวอักษร"
         }
       ]
     },
     "69059194726": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5717.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1600700046_69059194726.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 121.7,
+          "detail": "ดึงข้อความได้ 1,833 ตัวอักษร"
+        },
+        {
+          "name": "doc_1600700046_69059194726.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.1,
+          "detail": "ดึงข้อความได้ 31,410 ตัวอักษร"
         },
         {
           "name": "tor_69059194726_7d92238c-e452-45ff-8a62-bfd551f9557b.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 166.8,
+          "detail": "ดึงข้อความได้ 5,400 ตัวอักษร"
         }
       ]
     },
     "69059198450": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1277.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_00114700010000002_69059198450.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 109.0,
+          "detail": "ดึงข้อความได้ 1,377 ตัวอักษร"
+        },
+        {
+          "name": "doc_00114700010000002_69059198450.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.8,
+          "detail": "ดึงข้อความได้ 31,272 ตัวอักษร"
         }
       ]
     },
     "69059241054": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 36.5,
+          "detail": "ดึงข้อความได้ 606 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3291.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_00114910026000000_69059241054.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 103.1,
+          "detail": "ดึงข้อความได้ 1,381 ตัวอักษร"
+        },
+        {
+          "name": "doc_00114910026000000_69059241054.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 185.6,
+          "detail": "ดึงข้อความได้ 29,872 ตัวอักษร"
         }
       ]
     },
     "69059245020": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 158.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509906574_69059245020.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 120.7,
+          "detail": "ดึงข้อความได้ 1,991 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509906574_69059245020.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 190.4,
+          "detail": "ดึงข้อความได้ 35,134 ตัวอักษร"
         }
       ]
     },
     "69059281648": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 724.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509906570_69059281648.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.3,
+          "detail": "ดึงข้อความได้ 1,637 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509906570_69059281648.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.7,
+          "detail": "ดึงข้อความได้ 34,550 ตัวอักษร"
         }
       ]
     },
     "69059289521": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Spec.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 540.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "annoudoc_00137810010000000_69059289521.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 115.4,
+          "detail": "ดึงข้อความได้ 1,874 ตัวอักษร"
         },
         {
           "name": "doc_00137810010000000_69059289521.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 184.7,
+          "detail": "ดึงข้อความได้ 32,874 ตัวอักษร"
         }
       ]
     },
     "69059291608": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:10 / ต้อง OCR:7",
+      "counts": {
+        "readable": 10,
+        "ocr": 7,
+        "unreadable": 0,
+        "total": 17
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 877.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 360.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 296.7,
+          "detail": "ดึงข้อความได้ 326 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 296.7,
+          "detail": "ดึงข้อความได้ 326 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 1314.0,
+          "detail": "ดึงข้อความได้ 134 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_6.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 387.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_7.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 153.7,
+          "detail": "ดึงข้อความได้ 6,891 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 877.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 360.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 287.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 296.7,
+          "detail": "ดึงข้อความได้ 326 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 1314.0,
+          "detail": "ดึงข้อความได้ 134 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 387.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 153.7,
+          "detail": "ดึงข้อความได้ 6,891 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_0700300240_69059291608.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 123.8,
+          "detail": "ดึงข้อความได้ 2,625 ตัวอักษร"
+        },
+        {
+          "name": "doc_0700300240_69059291608.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 195.3,
+          "detail": "ดึงข้อความได้ 33,250 ตัวอักษร"
         },
         {
           "name": "tor_69059291608_54e0dfc4-275a-4ba1-9ee8-9276b25370e3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 187.9,
+          "detail": "ดึงข้อความได้ 7,666 ตัวอักษร"
         }
       ]
     },
     "69059307941": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1943.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_145610200156000006_69059307941.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.6,
+          "detail": "ดึงข้อความได้ 1,431 ตัวอักษร"
+        },
+        {
+          "name": "doc_145610200156000006_69059307941.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 185.0,
+          "detail": "ดึงข้อความได้ 31,218 ตัวอักษร"
         }
       ]
     },
     "69059313127": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1971.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509904158_69059313127.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.8,
+          "detail": "ดึงข้อความได้ 1,728 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509904158_69059313127.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.4,
+          "detail": "ดึงข้อความได้ 33,699 ตัวอักษร"
         }
       ]
     },
     "69059391471": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3920.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 48.5,
+          "detail": "ดึงข้อความได้ 475 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3920.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_147310060073000015_69059391471.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 114.8,
+          "detail": "ดึงข้อความได้ 1,745 ตัวอักษร"
+        },
+        {
+          "name": "doc_147310060073000015_69059391471.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 185.5,
+          "detail": "ดึงข้อความได้ 32,445 ตัวอักษร"
         }
       ]
     },
     "69059451742": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2277.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509902905_69059451742.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 105.3,
+          "detail": "ดึงข้อความได้ 1,387 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509902905_69059451742.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 183.7,
+          "detail": "ดึงข้อความได้ 32,179 ตัวอักษร"
         }
       ]
     },
     "69059458822": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1571.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509903182_69059458822.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 99.7,
+          "detail": "ดึงข้อความได้ 1,557 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509903182_69059458822.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 184.2,
+          "detail": "ดึงข้อความได้ 31,598 ตัวอักษร"
         }
       ]
     },
     "69049028881": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 518.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 478.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_520070220000000_69049028881.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 123.1,
+          "detail": "ดึงข้อความได้ 1,766 ตัวอักษร"
+        },
+        {
+          "name": "doc_520070220000000_69049028881.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 195.5,
+          "detail": "ดึงข้อความได้ 35,881 ตัวอักษร"
         }
       ]
     },
     "69049356423": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 587.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509904562_69049356423.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.1,
+          "detail": "ดึงข้อความได้ 1,652 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509904562_69049356423.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 188.5,
+          "detail": "ดึงข้อความได้ 33,758 ตัวอักษร"
         }
       ]
     },
     "69059098754": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 13658.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_143410180034000018_69059098754.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.8,
+          "detail": "ดึงข้อความได้ 1,839 ตัวอักษร"
+        },
+        {
+          "name": "doc_143410180034000018_69059098754.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.0,
+          "detail": "ดึงข้อความได้ 33,113 ตัวอักษร"
         }
       ]
     },
     "69059153497": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:5",
+      "counts": {
+        "readable": 5,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 92.8,
+          "detail": "ดึงข้อความได้ 679 ตัวอักษร"
+        },
+        {
           "name": "TOR MA9-8585-WGZ-1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 834.8,
+          "detail": "ดึงข้อความได้ 18,900 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50510000002_69059153497.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 126.9,
+          "detail": "ดึงข้อความได้ 1,484 ตัวอักษร"
+        },
+        {
+          "name": "blankpage.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 98.3,
+          "detail": "ดึงข้อความได้ 37 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50510000002_69059153497.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 196.3,
+          "detail": "ดึงข้อความได้ 34,290 ตัวอักษร"
         }
       ]
     },
     "69059169068": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "annoudoc_2100200104_69059169068.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 119.8,
+          "detail": "ดึงข้อความได้ 1,898 ตัวอักษร"
         },
         {
           "name": "doc_2100200104_69059169068.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 192.5,
+          "detail": "ดึงข้อความได้ 34,089 ตัวอักษร"
         },
         {
           "name": "specE15.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 8059.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         }
       ]
     },
     "69059190375": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:7",
+      "counts": {
+        "readable": 7,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 7
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 843.8,
+          "detail": "ดึงข้อความได้ 43,326 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 5366.8,
+          "detail": "ดึงข้อความได้ 24,275 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 90.7,
+          "detail": "ดึงข้อความได้ 1,042 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 67.3,
+          "detail": "ดึงข้อความได้ 1,232 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 61.2,
+          "detail": "ดึงข้อความได้ 1,288 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50411000004_69059190375.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 116.3,
+          "detail": "ดึงข้อความได้ 1,568 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50411000004_69059190375.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 198.1,
+          "detail": "ดึงข้อความได้ 36,226 ตัวอักษร"
         }
       ]
     },
     "69059245567": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
+          "name": "annoudoc_149010100090000003_69059245567.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.6,
+          "detail": "ดึงข้อความได้ 1,537 ตัวอักษร"
+        },
+        {
+          "name": "doc_149010100090000003_69059245567.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 184.6,
+          "detail": "ดึงข้อความได้ 32,747 ตัวอักษร"
+        },
+        {
           "name": "tor_69059245567_ef625fa0-ffbb-43dc-9184-299e2d10ee3c.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 168.4,
+          "detail": "ดึงข้อความได้ 5,658 ตัวอักษร"
         }
       ]
     },
     "69059253696": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:4",
+      "counts": {
+        "readable": 4,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 333.0,
+          "detail": "ดึงข้อความได้ 18,481 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_2010500014_69059253696.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 109.5,
+          "detail": "ดึงข้อความได้ 1,404 ตัวอักษร"
+        },
+        {
+          "name": "doc_2010500014_69059253696.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.9,
+          "detail": "ดึงข้อความได้ 33,618 ตัวอักษร"
         },
         {
           "name": "tor_69059253696_6f3cdf73-5004-4795-ae66-dadc3d12ae7b.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 177.7,
+          "detail": "ดึงข้อความได้ 7,012 ตัวอักษร"
         }
       ]
     },
     "69059261671": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:5",
+      "counts": {
+        "readable": 5,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 2178.7,
+          "detail": "ดึงข้อความได้ 8,278 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 2143.1,
+          "detail": "ดึงข้อความได้ 8,002 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 1906.3,
+          "detail": "ดึงข้อความได้ 6,994 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_00106970024000003_69059261671.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 119.2,
+          "detail": "ดึงข้อความได้ 1,373 ตัวอักษร"
+        },
+        {
+          "name": "doc_00106970024000003_69059261671.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.7,
+          "detail": "ดึงข้อความได้ 32,407 ตัวอักษร"
         }
       ]
     },
     "69059298345": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:6",
+      "counts": {
+        "readable": 6,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 225.5,
+          "detail": "ดึงข้อความได้ 7,847 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 249.4,
+          "detail": "ดึงข้อความได้ 8,150 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 198.8,
+          "detail": "ดึงข้อความได้ 11,159 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 355.3,
+          "detail": "ดึงข้อความได้ 3,739 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_144010030040000002_69059298345.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 124.1,
+          "detail": "ดึงข้อความได้ 1,858 ตัวอักษร"
+        },
+        {
+          "name": "doc_144010030040000002_69059298345.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.2,
+          "detail": "ดึงข้อความได้ 32,982 ตัวอักษร"
         }
       ]
     },
     "69059311844": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1407.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2100200079_69059311844.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 106.1,
+          "detail": "ดึงข้อความได้ 1,684 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100200079_69059311844.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 182.4,
+          "detail": "ดึงข้อความได้ 31,294 ตัวอักษร"
         }
       ]
     },
     "69059319167": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:6",
+      "counts": {
+        "readable": 3,
+        "ocr": 6,
+        "unreadable": 0,
+        "total": 9
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 286.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 89.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 106.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 101.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 209.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 192.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2100200141_69059319167.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 108.3,
+          "detail": "ดึงข้อความได้ 1,293 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100200141_69059319167.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 184.1,
+          "detail": "ดึงข้อความได้ 31,366 ตัวอักษร"
         },
         {
           "name": "tor_69059319167_5db6d1f6-52e1-4770-89c8-2323c4cd8a02.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 178.3,
+          "detail": "ดึงข้อความได้ 7,840 ตัวอักษร"
         }
       ]
     },
     "69059337165": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1825.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1500600000_69059337165.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.2,
+          "detail": "ดึงข้อความได้ 1,383 ตัวอักษร"
+        },
+        {
+          "name": "doc_1500600000_69059337165.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.0,
+          "detail": "ดึงข้อความได้ 33,812 ตัวอักษร"
         }
       ]
     },
     "69059418630": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:5",
+      "counts": {
+        "readable": 3,
+        "ocr": 5,
+        "unreadable": 0,
+        "total": 8
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 938.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 852.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 841.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 400.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 74.0,
+          "detail": "ดึงข้อความได้ 533 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 14610.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0200400079_69059418630.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.8,
+          "detail": "ดึงข้อความได้ 1,809 ตัวอักษร"
+        },
+        {
+          "name": "doc_0200400079_69059418630.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 203.0,
+          "detail": "ดึงข้อความได้ 36,008 ตัวอักษร"
         }
       ]
     },
     "69059448975": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 15502.2,
+          "detail": "ดึงข้อความได้ 62,759 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_141010090010000005_69059448975.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 116.6,
+          "detail": "ดึงข้อความได้ 1,503 ตัวอักษร"
+        },
+        {
+          "name": "doc_141010090010000005_69059448975.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 188.1,
+          "detail": "ดึงข้อความได้ 33,530 ตัวอักษร"
         }
       ]
     },
     "69059460163": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3530.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3530.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509905289_69059460163.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.3,
+          "detail": "ดึงข้อความได้ 1,407 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509905289_69059460163.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 193.0,
+          "detail": "ดึงข้อความได้ 36,137 ตัวอักษร"
         }
       ]
     },
     "68119526343": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Black and White1477.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 127.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "annoudoc_2100200222_68119526343.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 109.1,
+          "detail": "ดึงข้อความได้ 1,730 ตัวอักษร"
         },
         {
           "name": "doc_2100200222_68119526343.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 176.4,
+          "detail": "ดึงข้อความได้ 30,412 ตัวอักษร"
         }
       ]
     },
     "69029104626": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "annoudoc_2100400030_69029104626.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 118.0,
+          "detail": "ดึงข้อความได้ 1,837 ตัวอักษร"
         },
         {
           "name": "doc_2100400030_69029104626.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 185.6,
+          "detail": "ดึงข้อความได้ 30,619 ตัวอักษร"
         },
         {
           "name": "img_260205153928.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2793.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         }
       ]
     },
     "69029433260": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 6047.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_00414360083000000_69029433260.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 114.7,
+          "detail": "ดึงข้อความได้ 1,403 ตัวอักษร"
+        },
+        {
+          "name": "doc_00414360083000000_69029433260.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 182.6,
+          "detail": "ดึงข้อความได้ 31,845 ตัวอักษร"
         }
       ]
     },
     "69039073049": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "annoudoc_00110200041000000_69039073049.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 111.1,
+          "detail": "ดึงข้อความได้ 1,490 ตัวอักษร"
         },
         {
           "name": "doc_00110200041000000_69039073049.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 180.9,
+          "detail": "ดึงข้อความได้ 31,111 ตัวอักษร"
         },
         {
           "name": "spec 300 ma.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 169.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         }
       ]
     },
     "69049105457": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 409.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 9349.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509900899_69049105457.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.8,
+          "detail": "ดึงข้อความได้ 1,636 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509900899_69049105457.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.1,
+          "detail": "ดึงข้อความได้ 33,654 ตัวอักษร"
         }
       ]
     },
     "69059156012": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 10153.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_103301200233000000_69059156012.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 105.3,
+          "detail": "ดึงข้อความได้ 1,348 ตัวอักษร"
+        },
+        {
+          "name": "doc_103301200233000000_69059156012.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 181.6,
+          "detail": "ดึงข้อความได้ 31,683 ตัวอักษร"
         }
       ]
     },
     "68089678990": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 3660.6,
+          "detail": "ดึงข้อความได้ 52,129 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50610000034_68089678990.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.1,
+          "detail": "ดึงข้อความได้ 1,401 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50610000034_68089678990.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 205.4,
+          "detail": "ดึงข้อความได้ 36,129 ตัวอักษร"
         }
       ]
     },
     "68119408953": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 386.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5509.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2010400000_68119408953.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.0,
+          "detail": "ดึงข้อความได้ 1,478 ตัวอักษร"
+        },
+        {
+          "name": "doc_2010400000_68119408953.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.7,
+          "detail": "ดึงข้อความได้ 34,346 ตัวอักษร"
         }
       ]
     },
     "68129506466": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านไม่ได้",
+      "summary": "อ่านไม่ได้:1",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 1,
+        "total": 1
+      },
       "files": [
         {
           "name": "68129506466_26012569.zip",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านไม่ได้",
+          "sizeKB": 0.0,
+          "detail": "BadZipFile: File is not a zip file"
         }
       ]
     },
     "68129515927": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านไม่ได้",
+      "summary": "อ่านไม่ได้:1",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 1,
+        "total": 1
+      },
       "files": [
         {
           "name": "68129515927_06012569.zip",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านไม่ได้",
+          "sizeKB": 0.0,
+          "detail": "BadZipFile: File is not a zip file"
         }
       ]
     },
     "69019194642": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 614.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1500200000_69019194642.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 118.1,
+          "detail": "ดึงข้อความได้ 1,904 ตัวอักษร"
+        },
+        {
+          "name": "doc_1500200000_69019194642.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 194.8,
+          "detail": "ดึงข้อความได้ 49,397 ตัวอักษร"
         }
       ]
     },
     "69019461415": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 272.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_00106660030000000_69019461415.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 116.1,
+          "detail": "ดึงข้อความได้ 2,015 ตัวอักษร"
+        },
+        {
+          "name": "doc_00106660030000000_69019461415.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 188.3,
+          "detail": "ดึงข้อความได้ 33,353 ตัวอักษร"
         },
         {
           "name": "tor_69019461415_7f55223a-8766-4d55-bc0a-48341e880741.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 174.0,
+          "detail": "ดึงข้อความได้ 10,364 ตัวอักษร"
         }
       ]
     },
     "69019529450": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านไม่ได้",
+      "summary": "อ่านไม่ได้:1",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 1,
+        "total": 1
+      },
       "files": [
         {
           "name": "69019529450_25022569.zip",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านไม่ได้",
+          "sizeKB": 0.0,
+          "detail": "BadZipFile: File is not a zip file"
         }
       ]
     },
     "69029174697": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านไม่ได้",
+      "summary": "อ่านไม่ได้:1",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 1,
+        "total": 1
+      },
       "files": [
         {
           "name": "69029174697_19022569.zip",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านไม่ได้",
+          "sizeKB": 0.0,
+          "detail": "BadZipFile: File is not a zip file"
         }
       ]
     },
     "69029177635": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:8 / ต้อง OCR:3",
+      "counts": {
+        "readable": 8,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 11
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3067.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 93.4,
+          "detail": "ดึงข้อความได้ 3,689 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 5195.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 63.4,
+          "detail": "ดึงข้อความได้ 6,126 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 272.3,
+          "detail": "ดึงข้อความได้ 263 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_6.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 89.2,
+          "detail": "ดึงข้อความได้ 2,319 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_7.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 153.7,
+          "detail": "ดึงข้อความได้ 6,891 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 4274.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0703500000131_69029177635.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 119.7,
+          "detail": "ดึงข้อความได้ 2,016 ตัวอักษร"
+        },
+        {
+          "name": "doc_0703500000131_69029177635.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 192.6,
+          "detail": "ดึงข้อความได้ 35,100 ตัวอักษร"
         },
         {
           "name": "tor_69029177635_6815a733-8e77-4a93-b093-02b61b2869cb.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 169.2,
+          "detail": "ดึงข้อความได้ 6,184 ตัวอักษร"
         }
       ]
     },
     "69039005195": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Scan2569-03-02_092416(2).pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3298.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2100900028_69039005195.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.3,
+          "detail": "ดึงข้อความได้ 1,457 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100900028_69039005195.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.6,
+          "detail": "ดึงข้อความได้ 32,435 ตัวอักษร"
+        },
+        {
           "name": "tor_69039005195_1d5ec24a-ae08-4239-8a77-09a940a91959.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 170.5,
+          "detail": "ดึงข้อความได้ 5,303 ตัวอักษร"
         }
       ]
     },
     "69039098506": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 8408.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2100200000_69039098506.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 107.2,
+          "detail": "ดึงข้อความได้ 1,714 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100200000_69039098506.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 184.0,
+          "detail": "ดึงข้อความได้ 33,338 ตัวอักษร"
         }
       ]
     },
     "69049183804": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "annoudoc_2100200174_69049183804.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 111.6,
+          "detail": "ดึงข้อความได้ 1,743 ตัวอักษร"
         },
         {
           "name": "doc_2100200174_69049183804.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 185.2,
+          "detail": "ดึงข้อความได้ 33,131 ตัวอักษร"
         },
         {
           "name": "s-04102026170146.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2622.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         }
       ]
     },
     "69049298685": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:4",
+      "counts": {
+        "readable": 4,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 84.8,
+          "detail": "ดึงข้อความได้ 1,042 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 11271.7,
+          "detail": "ดึงข้อความได้ 48,206 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_5050400000_69049298685.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 114.3,
+          "detail": "ดึงข้อความได้ 1,534 ตัวอักษร"
+        },
+        {
+          "name": "doc_5050400000_69049298685.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 190.2,
+          "detail": "ดึงข้อความได้ 34,370 ตัวอักษร"
         }
       ]
     },
     "69059151266": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 55.0,
+          "detail": "ดึงข้อความได้ 556 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 10832.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_S50440000029_69059151266.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 125.9,
+          "detail": "ดึงข้อความได้ 2,007 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50440000029_69059151266.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 193.6,
+          "detail": "ดึงข้อความได้ 32,340 ตัวอักษร"
         }
       ]
     },
     "69059473041": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านไม่ได้",
+      "summary": "อ่านไม่ได้:1",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 1,
+        "total": 1
+      },
       "files": [
         {
           "name": "69059473041_27052569.zip",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านไม่ได้",
+          "sizeKB": 0.0,
+          "detail": "BadZipFile: File is not a zip file"
         }
       ]
     },
     "68109191277": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 9086.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 102.7,
+          "detail": "ดึงข้อความได้ 1,569 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_310000110000018_68109191277.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.2,
+          "detail": "ดึงข้อความได้ 1,608 ตัวอักษร"
+        },
+        {
+          "name": "doc_310000110000018_68109191277.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 191.0,
+          "detail": "ดึงข้อความได้ 43,690 ตัวอักษร"
         }
       ]
     },
     "69029133177": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 9715.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2000400716_69029133177.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.3,
+          "detail": "ดึงข้อความได้ 1,630 ตัวอักษร"
+        },
+        {
+          "name": "doc_2000400716_69029133177.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 188.6,
+          "detail": "ดึงข้อความได้ 39,258 ตัวอักษร"
         }
       ]
     },
     "69039296072": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 9580.9,
+          "detail": "ดึงข้อความได้ 35,142 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50610000034_69039296072.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 118.0,
+          "detail": "ดึงข้อความได้ 1,598 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50610000034_69039296072.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 204.2,
+          "detail": "ดึงข้อความได้ 34,952 ตัวอักษร"
         }
       ]
     },
     "69049122903": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 323.7,
+          "detail": "ดึงข้อความได้ 3,102 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 2504.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 12962.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2300200000_69049122903.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.9,
+          "detail": "ดึงข้อความได้ 1,585 ตัวอักษร"
+        },
+        {
+          "name": "doc_2300200000_69049122903.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 204.5,
+          "detail": "ดึงข้อความได้ 45,260 ตัวอักษร"
         }
       ]
     },
     "69059178864": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:6 / ต้อง OCR:4",
+      "counts": {
+        "readable": 6,
+        "ocr": 4,
+        "unreadable": 0,
+        "total": 10
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 324.3,
+          "detail": "ดึงข้อความได้ 17,108 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 124.9,
+          "detail": "ดึงข้อความได้ 16,044 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 67.2,
+          "detail": "ดึงข้อความได้ 1,515 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 66.2,
+          "detail": "ดึงข้อความได้ 1,411 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 10.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_6.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 482.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_7.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 486.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 536.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_5070400000_69059178864.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 101.9,
+          "detail": "ดึงข้อความได้ 1,378 ตัวอักษร"
+        },
+        {
+          "name": "doc_5070400000_69059178864.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.2,
+          "detail": "ดึงข้อความได้ 29,398 ตัวอักษร"
         }
       ]
     },
     "69059399636": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:3",
+      "counts": {
+        "readable": 2,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1501.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 7226.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 95759.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1500300000_69059399636.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 103.5,
+          "detail": "ดึงข้อความได้ 1,443 ตัวอักษร"
+        },
+        {
+          "name": "doc_1500300000_69059399636.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 231.8,
+          "detail": "ดึงข้อความได้ 54,406 ตัวอักษร"
         }
       ]
     },
     "69049282055": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:2",
+      "counts": {
+        "readable": 4,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 363.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 15.8,
+          "detail": "ชีต: Sheet1"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 7531.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509900726_69049282055.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 103.9,
+          "detail": "ดึงข้อความได้ 1,695 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509900726_69049282055.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.2,
+          "detail": "ดึงข้อความได้ 31,376 ตัวอักษร"
         },
         {
           "name": "tor_69049282055_cc327578-4303-41ce-b32c-98f7a2ebc55e.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 165.3,
+          "detail": "ดึงข้อความได้ 5,611 ตัวอักษร"
         }
       ]
     },
     "69049285372": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:2",
+      "counts": {
+        "readable": 4,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 446.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 16.5,
+          "detail": "ชีต: Sheet1"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 6884.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509900726_69049285372.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 108.4,
+          "detail": "ดึงข้อความได้ 1,682 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509900726_69049285372.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.1,
+          "detail": "ดึงข้อความได้ 31,349 ตัวอักษร"
         },
         {
           "name": "tor_69049285372_644b5587-eb3c-4d88-86dd-bc30327b835c.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 170.3,
+          "detail": "ดึงข้อความได้ 6,427 ตัวอักษร"
         }
       ]
     },
     "69059136448": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:5 / ต้อง OCR:1",
+      "counts": {
+        "readable": 5,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 719.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xls",
+          "status": "อ่านได้",
+          "sizeKB": 4914.0,
+          "detail": "ชีต: ปร.4 , ปร.5 (ก, ปร.6 , Factor F"
+        },
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 205.5,
+          "detail": "ดึงข้อความได้ 29,266 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 165.4,
+          "detail": "ดึงข้อความได้ 11,547 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50411000001_69059136448.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 109.0,
+          "detail": "ดึงข้อความได้ 1,516 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50411000001_69059136448.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.0,
+          "detail": "ดึงข้อความได้ 31,979 ตัวอักษร"
         }
       ]
     },
     "69059293070": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 75.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 2296.0,
+          "detail": "ชีต: ข้อมูลoperate, แผนที่ (พิมพ์ 3) (2), เสริมลาดยาง (พิมพ์ 1), ข้อมูล Unit Cost (พิมพ์ 2) , บันทึกสืบราคาหิน, แบบสรุปข้อมูลวัสดุ, เสริมลาดยาง (พิมพ์ 1) (2), ข้อมูล, ค่าเสื่อม, ราคาวัสดุ, ค่าขนส่ง, ราคาหิน-ยาง, แบบสรุป, ค่าแรงงาน-ดำเนินการ, อ้างอิง, Box Culvert, งานต้นทุนสะพาน, 6ล้อ_2, 10ล้อ_2, 10ล้อ+พ่วง_2, Cut&Fill (1), Cut&Fill (2), Factor F, Field, คำนวณโค้ง, Sheet1"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1115.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509901322_69059293070.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 104.1,
+          "detail": "ดึงข้อความได้ 1,813 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509901322_69059293070.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.0,
+          "detail": "ดึงข้อความได้ 32,255 ตัวอักษร"
         }
       ]
     },
     "69059313214": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:5",
+      "counts": {
+        "readable": 5,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 1418.7,
+          "detail": "ดึงข้อความได้ 3,981 ตัวอักษร"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 12.5,
+          "detail": "ชีต: Sheet1"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 2008.1,
+          "detail": "ดึงข้อความได้ 3,438 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_1509900833_69059313214.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 114.4,
+          "detail": "ดึงข้อความได้ 1,821 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509900833_69059313214.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.7,
+          "detail": "ดึงข้อความได้ 31,806 ตัวอักษร"
         }
       ]
     },
     "69059316448": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:5",
+      "counts": {
+        "readable": 5,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 1199.6,
+          "detail": "ดึงข้อความได้ 3,750 ตัวอักษร"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 12.5,
+          "detail": "ชีต: Sheet1"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 1988.7,
+          "detail": "ดึงข้อความได้ 3,702 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_1509900833_69059316448.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.7,
+          "detail": "ดึงข้อความได้ 1,821 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509900833_69059316448.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.6,
+          "detail": "ดึงข้อความได้ 31,805 ตัวอักษร"
         }
       ]
     },
     "69059341964": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 73.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 2296.6,
+          "detail": "ชีต: ข้อมูลoperate, แผนที่ (พิมพ์ 3) (2), เสริมลาดยาง (พิมพ์ 1), ข้อมูล Unit Cost (พิมพ์ 2) , บันทึกสืบราคาหิน, แบบสรุปข้อมูลวัสดุ, เสริมลาดยาง (พิมพ์ 1) (2), ข้อมูล, ค่าเสื่อม, ราคาวัสดุ, ค่าขนส่ง, ราคาหิน-ยาง, แบบสรุป, ค่าแรงงาน-ดำเนินการ, อ้างอิง, Box Culvert, งานต้นทุนสะพาน, 6ล้อ_2, 10ล้อ_2, 10ล้อ+พ่วง_2, Cut&Fill (1), Cut&Fill (2), Factor F, Field, คำนวณโค้ง, Sheet1"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1115.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509901322_69059341964.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 105.2,
+          "detail": "ดึงข้อความได้ 1,811 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509901322_69059341964.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 186.0,
+          "detail": "ดึงข้อความได้ 32,281 ตัวอักษร"
         }
       ]
     },
     "69029224062": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": ".DS_Store",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_8.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_9.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "tor_69029224062_e325357b-984c-4711-a74d-f3bc5ecf0734.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_8.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_9.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "tor_69029224062_e325357b-984c-4711-a74d-f3bc5ecf0734.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69029419131": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69039140408": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "tor_69039140408_80e3a929-0b0e-4e76-a57f-a8d23df7de65.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69039183800": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69039327524": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69049001969": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69049324523": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": ".DS_Store",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69049430285": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69049445587": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059105733": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059107007": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059198031": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059302307": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059310278": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "1111-05192026142806.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_BOQ_1.xls",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "DOC051826-05182026161709.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "annoudoc_1509907545_69059310278.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "doc_1509907545_69059310278.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059344851": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059358650": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059392769": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
-          "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "69059428914": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
-      "files": [
-        {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        }
-      ]
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 0
+      },
+      "files": []
     },
     "68099353009": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:14",
+      "counts": {
+        "readable": 3,
+        "ocr": 14,
+        "unreadable": 0,
+        "total": 17
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 1090.1,
+          "detail": "ชีต: 2Box1.5, Box1.5, ลำเลียง, บ่อพัก, ราคาวัสดุส่วนกลาง, ราคาวัสดุนครพนม, งวดงาน, ปร-6 , ปร-5 (ก), Sheet3, ปร-5 (ข) , ปร-4 (---), ปร.4 (พ.) เหตุผล (2), ค่าใช้จ่ายพิเศษ, BOQ, F - ดอกเบื้ย 7%, recheck, ภูมิสถาปัตย์, สถาปัตย์ห้องน้ำ, ปริมาณงานST, Call, unit, Call_unit, UnitCost, 6_สรุปค่าใช้จ่ายพิเศษ, 18_คอนกรีต&หิน, BD งาน คสล., ร่องหัวช้าง, หนองเบ็น, สรุปราคาหนองเครือเขา, 1.1 คลองดาดคอนกรีต, 1.2 ท่อลอดถนน, 2.1 งานขุดลอกและคันดิน, 2.2 อาคารระบายน้ำ, 3 งานท่อผันน้ำ, อาจสามารถ-L, อาจสามารถ-R, แยกซอยอาจสามารถ-L, แยกซอยอาจสามารถ-R, ท่าอุเทน-L, ท่าอุเทน-R, ถนนเลียบโขงธาตุ-L, ถนนเลียบโขงธาตุ-R, เลียบโขงเมือง-L, เลียบโขงเมือง-R"
+        },
+        {
+          "name": "Attach_BOQ_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1365.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_3.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1370.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_4.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1532.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_5.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 5291.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_6.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1280.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_7.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3051.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 12202.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 13333.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 10711.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 58055.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2682.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5676.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 27996.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "BOQ.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 42596.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0701500032_68099353009.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 108.7,
+          "detail": "ดึงข้อความได้ 1,578 ตัวอักษร"
+        },
+        {
+          "name": "doc_0701500032_68099353009.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 204.7,
+          "detail": "ดึงข้อความได้ 44,286 ตัวอักษร"
         }
       ]
     },
     "69049219222": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:5 / ต้อง OCR:4",
+      "counts": {
+        "readable": 5,
+        "ocr": 4,
+        "unreadable": 0,
+        "total": 9
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1863.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xls",
+          "status": "อ่านได้",
+          "sizeKB": 2972.0,
+          "detail": "ชีต: ปร.6, ปร 5 (ก)0% (2), ปร5(ข), SS&AA, SAN, EE, ราคา เม.ย."
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 7621.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2030.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 368.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 88.6,
+          "detail": "ดึงข้อความได้ 5,880 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_1600700102_69049219222.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.4,
+          "detail": "ดึงข้อความได้ 1,814 ตัวอักษร"
+        },
+        {
+          "name": "doc_1600700102_69049219222.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 194.1,
+          "detail": "ดึงข้อความได้ 38,117 ตัวอักษร"
         },
         {
           "name": "tor_69049219222_410c4c34-3358-4609-8b68-2b4174ea9a92.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 178.5,
+          "detail": "ดึงข้อความได้ 13,121 ตัวอักษร"
         }
       ]
     },
     "69049228182": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:1",
+      "counts": {
+        "readable": 4,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "1516263.xls",
+          "status": "อ่านได้",
+          "sizeKB": 9.5,
+          "detail": "ชีต: แบบ ปร.4 ชุดที่ 1"
+        },
+        {
+          "name": "1516263_02.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 979.2,
+          "detail": "ดึงข้อความได้ 13,190 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 20408.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509901457_69049228182.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.6,
+          "detail": "ดึงข้อความได้ 1,726 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509901457_69049228182.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 196.9,
+          "detail": "ดึงข้อความได้ 34,762 ตัวอักษร"
         }
       ]
     },
     "69059005768": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:5 / ต้อง OCR:5",
+      "counts": {
+        "readable": 5,
+        "ocr": 5,
+        "unreadable": 0,
+        "total": 10
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 5637.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 913.1,
+          "detail": "ชีต: ปร.5-6 ประปา, ปร.4 ประปา, ปร.5-6 ราคากลาง, ปร.4 ราคากลาง, ปร.4 แผน, ปร.5-6 แผน, 6912218 จัดแบบรูป, ปร.5-6, ปร.4, ปร.4 ไฟฟ้า, ปร.4 ผ. ยกเลิก, Sheet1, ปร.4 ก่อนรวม"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 725.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3956.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1415.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 6314.1,
+          "detail": "ดึงข้อความได้ 253,446 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 3026.2,
+          "detail": "ดึงข้อความได้ 237,175 ตัวอักษร"
         },
         {
           "name": "Tor.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1213.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0200400076_69059005768.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 106.5,
+          "detail": "ดึงข้อความได้ 1,572 ตัวอักษร"
+        },
+        {
+          "name": "doc_0200400076_69059005768.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 200.6,
+          "detail": "ดึงข้อความได้ 38,322 ตัวอักษร"
         }
       ]
     },
     "69059128123": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:9",
+      "counts": {
+        "readable": 3,
+        "ocr": 9,
+        "unreadable": 0,
+        "total": 12
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 139.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 16.9,
+          "detail": "ชีต: ราคากลาง"
+        },
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 170.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 324.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 74.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 143.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 611.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2765.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 49803.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 18440.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 2 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_080710000016_69059128123.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.1,
+          "detail": "ดึงข้อความได้ 1,943 ตัวอักษร"
+        },
+        {
+          "name": "doc_080710000016_69059128123.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 207.1,
+          "detail": "ดึงข้อความได้ 44,940 ตัวอักษร"
         }
       ]
     },
     "69059142256": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:9 / ต้อง OCR:3",
+      "counts": {
+        "readable": 9,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 12
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 20348.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xlsx",
+          "status": "อ่านได้",
+          "sizeKB": 322.0,
+          "detail": "ชีต: ใบแจ้งปริมาณงานและราคา, ราคากลาง, ราคากลาง F"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 334.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 9124.4,
+          "detail": "ดึงข้อความได้ 281 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2985.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 3513.1,
+          "detail": "ดึงข้อความได้ 174,582 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 204.3,
+          "detail": "ดึงข้อความได้ 6,370 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 3911.0,
+          "detail": "ดึงข้อความได้ 124,238 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 4511.9,
+          "detail": "ดึงข้อความได้ 3,645 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_8.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 4534.6,
+          "detail": "ดึงข้อความได้ 252,337 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S60110000009_69059142256.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.2,
+          "detail": "ดึงข้อความได้ 1,841 ตัวอักษร"
+        },
+        {
+          "name": "doc_S60110000009_69059142256.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 198.3,
+          "detail": "ดึงข้อความได้ 39,560 ตัวอักษร"
         }
       ]
     },
     "69059144774": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านไม่ได้",
+      "summary": "อ่านไม่ได้:1",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 1,
+        "total": 1
+      },
       "files": [
         {
           "name": "69059144774_12052569.zip",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านไม่ได้",
+          "sizeKB": 0.0,
+          "detail": "BadZipFile: File is not a zip file"
         }
       ]
     },
     "69059150919": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:5",
+      "counts": {
+        "readable": 3,
+        "ocr": 5,
+        "unreadable": 0,
+        "total": 8
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 4304.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xls",
+          "status": "อ่านได้",
+          "sizeKB": 500.5,
+          "detail": "ชีต: ปร5เปล่า, ปร6 เปล่า, ใบรวม (update), back up สรุป พย, ทดเลข, back up ส่วนที่ 2, ปร6 update1, ปร5 update1, ปร.4 รวม update1, ปร.4 นครศรีธ 65 (ขอบร่อง)(4)UD1, ร่องน้ำเจ๊ะบิลัง, อตร)กองหินคลองย่านซื่อ , ร่องน้ำบ่อม่วง, นำ) ร่องน้ำกระบี่ , ปร4  67 (ขอบร่อง)(1) ประจวบ, ปร4 67 (ปลายสันเขื่อน)(0), ปร4 67 (แสดงที่หมายอันตราย) 1.1, คำนวนเสาเข็มแบบหล่อเอง, ปร.4 67-2 (หลักไฟนำ) (2), ปร.4 67-2 (หลักไฟนำ)  (2), ปร4 สุราษ 65 (อันตราย)(1)UD, ปร4ระยอง65(ปลายสันเขื่อน)(2)UD"
+        },
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3472.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 4113.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5576.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 178.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0800300000_69059150919.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 118.2,
+          "detail": "ดึงข้อความได้ 1,913 ตัวอักษร"
+        },
+        {
+          "name": "doc_0800300000_69059150919.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 198.2,
+          "detail": "ดึงข้อความได้ 33,839 ตัวอักษร"
         }
       ]
     },
     "69059206652": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:11 / ต้อง OCR:3",
+      "counts": {
+        "readable": 11,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 14
+      },
       "files": [
         {
+          "name": "1528717.xls",
+          "status": "อ่านได้",
+          "sizeKB": 14.5,
+          "detail": "ชีต: แบบสรุปราคากลางงานทางสะพานและท่"
+        },
+        {
+          "name": "1528717_02.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 249.5,
+          "detail": "ดึงข้อความได้ 3,603 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 51.2,
+          "detail": "ดึงข้อความได้ 5,726 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 1694.7,
+          "detail": "ดึงข้อความได้ 9,219 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 65.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 422.3,
+          "detail": "ดึงข้อความได้ 68,057 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 53.5,
+          "detail": "ดึงข้อความได้ 2,021 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_6.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 72.0,
+          "detail": "ดึงข้อความได้ 1,096 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_7.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 158.4,
+          "detail": "ดึงข้อความได้ 4,560 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_8.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 340.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 365.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0800700012_69059206652.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 121.0,
+          "detail": "ดึงข้อความได้ 2,156 ตัวอักษร"
+        },
+        {
+          "name": "doc_0800700012_69059206652.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 209.8,
+          "detail": "ดึงข้อความได้ 37,063 ตัวอักษร"
         },
         {
           "name": "tor_69059206652_fe63cd73-e975-4a57-b4d6-b9071f02a68c.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 143.9,
+          "detail": "ดึงข้อความได้ 11,777 ตัวอักษร"
         }
       ]
     },
     "69059213267": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:2",
+      "counts": {
+        "readable": 4,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "1527844.xls",
+          "status": "อ่านได้",
+          "sizeKB": 10.0,
+          "detail": "ชีต: แบบสรุปราคากลางงานทางสะพานและท่"
+        },
+        {
+          "name": "1527844_02.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 222.2,
+          "detail": "ดึงข้อความได้ 1,684 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 4678.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 824.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0800600088_69059213267.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 122.8,
+          "detail": "ดึงข้อความได้ 2,603 ตัวอักษร"
+        },
+        {
+          "name": "doc_0800600088_69059213267.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 202.5,
+          "detail": "ดึงข้อความได้ 32,869 ตัวอักษร"
         }
       ]
     },
     "69059213653": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:9",
+      "counts": {
+        "readable": 4,
+        "ocr": 9,
+        "unreadable": 0,
+        "total": 13
+      },
       "files": [
         {
+          "name": "1527787.xls",
+          "status": "อ่านได้",
+          "sizeKB": 16.0,
+          "detail": "ชีต: แบบสรุปราคากลางงานทางสะพานและท่"
+        },
+        {
+          "name": "1527787_02.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 245.3,
+          "detail": "ดึงข้อความได้ 4,592 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 287.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 287.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 401.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_5.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 470.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_6.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 687.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_7.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 257.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_8.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 292.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2394.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509904267_69059213653.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 117.6,
+          "detail": "ดึงข้อความได้ 2,068 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509904267_69059213653.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 209.9,
+          "detail": "ดึงข้อความได้ 38,533 ตัวอักษร"
         },
         {
           "name": "tor.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3832.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         }
       ]
     },
     "69059247158": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:22",
+      "counts": {
+        "readable": 3,
+        "ocr": 22,
+        "unreadable": 0,
+        "total": 25
+      },
       "files": [
         {
+          "name": "Attach_BOQ_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 48493.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_BOQ_1.xls",
+          "status": "อ่านได้",
+          "sizeKB": 2324.0,
+          "detail": "ชีต: ปร6, ปร5ก, ปร5.ข, ปร.5พ, งานวิศวกรรมโยธา, งานสถาปัตยกรรม, งานสถาปัตยกรรมตกแต่งอาคาร, งานระบบไฟฟ้า, งานระบบสุขาภิบาล, งานระบบปรับอากาศ, งานระบบควบคุมอาคารอัตโนมัติ, งานระบบสื่อสาร IT, งานระบบป้องกันอัคคีภัย, งานระบบแจ้งเหตุเพลิงไหม้, งานระบบป้องกันฟ้าผ่า, งานก่อสร้างสาธารณูปโภค, งานตกแต่งภายในสำนักงาน, งานภูมิทัศน์, งานระบบผลิตน้ำประปา, งานครุภัณฑ์, ค่าใช้จ่ายพิเศษ"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2344.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_10.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 18463.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_11.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 15687.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_12.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 16236.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_13.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 26050.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_14.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 7462.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_15.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 32755.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_16.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 12569.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_17.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 95.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_18.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1082.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_19.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 762.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3515.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_20.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1736.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_21.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 114.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3414.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2694.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5212.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1644.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 11063.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_8.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 16851.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_9.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 18972.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509902182_69059247158.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 102.2,
+          "detail": "ดึงข้อความได้ 1,937 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509902182_69059247158.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 207.1,
+          "detail": "ดึงข้อความได้ 49,649 ตัวอักษร"
         }
       ]
     },
     "69029352391": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
-          "name": ".DS_Store",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 7563.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "name": "annoudoc_2100200020_69029352391.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.7,
+          "detail": "ดึงข้อความได้ 1,761 ตัวอักษร"
+        },
+        {
+          "name": "doc_2100200020_69029352391.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 182.5,
+          "detail": "ดึงข้อความได้ 29,582 ตัวอักษร"
         }
       ]
     },
     "69049266824": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:3",
+      "counts": {
+        "readable": 2,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 570.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 738.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 921.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509901938_69049266824.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 108.9,
+          "detail": "ดึงข้อความได้ 1,449 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509901938_69049266824.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 181.8,
+          "detail": "ดึงข้อความได้ 31,308 ตัวอักษร"
         }
       ]
     },
     "69049469418": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 49937.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1901100000_69049469418.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 106.2,
+          "detail": "ดึงข้อความได้ 1,623 ตัวอักษร"
+        },
+        {
+          "name": "doc_1901100000_69049469418.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 180.1,
+          "detail": "ดึงข้อความได้ 29,640 ตัวอักษร"
         }
       ]
     },
     "69059524471": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 462.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "TOR_.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 8284.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1300600000_69059524471.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 112.7,
+          "detail": "ดึงข้อความได้ 1,849 ตัวอักษร"
+        },
+        {
+          "name": "doc_1300600000_69059524471.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 178.0,
+          "detail": "ดึงข้อความได้ 29,329 ตัวอักษร"
         }
       ]
     },
     "69029032322": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "CCF_000590.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 4417.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "CCF_000591.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 197.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "CCF_000647.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 4747.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1509902878_69029032322.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 103.8,
+          "detail": "ดึงข้อความได้ 1,652 ตัวอักษร"
+        },
+        {
+          "name": "doc_1509902878_69029032322.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 178.5,
+          "detail": "ดึงข้อความได้ 29,617 ตัวอักษร"
+        },
+        {
           "name": "tor_69029032322_04f407f1-c064-48f3-88d6-f7fcb095a809.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 166.4,
+          "detail": "ดึงข้อความได้ 6,983 ตัวอักษร"
         }
       ]
     },
     "69039215432": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 9200.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0200400073_69039215432.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 104.0,
+          "detail": "ดึงข้อความได้ 1,700 ตัวอักษร"
+        },
+        {
+          "name": "doc_0200400073_69039215432.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 177.7,
+          "detail": "ดึงข้อความได้ 29,993 ตัวอักษร"
         }
       ]
     },
     "69039395606": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 3578.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1500600000_69039395606.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 110.1,
+          "detail": "ดึงข้อความได้ 1,660 ตัวอักษร"
+        },
+        {
+          "name": "doc_1500600000_69039395606.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 179.5,
+          "detail": "ดึงข้อความได้ 30,211 ตัวอักษร"
         }
       ]
     },
     "69039555489": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 346.6,
+          "detail": "ดึงข้อความได้ 32,602 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_2500600000_69039555489.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 115.9,
+          "detail": "ดึงข้อความได้ 1,740 ตัวอักษร"
+        },
+        {
+          "name": "doc_2500600000_69039555489.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 181.1,
+          "detail": "ดึงข้อความได้ 30,733 ตัวอักษร"
         }
       ]
     },
     "69059221796": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1046.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2101300000_69059221796.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 118.2,
+          "detail": "ดึงข้อความได้ 1,748 ตัวอักษร"
+        },
+        {
+          "name": "doc_2101300000_69059221796.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 176.6,
+          "detail": "ดึงข้อความได้ 28,872 ตัวอักษร"
         }
       ]
     },
     "69059280229": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:1",
+      "counts": {
+        "readable": 4,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 93.7,
+          "detail": "ดึงข้อความได้ 3,196 ตัวอักษร"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 82.9,
+          "detail": "ดึงข้อความได้ 3,855 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 8278.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_5020700000_69059280229.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 108.1,
+          "detail": "ดึงข้อความได้ 1,690 ตัวอักษร"
+        },
+        {
+          "name": "doc_5020700000_69059280229.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 180.1,
+          "detail": "ดึงข้อความได้ 30,327 ตัวอักษร"
         }
       ]
     },
     "69029493977": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:1",
+      "counts": {
+        "readable": 4,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 47.8,
+          "detail": "ดึงข้อความได้ 455 ตัวอักษร"
+        },
+        {
+          "name": "Blank.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 31.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "TOR MP9-8962-HCZ_pagenumber.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 1948.8,
+          "detail": "ดึงข้อความได้ 30,906 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50510000002_69029493977.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 126.5,
+          "detail": "ดึงข้อความได้ 1,695 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50510000002_69029493977.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 192.8,
+          "detail": "ดึงข้อความได้ 32,935 ตัวอักษร"
         }
       ]
     },
     "69039228566": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 101473.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1500500000_69039228566.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.5,
+          "detail": "ดึงข้อความได้ 1,489 ตัวอักษร"
+        },
+        {
+          "name": "doc_1500500000_69039228566.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.7,
+          "detail": "ดึงข้อความได้ 32,975 ตัวอักษร"
         }
       ]
     },
     "69039516674": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "TOR .pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 11612.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_5070900000_69039516674.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 100.3,
+          "detail": "ดึงข้อความได้ 1,356 ตัวอักษร"
+        },
+        {
+          "name": "doc_5070900000_69039516674.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 202.1,
+          "detail": "ดึงข้อความได้ 41,956 ตัวอักษร"
         },
         {
           "name": "tor_69039516674_f8a8f454-4fa8-4664-b40a-682061545394.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 178.7,
+          "detail": "ดึงข้อความได้ 12,868 ตัวอักษร"
         }
       ]
     },
     "69039545417": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 7694.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0200400198_69039545417.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 99.6,
+          "detail": "ดึงข้อความได้ 1,346 ตัวอักษร"
+        },
+        {
+          "name": "doc_0200400198_69039545417.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 181.0,
+          "detail": "ดึงข้อความได้ 32,035 ตัวอักษร"
         }
       ]
     },
     "69049171877": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:3",
+      "counts": {
+        "readable": 3,
+        "ocr": 3,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1932.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 1698.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 107.4,
+          "detail": "ดึงข้อความได้ 846 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 27054.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_310000110000033_69049171877.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 109.6,
+          "detail": "ดึงข้อความได้ 1,457 ตัวอักษร"
+        },
+        {
+          "name": "doc_310000110000033_69049171877.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.4,
+          "detail": "ดึงข้อความได้ 34,205 ตัวอักษร"
         }
       ]
     },
     "69049263428": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 6421.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 6421.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_S31210000009_69049263428.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 111.1,
+          "detail": "ดึงข้อความได้ 1,454 ตัวอักษร"
+        },
+        {
+          "name": "doc_S31210000009_69049263428.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 190.8,
+          "detail": "ดึงข้อความได้ 34,569 ตัวอักษร"
         }
       ]
     },
     "69049277025": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
-          "name": ".DS_Store",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 581.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
-          "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "name": "annoudoc_0300300000_69049277025.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 104.9,
+          "detail": "ดึงข้อความได้ 1,358 ตัวอักษร"
+        },
+        {
+          "name": "doc_0300300000_69049277025.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 190.1,
+          "detail": "ดึงข้อความได้ 32,994 ตัวอักษร"
         }
       ]
     },
     "69049424933": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:5 / ต้อง OCR:1",
+      "counts": {
+        "readable": 5,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 6
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 51.9,
+          "detail": "ดึงข้อความได้ 757 ตัวอักษร"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 36.8,
+          "detail": "ดึงข้อความได้ 344 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 4137.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_0200400071_69049424933.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 104.7,
+          "detail": "ดึงข้อความได้ 1,302 ตัวอักษร"
+        },
+        {
+          "name": "doc_0200400071_69049424933.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 207.5,
+          "detail": "ดึงข้อความได้ 49,466 ตัวอักษร"
         },
         {
           "name": "tor_69049424933_711da84b-fb7b-4d95-8d4a-7beb307751a0.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 177.1,
+          "detail": "ดึงข้อความได้ 11,925 ตัวอักษร"
         }
       ]
     },
     "69059014485": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2088.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_203310000352_69059014485.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 106.4,
+          "detail": "ดึงข้อความได้ 1,998 ตัวอักษร"
+        },
+        {
+          "name": "doc_203310000352_69059014485.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 194.6,
+          "detail": "ดึงข้อความได้ 36,884 ตัวอักษร"
         }
       ]
     },
     "69059240470": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 6590.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_00108270021000000_69059240470.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.0,
+          "detail": "ดึงข้อความได้ 1,720 ตัวอักษร"
+        },
+        {
+          "name": "doc_00108270021000000_69059240470.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 187.2,
+          "detail": "ดึงข้อความได้ 34,050 ตัวอักษร"
         }
       ]
     },
     "69059366967": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "total": 3
+      },
       "files": [
         {
           "name": "TOR.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 6867.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_1300900000_69059366967.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 124.4,
+          "detail": "ดึงข้อความได้ 2,043 ตัวอักษร"
+        },
+        {
+          "name": "doc_1300900000_69059366967.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 192.0,
+          "detail": "ดึงข้อความได้ 31,693 ตัวอักษร"
         }
       ]
     },
     "69059442451": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:4",
+      "counts": {
+        "readable": 4,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 276.4,
+          "detail": "ดึงข้อความได้ 32,348 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 158.8,
+          "detail": "ดึงข้อความได้ 23,216 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_6500200000_69059442451.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 113.6,
+          "detail": "ดึงข้อความได้ 1,829 ตัวอักษร"
+        },
+        {
+          "name": "doc_6500200000_69059442451.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 198.7,
+          "detail": "ดึงข้อความได้ 39,144 ตัวอักษร"
         }
       ]
     },
     "68129368616": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:13",
+      "counts": {
+        "readable": 2,
+        "ocr": 13,
+        "unreadable": 0,
+        "total": 15
+      },
       "files": [
         {
-          "name": ".DS_Store",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
-        },
-        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 42542.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_10.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 539.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_11.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 390.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_12.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 316.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_13.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 5124.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 239.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_3.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 2369.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_4.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 23216.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_5.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1808.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_6.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 1031.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_7.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 822.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_8.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 13074.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
         },
         {
           "name": "Attach_TOR_9.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 962.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_5030600000_68129368616.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 122.8,
+          "detail": "ดึงข้อความได้ 2,188 ตัวอักษร"
+        },
+        {
+          "name": "doc_5030600000_68129368616.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 189.7,
+          "detail": "ดึงข้อความได้ 32,818 ตัวอักษร"
         }
       ]
     },
     "68129458483": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้",
+      "summary": "อ่านได้:5",
+      "counts": {
+        "readable": 5,
+        "ocr": 0,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 40.9,
+          "detail": "ดึงข้อความได้ 1,695 ตัวอักษร"
         },
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 10408.2,
+          "detail": "ดึงข้อความได้ 178,637 ตัวอักษร"
+        },
+        {
+          "name": "annoudoc_S50673000026_68129458483.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 126.5,
+          "detail": "ดึงข้อความได้ 1,988 ตัวอักษร"
+        },
+        {
+          "name": "doc_S50673000026_68129458483.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 192.4,
+          "detail": "ดึงข้อความได้ 37,148 ตัวอักษร"
         },
         {
           "name": "tor_68129458483_0c3e8e53-9eda-4411-a448-fed8c3d650d0.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 136.5,
+          "detail": "ดึงข้อความได้ 7,086 ตัวอักษร"
         }
       ]
     },
     "69019089331": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 5
+      },
       "files": [
         {
           "name": "Attach_TOR_2.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 496.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "Specification of 36 GEA Upgrade Rev9.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 13627.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_S31210000002_69019089331.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 109.0,
+          "detail": "ดึงข้อความได้ 1,584 ตัวอักษร"
+        },
+        {
+          "name": "doc_S31210000002_69019089331.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 203.5,
+          "detail": "ดึงข้อความได้ 44,729 ตัวอักษร"
         },
         {
           "name": "tor_69019089331_d7406a80-d090-4218-a87b-3911ed64143a.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "อ่านได้",
+          "sizeKB": 173.7,
+          "detail": "ดึงข้อความได้ 9,988 ตัวอักษร"
         }
       ]
     },
     "69049047148": {
-      "status": "Can't Read",
-      "reason": "ไม่พบไฟล์",
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "total": 4
+      },
       "files": [
         {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "sizeKB": 3280.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
           "name": "Attach_TOR_1.pdf",
-          "status": "missing",
-          "reason": "ไม่พบไฟล์"
+          "status": "ต้อง OCR",
+          "sizeKB": 61080.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร)"
+        },
+        {
+          "name": "annoudoc_2900900000_69049047148.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 130.9,
+          "detail": "ดึงข้อความได้ 3,077 ตัวอักษร"
+        },
+        {
+          "name": "doc_2900900000_69049047148.pdf",
+          "status": "อ่านได้",
+          "sizeKB": 208.0,
+          "detail": "ดึงข้อความได้ 38,495 ตัวอักษร"
         }
       ]
     }

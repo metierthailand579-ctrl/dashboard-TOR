@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getAllProjects, getProjectByCode } from "@/lib/data";
-import { TYPE_TO_SLUG } from "@/lib/constants";
-import { fileUrl, isTorFile } from "@/lib/utils";
+import { getAllProjects, getProjectByCode, getProjectHealth } from "@/lib/data";
+import { READ_STATUS_STYLE, TYPE_TO_SLUG } from "@/lib/constants";
+import { cn, fileUrl, isTorFile } from "@/lib/utils";
 import { TypeBadge } from "@/components/TypeBadge";
 import { BudgetChip } from "@/components/BudgetChip";
 
@@ -25,6 +25,9 @@ export function generateMetadata({ params }: Params): Metadata {
 export default function ProjectPage({ params }: Params) {
   const project = getProjectByCode(params.code);
   if (!project) notFound();
+
+  const health = getProjectHealth(project.code);
+  const fileStatus = new Map(health.files.map((f) => [f.name, f]));
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -49,8 +52,18 @@ export default function ProjectPage({ params }: Params) {
         <h1 className="text-lg font-bold leading-relaxed text-slate-800">{project.name}</h1>
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
           <Field label="รหัสโครงการ" value={project.code} mono />
+          <Field label="หมวด (Group)" value={`${project.group} · ${project.subGroup}`} />
           <Field label="ช่วงวงเงิน" value={project.budgetRange} />
           <Field label="จำนวนไฟล์" value={`${project.fileCount} ไฟล์`} />
+          <div className="col-span-2 sm:col-span-1">
+            <dt className="text-xs text-slate-400">สถานะการอ่าน TOR</dt>
+            <dd className="mt-0.5">
+              <StatusBadge status={health.status} />
+              {health.counts.total > 0 && (
+                <span className="ml-2 text-xs text-slate-400">{health.summary}</span>
+              )}
+            </dd>
+          </div>
         </dl>
       </header>
 
@@ -71,9 +84,17 @@ export default function ProjectPage({ params }: Params) {
                 <p className="truncate text-sm text-slate-700" title={file}>
                   {file}
                 </p>
-                {isTorFile(file) && (
-                  <span className="text-xs font-medium text-brand-600">เอกสาร TOR</span>
-                )}
+                <span className="flex flex-wrap items-center gap-x-2 text-xs">
+                  {isTorFile(file) && (
+                    <span className="font-medium text-brand-600">เอกสาร TOR</span>
+                  )}
+                  {fileStatus.get(file) && (
+                    <>
+                      <StatusBadge status={fileStatus.get(file)!.status} />
+                      <span className="text-slate-400">{fileStatus.get(file)!.detail}</span>
+                    </>
+                  )}
+                </span>
               </div>
               <a
                 href={fileUrl(project.code, file)}
@@ -107,6 +128,21 @@ function Field({ label, value, mono }: { label: string; value: string; mono?: bo
       <dt className="text-xs text-slate-400">{label}</dt>
       <dd className={mono ? "font-mono text-slate-700" : "text-slate-700"}>{value}</dd>
     </div>
+  );
+}
+
+function StatusBadge({ status }: { status: string }) {
+  const style = READ_STATUS_STYLE[status] ?? READ_STATUS_STYLE["ไม่มีข้อมูล"];
+  return (
+    <span
+      className={cn(
+        "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium",
+        style.badge
+      )}
+    >
+      <span className={cn("h-1.5 w-1.5 rounded-full", style.dot)} />
+      {status}
+    </span>
   );
 }
 

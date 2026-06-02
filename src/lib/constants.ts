@@ -36,6 +36,24 @@ export const BUDGET_ORDER = [
   "มากกว่า 500,000,000 บาท",
 ];
 
+/** สถานะการอ่าน TOR เรียงตามลำดับการแสดง */
+export const READ_STATUS_ORDER = [
+  "อ่านได้",
+  "อ่านได้บางส่วน",
+  "ต้อง OCR",
+  "อ่านไม่ได้",
+  "ไม่มีข้อมูล",
+] as const;
+
+/** สีประจำสถานะการอ่าน */
+export const READ_STATUS_STYLE: Record<string, { badge: string; dot: string }> = {
+  อ่านได้: { badge: "bg-emerald-100 text-emerald-700", dot: "bg-emerald-500" },
+  อ่านได้บางส่วน: { badge: "bg-amber-100 text-amber-700", dot: "bg-amber-500" },
+  "ต้อง OCR": { badge: "bg-orange-100 text-orange-700", dot: "bg-orange-500" },
+  อ่านไม่ได้: { badge: "bg-red-100 text-red-600", dot: "bg-red-500" },
+  ไม่มีข้อมูล: { badge: "bg-slate-100 text-slate-500", dot: "bg-slate-400" },
+};
+
 /** ป้ายสั้นของช่วงวงเงิน (ใช้ในชิป/ตาราง) */
 export const BUDGET_SHORT: Record<string, string> = {
   "ไม่เกิน 500,000 บาท": "≤ 5 แสน",

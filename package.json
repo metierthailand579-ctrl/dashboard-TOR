@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:data": "python3 scripts/build-data.py",
-    "healthcheck": "python3 scripts/healthcheck.py"
+    "build:data": "python3 scripts/build-data.py"
   },
   "dependencies": {
     "next": "14.2.5",

@@ -45,7 +45,7 @@
     "type": "จ้างก่อสร้าง",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "projectCount": 18,
-    "fileCount": 152
+    "fileCount": 0
   },
   {
     "type": "จ้างก่อสร้าง",
@@ -63,7 +63,7 @@
     "type": "จ้างเหมาบริการ",
     "budgetRange": "ไม่เกิน 500,000 บาท",
     "projectCount": 4,
-    "fileCount": 16
+    "fileCount": 15
   },
   {
     "type": "จ้างเหมาบริการ",
@@ -75,12 +75,12 @@
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "projectCount": 12,
-    "fileCount": 48
+    "fileCount": 47
   },
   {
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000,000 บาท",
     "projectCount": 4,
-    "fileCount": 30
+    "fileCount": 29
   }
 ]

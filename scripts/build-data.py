@@ -78,15 +78,21 @@ def classify(name, ptype):
     return group, (sub or "—")
 
 
-def build_projects(ws):
+def build_projects(ws, files_by_code):
+    """ชีตหลัก (8 คอลัมน์): ลำดับ|ประเภท|ช่วงวงเงิน|รหัส|ชื่อ|จำนวนไฟล์|ชนิดไฟล์|สรุปการอ่าน
+    หมายเหตุ: Excel เวอร์ชันนี้ไม่มีคอลัมน์ "รายชื่อไฟล์" แล้ว — ดึงรายชื่อไฟล์จาก
+    ชีต "เช็คการอ่านไฟล์" ผ่าน files_by_code แทน
+    """
     rows = list(ws.iter_rows(values_only=True))
     projects = []
     for r in rows[1:]:
         if r[0] is None:
             continue
-        files = slug_files(r[7])
-        ftypes = [t.strip() for t in str(r[6] or "").split(",") if t.strip()]
-        # นับไฟล์ TOR (ไฟล์ที่ขึ้นต้น/มีคำว่า tor)
+        code = str(r[3]).strip()
+        files = files_by_code.get(code, [])
+        ftypes = sorted({os.path.splitext(f)[1].lower() for f in files if "." in f})
+        if not ftypes:
+            ftypes = [t.strip() for t in str(r[6] or "").split(",") if t.strip()]
         tor_files = [f for f in files if re.search(r"tor", f, re.IGNORECASE)]
         name = (r[4] or "").strip()
         ptype = (r[1] or "").strip()
@@ -95,11 +101,11 @@ def build_projects(ws):
             "order": r[0],
             "type": ptype,
             "budgetRange": (r[2] or "").strip(),
-            "code": str(r[3]).strip(),
+            "code": code,
             "name": name,
             "group": group,
             "subGroup": sub_group,
-            "fileCount": r[5] or len(files),
+            "fileCount": int(r[5]) if isinstance(r[5], (int, float)) else len(files),
             "fileTypes": ftypes,
             "files": files,
             "torFiles": tor_files,
@@ -133,21 +139,115 @@ def build_overview(ws):
     return items
 
 
+# ---- TOR Health: อ่านผลตรวจการอ่านไฟล์จากชีต "เช็คการอ่านไฟล์" -------------
+# สถานะรายไฟล์ (ตามที่บันทึกใน Excel): อ่านได้ / ต้อง OCR / อ่านไม่ได้
+ST_READ = "อ่านได้"
+ST_OCR = "ต้อง OCR"
+ST_UNREAD = "อ่านไม่ได้"
+ST_PARTIAL = "อ่านได้บางส่วน"
+ST_NONE = "ไม่มีข้อมูล"
+
+
+def rollup_status(readable, ocr, unreadable):
+    """สรุปสถานะระดับโครงการจากจำนวนไฟล์แต่ละสถานะ"""
+    total = readable + ocr + unreadable
+    if total == 0:
+        return ST_NONE
+    if readable == total:
+        return ST_READ
+    if readable > 0:
+        return ST_PARTIAL
+    if ocr > 0:
+        return ST_OCR
+    return ST_UNREAD
+
+
+def summary_text(readable, ocr, unreadable):
+    parts = []
+    if readable:
+        parts.append(f"{ST_READ}:{readable}")
+    if ocr:
+        parts.append(f"{ST_OCR}:{ocr}")
+    if unreadable:
+        parts.append(f"{ST_UNREAD}:{unreadable}")
+    return " / ".join(parts) or ST_NONE
+
+
+def build_health(ws):
+    """ชีตเช็คการอ่านไฟล์:
+    ลำดับ | ประเภท | ช่วงวงเงิน | โครงการ(code) | ชื่อไฟล์ | ชนิด | ขนาด(KB) | สถานะการอ่าน | รายละเอียด
+    คืน dict {code: health}
+    """
+    by_code = {}
+    for r in list(ws.iter_rows(values_only=True))[1:]:
+        code = str(r[3]).strip() if r[3] is not None else ""
+        if not code:
+            continue
+        status = (r[7] or "").strip()
+        by_code.setdefault(code, []).append({
+            "name": (r[4] or "").strip(),
+            "status": status,
+            "sizeKB": round(float(r[6]), 1) if isinstance(r[6], (int, float)) else None,
+            "detail": (r[8] or "").strip() if r[8] else "",
+        })
+
+    health = {}
+    for code, files in by_code.items():
+        readable = sum(1 for f in files if f["status"] == ST_READ)
+        ocr = sum(1 for f in files if f["status"] == ST_OCR)
+        unreadable = sum(1 for f in files if f["status"] == ST_UNREAD)
+        status = rollup_status(readable, ocr, unreadable)
+        health[code] = {
+            "status": status,
+            "summary": summary_text(readable, ocr, unreadable),
+            "counts": {
+                "readable": readable,
+                "ocr": ocr,
+                "unreadable": unreadable,
+                "total": len(files),
+            },
+            "files": files,
+        }
+    return health
+
+
 def main():
     wb = openpyxl.load_workbook(XLSX, read_only=True, data_only=True)
-    projects = build_projects(wb["รายการโครงการทั้งหมด"])
+    health = build_health(wb["เช็คการอ่านไฟล์"]) if "เช็คการอ่านไฟล์" in wb.sheetnames else {}
+    files_by_code = {code: [f["name"] for f in h["files"]] for code, h in health.items()}
+    projects = build_projects(wb["รายการโครงการทั้งหมด"], files_by_code)
     overview = build_overview(wb["ภาพรวม"])
+
+    # โครงการที่ไม่มีข้อมูลตรวจ → สถานะ "ไม่มีข้อมูล"
+    none_health = {"status": ST_NONE, "summary": ST_NONE,
+                   "counts": {"readable": 0, "ocr": 0, "unreadable": 0, "total": 0},
+                   "files": []}
+    for p in projects:
+        health.setdefault(p["code"], dict(none_health))
+
+    # สรุประดับโครงการ (จำนวนโครงการต่อสถานะ) — ใช้ทำชิปฟิลเตอร์
+    project_summary = {}
+    for code in (p["code"] for p in projects):
+        st = health[code]["status"]
+        project_summary[st] = project_summary.get(st, 0) + 1
 
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, "projects.json"), "w", encoding="utf-8") as f:
         json.dump(projects, f, ensure_ascii=False, indent=2)
     with open(os.path.join(OUT, "overview.json"), "w", encoding="utf-8") as f:
         json.dump(overview, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(OUT, "healthcheck.json"), "w", encoding="utf-8") as f:
+        json.dump({
+            "engine": "excel:เช็คการอ่านไฟล์",
+            "summary": project_summary,
+            "projects": {p["code"]: health[p["code"]] for p in projects},
+        }, f, ensure_ascii=False, indent=2)
 
     types = sorted(set(p["type"] for p in projects))
     budgets = sorted(set(p["budgetRange"] for p in projects))
     print(f"✓ projects.json: {len(projects)} โครงการ")
     print(f"✓ overview.json: {len(overview)} แถว")
+    print(f"✓ healthcheck.json: สรุปต่อโครงการ {project_summary}")
     print(f"  ประเภท: {types}")
     print(f"  ช่วงวงเงิน: {len(budgets)} ช่วง")
 

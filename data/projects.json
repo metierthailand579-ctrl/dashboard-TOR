@@ -1849,80 +1849,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างทางเดินเชื่อมระหว่างอาคารสนับสนนุบริการพร้อมที่จอดรถและอาคารเฉลิมพ",
     "group": "ยานพาหนะ",
     "subGroup": "ทางเดินเชื่อมระหว่างอาคารสนับสนนุบริการพร้อมที่จอด",
-    "fileCount": 43,
-    "fileTypes": [
-      "(noext)",
-      ".pdf",
-      ".xlsx"
-    ],
-    "files": [
-      ".DS_Store",
-      "Attach_BOQ_1.pdf",
-      "Attach_PUB_1.pdf",
-      "Attach_PUB_2.pdf",
-      "Attach_PUB_3.pdf",
-      "Attach_PUB_4.pdf",
-      "Attach_PUB_5.pdf",
-      "Attach_PUB_6.pdf",
-      "Attach_PUB_7.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "Attach_TOR_5.pdf",
-      "Attach_TOR_6.pdf",
-      "Attach_TOR_7.pdf",
-      "Attach_TOR_8.pdf",
-      "Attach_TOR_9.pdf",
-      "BOQ.xlsx",
-      "annoudoc_2100200259_69029224062.pdf",
-      "doc_2100200259_69029224062.pdf",
-      "tor_69029224062_e325357b-984c-4711-a74d-f3bc5ecf0734.pdf",
-      "Attach_BOQ_1.pdf",
-      "Attach_PUB_1.pdf",
-      "Attach_PUB_2.pdf",
-      "Attach_PUB_3.pdf",
-      "Attach_PUB_4.pdf",
-      "Attach_PUB_5.pdf",
-      "Attach_PUB_6.pdf",
-      "Attach_PUB_7.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "Attach_TOR_5.pdf",
-      "Attach_TOR_6.pdf",
-      "Attach_TOR_7.pdf",
-      "Attach_TOR_8.pdf",
-      "Attach_TOR_9.pdf",
-      "BOQ.xlsx",
-      "annoudoc_2100200259_69029224062.pdf",
-      "doc_2100200259_69029224062.pdf",
-      "tor_69029224062_e325357b-984c-4711-a74d-f3bc5ecf0734.pdf"
-    ],
-    "torFiles": [
-      ".DS_Store",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "Attach_TOR_5.pdf",
-      "Attach_TOR_6.pdf",
-      "Attach_TOR_7.pdf",
-      "Attach_TOR_8.pdf",
-      "Attach_TOR_9.pdf",
-      "tor_69029224062_e325357b-984c-4711-a74d-f3bc5ecf0734.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "Attach_TOR_5.pdf",
-      "Attach_TOR_6.pdf",
-      "Attach_TOR_7.pdf",
-      "Attach_TOR_8.pdf",
-      "Attach_TOR_9.pdf",
-      "tor_69029224062_e325357b-984c-4711-a74d-f3bc5ecf0734.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 85,
@@ -1932,26 +1862,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการก่อสร้างถนนคอนกรีตเสริมเหล็กพร้อมระบบระบายน้ำ ซอยพี่อุศา ม.",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการก่อสร้างถนนคอนกรีตเสริมเหล็กพร้อมระบบระบายน",
-    "fileCount": 10,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1493776.xls",
-      "1493776_02.pdf",
-      "Attach_PUB_2.pdf",
-      "Attach_PUB_3.pdf",
-      "Attach_PUB_4.pdf",
-      "Attach_PUB_5.pdf",
-      "CCF_001832.pdf",
-      "TOR.pdf",
-      "annoudoc_1509905343_69029419131.pdf",
-      "doc_1509905343_69029419131.pdf"
-    ],
-    "torFiles": [
-      "TOR.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 86,
@@ -1961,23 +1875,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการก่อสร้างรั้วศูนย์พัฒนาเด็กเล็ก องค์การบริหารส่วนตำบลเสม็จ ป",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการก่อสร้างรั้วศูนย์พัฒนาเด็กเล็ก องค์การบริหา",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1513356.xls",
-      "1513356_02.pdf",
-      "Attach_TOR_1.pdf",
-      "annoudoc_1509907360_69039140408.pdf",
-      "doc_1509907360_69039140408.pdf",
-      "tor_69039140408_80e3a929-0b0e-4e76-a57f-a8d23df7de65.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "tor_69039140408_80e3a929-0b0e-4e76-a57f-a8d23df7de65.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 87,
@@ -1987,35 +1888,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างก่อสร้างอาคารอเนกประสงค์(โดม) ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "อาคารอเนกประสงค์",
-    "fileCount": 19,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xls",
-      "Attach_PUB_1.pdf",
-      "Attach_PUB_10.pdf",
-      "Attach_PUB_11.pdf",
-      "Attach_PUB_12.pdf",
-      "Attach_PUB_13.pdf",
-      "Attach_PUB_14.pdf",
-      "Attach_PUB_2.pdf",
-      "Attach_PUB_3.pdf",
-      "Attach_PUB_4.pdf",
-      "Attach_PUB_5.pdf",
-      "Attach_PUB_6.pdf",
-      "Attach_PUB_7.pdf",
-      "Attach_PUB_8.pdf",
-      "Attach_PUB_9.pdf",
-      "Attach_TOR_1.pdf",
-      "annoudoc_103101006931000000_69039183800.pdf",
-      "doc_103101006931000000_69039183800.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 88,
@@ -2025,23 +1901,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการก่อสร้างถนนลาดยางสาย 4156 - เขาเพชร - ควนแซะ - หมู่ที่ 1,2,",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการก่อสร้างถนนลาดยางสาย 4156 - เขาเพชร - ควนแซ",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1505056.xls",
-      "1505056_02.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "annoudoc_1509900024_69039327524.pdf",
-      "doc_1509900024_69039327524.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 89,
@@ -2051,23 +1914,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการก่อสร้างถนนคอนกรีตเสริมเหล็ก สายเลียบคลองรางเนื้อตาย รหัสทา",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการก่อสร้างถนนคอนกรีตเสริมเหล็ก สายเลียบคลองรา",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1522744.xls",
-      "1522744_02.pdf",
-      "Attach_TOR_1.pdf",
-      "TOR.pdf",
-      "annoudoc_1509903775_69049001969.pdf",
-      "doc_1509903775_69049001969.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "TOR.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 90,
@@ -2077,34 +1927,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างถนนแอสฟัลท์ติกคอนกรีตพร้อมยกระดับบ่อพักท่อระบายน้ำตั้งแต่ปากซอยบัว",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "ถนนแอสฟัลท์ติกคอนกรีตพร้อมยกระดับบ่อพักท่อระบายน้ำ",
-    "fileCount": 13,
-    "fileTypes": [
-      "(noext)",
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      ".DS_Store",
-      "1518640.xls",
-      "1518640_02.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "annoudoc_1509906556_69049324523.pdf",
-      "doc_1509906556_69049324523.pdf",
-      "1518640.xls",
-      "1518640_02.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "annoudoc_1509906556_69049324523.pdf",
-      "doc_1509906556_69049324523.pdf"
-    ],
-    "torFiles": [
-      ".DS_Store",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 91,
@@ -2114,30 +1940,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการปรับปรุงถนน งานบำรุงถนนสาย สข.6066 บ้านคลองลำ - อ่างเก็บน้ำ",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการปรับปรุงถนน งานบำรุงถนนสาย สข.6066 บ้านคลอง",
-    "fileCount": 14,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1521307.xls",
-      "1521307_02.pdf",
-      "Attach_PUB_1.pdf",
-      "Attach_PUB_2.pdf",
-      "Attach_PUB_3.pdf",
-      "Attach_PUB_4.pdf",
-      "Attach_PUB_5.pdf",
-      "Attach_PUB_6.pdf",
-      "Attach_PUB_7.pdf",
-      "Attach_PUB_8.pdf",
-      "Attach_PUB_9.pdf",
-      "Attach_TOR_1.pdf",
-      "annoudoc_0800700086_69049430285.pdf",
-      "doc_0800700086_69049430285.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 92,
@@ -2147,29 +1953,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างปรับปรุงสนามฟุตบอล หมู่ที่ 7 ตำบลแม่เหียะ อำเภอเมือง จังหวัดเชียงใ",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "ปรับปรุงสนามฟุตบอล หมู่ที่ 7 ตำบลแม่เหียะ อำเภอเมื",
-    "fileCount": 9,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1521720.xls",
-      "1521720_02.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "Attach_TOR_5.pdf",
-      "annoudoc_1509901452_69049445587.pdf",
-      "doc_1509901452_69049445587.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "Attach_TOR_5.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 93,
@@ -2179,21 +1966,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการก่อสร้างถนนคอนกรีตเสริมเหล็ก บ้านหนองปื้ด หมู่ที่ 6 (จากถนน",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการก่อสร้างถนนคอนกรีตเสริมเหล็ก บ้านหนองปื้ด ห",
-    "fileCount": 5,
-    "fileTypes": [
-      ".pdf",
-      ".xlsx"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xlsx",
-      "Attach_TOR_1.pdf",
-      "annoudoc_1509902255_69059105733.pdf",
-      "doc_1509902255_69059105733.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 94,
@@ -2203,23 +1979,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างปรับปรุงถนนคอนกรีตเสริมเหล็ก สายเลียบคลองโคกอ้อย-บ่อกุ้ง หมู่ที่ 6",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "ปรับปรุงถนนคอนกรีตเสริมเหล็ก สายเลียบคลองโคกอ้อย-บ",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1525435.xls",
-      "1525435_02.pdf",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "annoudoc_1509905362_69059107007.pdf",
-      "doc_1509905362_69059107007.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 95,
@@ -2229,27 +1992,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการก่อสร้างถนนคอนกรีตเสริมเหล็กเนินสวรรค์ ซอย 5_2 หมู่ที่ 8 ผิ",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการก่อสร้างถนนคอนกรีตเสริมเหล็กเนินสวรรค์ ซอย ",
-    "fileCount": 8,
-    "fileTypes": [
-      ".pdf",
-      ".xlsx"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xlsx",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf",
-      "annoudoc_1509900984_69059198031.pdf",
-      "doc_1509900984_69059198031.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "Attach_TOR_3.pdf",
-      "Attach_TOR_4.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 96,
@@ -2259,23 +2005,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการขยายถนน คสล.สายถนนเกษตร หมู่ที่ ๔ ด้วยวิธีประกวดราคาอิเล็กท",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการขยายถนน คสล.สายถนนเกษตร หมู่ที่ ๔",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1529959.xls",
-      "1529959_02.pdf",
-      "Attach_TOR_2.pdf",
-      "TOR.pdf",
-      "annoudoc_1509903734_69059302307.pdf",
-      "doc_1509903734_69059302307.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_2.pdf",
-      "TOR.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 97,
@@ -2285,18 +2018,9 @@
     "name": "ประกวดราคาจ้างก่อสร้างก่อสร้างถนนคอนกรีตเสริมเหล็ก บ้านโคกล่าม หมู่ที่ 2 ตำบลนากอก กว้าง",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "ถนนคอนกรีตเสริมเหล็ก บ้านโคกล่าม หมู่ที่ 2 ตำบลนาก",
-    "fileCount": 5,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "1111-05192026142806.pdf",
-      "Attach_BOQ_1.xls",
-      "DOC051826-05182026161709.pdf",
-      "annoudoc_1509907545_69059310278.pdf",
-      "doc_1509907545_69059310278.pdf"
-    ],
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
     "torFiles": []
   },
   {
@@ -2307,22 +2031,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างบุกเบิกถนนสายบ้านผู้พันสำรอง - สวนนางสงวน หนูนารถ หมู่ที่ 7 ตำบลกะ",
     "group": "ยานพาหนะ",
     "subGroup": "บุกเบิกถนนสายบ้านผู้พันสำรอง - สวนนางสงวน หนูนารถ ",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xls",
-      "Attach_PUB_1.pdf",
-      "Attach_TOR_1.pdf",
-      "annoudoc_1509902600_69059344851.pdf",
-      "doc_1509902600_69059344851.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 99,
@@ -2332,22 +2044,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการวางท่อระบายน้ำคอนกรีตเสริมเหล็กบริเวณร้านป๋าเล็ก ถึง บริเวณ",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการวางท่อระบายน้ำคอนกรีตเสริมเหล็กบริเวณร้านป๋",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xlsx"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xlsx",
-      "Attach_BOQ_2.pdf",
-      "Attach_TOR_1.pdf",
-      "annoudoc_1509901958_69059358650.pdf",
-      "doc_1509901958_69059358650.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 100,
@@ -2357,23 +2057,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างปรับปรุงอาคารที่ทำการตำรวจภูธรจังหวัดชุมพร ด้วยวิธีประกวดราคาอิเล็",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "ปรับปรุงอาคารที่ทำการตำรวจภูธรจังหวัดชุมพร",
-    "fileCount": 6,
-    "fileTypes": [
-      ".pdf",
-      ".xls"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xls",
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf",
-      "annoudoc_2507860000126_69059392769.pdf",
-      "doc_2507860000126_69059392769.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf",
-      "Attach_TOR_2.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 101,
@@ -2383,21 +2070,10 @@
     "name": "ประกวดราคาจ้างก่อสร้างโครงการปรับปรุงลาน คสล. เอนกประสงค์โรงเรียนบ้านท่าม่วง ม.1 ต.ท้องเ",
     "group": "งานก่อสร้าง/อาคาร",
     "subGroup": "โครงการปรับปรุงลาน คสล. เอนกประสงค์โรงเรียนบ้านท่า",
-    "fileCount": 5,
-    "fileTypes": [
-      ".pdf",
-      ".xlsx"
-    ],
-    "files": [
-      "Attach_BOQ_1.pdf",
-      "Attach_BOQ_1.xlsx",
-      "Attach_TOR_1.pdf",
-      "annoudoc_108004013580000000_69059428914.pdf",
-      "doc_108004013580000000_69059428914.pdf"
-    ],
-    "torFiles": [
-      "Attach_TOR_1.pdf"
-    ]
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
   },
   {
     "order": 102,
@@ -2811,19 +2487,16 @@
     "name": "ประกวดราคาจ้างจัดทำระบบลงทะเบียนผู้ป่วยโรคไม่ติดต่อเรื้อรัง (NCD Registry) ด้วยวิธีประกว",
     "group": "จ้างเหมาบริการ",
     "subGroup": "จัดทำระบบลงทะเบียนผู้ป่วยโรคไม่ติดต่อเรื้อรัง",
-    "fileCount": 4,
+    "fileCount": 3,
     "fileTypes": [
-      "(noext)",
       ".pdf"
     ],
     "files": [
-      ".DS_Store",
       "Attach_TOR_1.pdf",
       "annoudoc_2100200020_69029352391.pdf",
       "doc_2100200020_69029352391.pdf"
     ],
     "torFiles": [
-      ".DS_Store",
       "Attach_TOR_1.pdf"
     ]
   },
@@ -3168,19 +2841,16 @@
     "name": "ประกวดราคาจ้างซ่อมระบบดับเพลิงกองกษาปณ์ จำนวน ๑ งาน ด้วยวิธีประกวดราคาอิเล็กทรอนิกส์ (e-",
     "group": "จ้างเหมาบริการ",
     "subGroup": "ซ่อมระบบดับเพลิงกองกษาปณ์",
-    "fileCount": 4,
+    "fileCount": 3,
     "fileTypes": [
-      "(noext)",
       ".pdf"
     ],
     "files": [
-      ".DS_Store",
       "Attach_TOR_1.pdf",
       "annoudoc_0300300000_69049277025.pdf",
       "doc_0300300000_69049277025.pdf"
     ],
     "torFiles": [
-      ".DS_Store",
       "Attach_TOR_1.pdf"
     ]
   },
@@ -3304,13 +2974,11 @@
     "name": "ประกวดราคาจ้างให้บริการระบบตรวจสอบและยืนยันกระเป๋าสัมภาระลงทะเบียน (Baggage Reconciliati",
     "group": "จ้างเหมาบริการ",
     "subGroup": "ให้บริการระบบตรวจสอบและยืนยันกระเป๋าสัมภาระลงทะเบี",
-    "fileCount": 16,
+    "fileCount": 15,
     "fileTypes": [
-      "(noext)",
       ".pdf"
     ],
     "files": [
-      ".DS_Store",
       "Attach_TOR_1.pdf",
       "Attach_TOR_10.pdf",
       "Attach_TOR_11.pdf",
@@ -3328,7 +2996,6 @@
       "doc_5030600000_68129368616.pdf"
     ],
     "torFiles": [
-      ".DS_Store",
       "Attach_TOR_1.pdf",
       "Attach_TOR_10.pdf",
       "Attach_TOR_11.pdf",

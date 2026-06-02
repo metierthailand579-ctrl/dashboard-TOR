@@ -18,20 +18,39 @@ export interface Project {
   torFiles: string[];
 }
 
-/** สถานะการอ่านไฟล์ TOR */
-export type HealthStatus = "Read" | "Can't Read";
+/** สถานะการอ่านไฟล์ระดับไฟล์ (ตามที่บันทึกใน Excel) */
+export type FileReadStatus = "อ่านได้" | "ต้อง OCR" | "อ่านไม่ได้";
+
+/** สถานะการอ่านระดับโครงการ (รวมจากไฟล์ทั้งหมด) */
+export type HealthStatus =
+  | "อ่านได้"
+  | "อ่านได้บางส่วน"
+  | "ต้อง OCR"
+  | "อ่านไม่ได้"
+  | "ไม่มีข้อมูล";
 
 /** ผลตรวจไฟล์ TOR รายไฟล์ */
 export interface FileHealth {
   name: string;
-  status: "ok" | "no_text" | "corrupt" | "missing";
-  reason: string;
+  status: FileReadStatus | string;
+  sizeKB: number | null;
+  detail: string;
+}
+
+/** จำนวนไฟล์แต่ละสถานะ */
+export interface HealthCounts {
+  readable: number;
+  ocr: number;
+  unreadable: number;
+  total: number;
 }
 
 /** ผลตรวจ health ต่อโครงการ */
 export interface ProjectHealth {
   status: HealthStatus;
-  reason: string;
+  /** สรุปข้อความ เช่น "อ่านได้:2 / ต้อง OCR:4" */
+  summary: string;
+  counts: HealthCounts;
   files: FileHealth[];
 }
 

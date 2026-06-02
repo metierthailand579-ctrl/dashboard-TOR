@@ -2,11 +2,18 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { HealthStatus, ProcurementType, ProjectWithHealth } from "@/types";
+import type {
+  HealthStatus,
+  ProcurementType,
+  ProjectHealth,
+  ProjectWithHealth,
+} from "@/types";
 import {
   BUDGET_ORDER,
   BUDGET_SHORT,
   PROCUREMENT_TYPES,
+  READ_STATUS_ORDER,
+  READ_STATUS_STYLE,
   TYPE_STYLE,
 } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -36,7 +43,7 @@ const COLUMNS: { key: SortKey; label: string; align?: "center" }[] = [
   { key: "health", label: "TOR Health", align: "center" },
 ];
 
-const HEALTH_OPTIONS: HealthStatus[] = ["Read", "Can't Read"];
+const HEALTH_OPTIONS = READ_STATUS_ORDER;
 
 export function TableDashboard({
   projects,
@@ -96,7 +103,11 @@ export function TableDashboard({
         case "fileCount":
           return (a.fileCount - b.fileCount) * dir;
         case "health":
-          return a.health.status.localeCompare(b.health.status) * dir;
+          return (
+            (READ_STATUS_ORDER.indexOf(a.health.status) -
+              READ_STATUS_ORDER.indexOf(b.health.status)) *
+            dir
+          );
         default:
           return (a.order - b.order) * dir;
       }
@@ -143,14 +154,16 @@ export function TableDashboard({
     const header = [
       "ลำดับ", "ประเภท", "ช่วงวงเงิน", "Group", "Sub Group",
       "รหัสโครงการ", "ชื่อโครงการ", "จำนวนไฟล์",
-      "TOR Health", "เหตุผล", "รายชื่อไฟล์",
+      "TOR Health", "อ่านได้(ไฟล์)", "ต้อง OCR(ไฟล์)", "อ่านไม่ได้(ไฟล์)",
+      "สรุปการอ่าน", "รายชื่อไฟล์",
     ];
     const escape = (v: string | number) => `"${String(v).replace(/"/g, '""')}"`;
     const lines = filtered.map((p) =>
       [
         p.order, p.type, p.budgetRange, p.group, p.subGroup,
         p.code, p.name, p.fileCount,
-        p.health.status, p.health.reason, p.files.join(" | "),
+        p.health.status, p.health.counts.readable, p.health.counts.ocr,
+        p.health.counts.unreadable, p.health.summary, p.files.join(" | "),
       ]
         .map(escape)
         .join(",")
@@ -220,12 +233,12 @@ export function TableDashboard({
         </FilterRow>
 
         <FilterRow label="TOR Health">
-          {HEALTH_OPTIONS.map((h) => (
+          {HEALTH_OPTIONS.filter((h) => (healthSummary[h] ?? 0) > 0).map((h) => (
             <Chip
               key={h}
               active={healths.has(h)}
-              onClick={() => setHealths((s) => toggleSet(s, h))}
-              className={h === "Read" ? "text-emerald-700" : "text-red-600"}
+              onClick={() => setHealths((s) => toggleSet(s, h as HealthStatus))}
+              className={READ_STATUS_STYLE[h]?.badge}
             >
               {h} ({healthSummary[h] ?? 0})
             </Chip>
@@ -332,7 +345,7 @@ export function TableDashboard({
                     )}
                   </td>
                   <td className="px-4 py-3 text-center">
-                    <HealthBadge status={p.health.status} reason={p.health.reason} />
+                    <HealthBadge health={p.health} />
                   </td>
                 </tr>
               ))}
@@ -358,7 +371,10 @@ export function TableDashboard({
           )}
           {grouped.map(([group, subs]) => {
             const items = Array.from(subs.values()).flat();
-            const readN = items.filter((p) => p.health.status === "Read").length;
+            const okN = items.filter(
+              (p) => p.health.status === "อ่านได้" || p.health.status === "อ่านได้บางส่วน"
+            ).length;
+            const badN = items.length - okN;
             const isCollapsed = collapsed.has(group);
             return (
               <div key={group} className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
@@ -372,8 +388,8 @@ export function TableDashboard({
                     {items.length} โครงการ
                   </span>
                   <span className="ml-auto flex items-center gap-2 text-xs">
-                    <span className="text-emerald-600">Read {readN}</span>
-                    <span className="text-red-500">Can&apos;t Read {items.length - readN}</span>
+                    <span className="text-emerald-600">อ่านได้ {okN}</span>
+                    {badN > 0 && <span className="text-red-500">มีปัญหา {badN}</span>}
                   </span>
                 </button>
 
@@ -402,7 +418,7 @@ export function TableDashboard({
                                 <span className="hidden text-xs text-slate-400 sm:inline" title={p.budgetRange}>
                                   {BUDGET_SHORT[p.budgetRange]}
                                 </span>
-                                <HealthBadge status={p.health.status} reason={p.health.reason} />
+                                <HealthBadge health={p.health} />
                               </li>
                             ))}
                           </ul>
@@ -490,18 +506,25 @@ function TypePill({ type }: { type: ProcurementType }) {
   );
 }
 
-function HealthBadge({ status, reason }: { status: HealthStatus; reason: string }) {
-  const ok = status === "Read";
+function HealthBadge({ health }: { health: ProjectHealth }) {
+  const style = READ_STATUS_STYLE[health.status] ?? READ_STATUS_STYLE["ไม่มีข้อมูล"];
   return (
-    <span
-      title={reason}
-      className={cn(
-        "inline-flex shrink-0 items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium",
-        ok ? "bg-emerald-100 text-emerald-700" : "bg-red-100 text-red-600"
+    <span className="inline-flex flex-col items-center gap-0.5">
+      <span
+        title={health.summary}
+        className={cn(
+          "inline-flex shrink-0 items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium",
+          style.badge
+        )}
+      >
+        <span className={cn("h-1.5 w-1.5 rounded-full", style.dot)} />
+        {health.status}
+      </span>
+      {health.counts.total > 0 && (
+        <span className="text-[10px] text-slate-400">
+          {health.counts.readable}/{health.counts.total} อ่านได้
+        </span>
       )}
-    >
-      <span className={cn("h-1.5 w-1.5 rounded-full", ok ? "bg-emerald-500" : "bg-red-500")} />
-      {status}
     </span>
   );
 }

@@ -20,10 +20,16 @@ const health = healthJson as {
 };
 
 const UNKNOWN_HEALTH: ProjectHealth = {
-  status: "Can't Read",
-  reason: "ยังไม่ได้ตรวจ",
+  status: "ไม่มีข้อมูล",
+  summary: "ไม่มีข้อมูล",
+  counts: { readable: 0, ocr: 0, unreadable: 0, total: 0 },
   files: [],
 };
+
+/** ผลตรวจ health ของโครงการเดียว */
+export function getProjectHealth(code: string): ProjectHealth {
+  return health.projects[code] ?? UNKNOWN_HEALTH;
+}
 
 /** โครงการทั้งหมดพร้อมผลตรวจ health (สำหรับตาราง) */
 export function getProjectsWithHealth(): ProjectWithHealth[] {
