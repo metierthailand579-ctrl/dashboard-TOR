@@ -1,0 +1,86 @@
+[
+  {
+    "type": "ซื้อ",
+    "budgetRange": "ไม่เกิน 500,000 บาท",
+    "projectCount": 13,
+    "fileCount": 43
+  },
+  {
+    "type": "ซื้อ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "projectCount": 20,
+    "fileCount": 80
+  },
+  {
+    "type": "ซื้อ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "projectCount": 16,
+    "fileCount": 73
+  },
+  {
+    "type": "เช่า",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "projectCount": 6,
+    "fileCount": 19
+  },
+  {
+    "type": "เช่า",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "projectCount": 15,
+    "fileCount": 48
+  },
+  {
+    "type": "เช่า",
+    "budgetRange": "มากกว่า 500,000,000 บาท",
+    "projectCount": 6,
+    "fileCount": 30
+  },
+  {
+    "type": "จ้างก่อสร้าง",
+    "budgetRange": "ไม่เกิน 500,000 บาท",
+    "projectCount": 7,
+    "fileCount": 38
+  },
+  {
+    "type": "จ้างก่อสร้าง",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "projectCount": 18,
+    "fileCount": 152
+  },
+  {
+    "type": "จ้างก่อสร้าง",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "projectCount": 11,
+    "fileCount": 107
+  },
+  {
+    "type": "จ้างก่อสร้าง",
+    "budgetRange": "มากกว่า 500,000,000 บาท",
+    "projectCount": 1,
+    "fileCount": 25
+  },
+  {
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "ไม่เกิน 500,000 บาท",
+    "projectCount": 4,
+    "fileCount": 16
+  },
+  {
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "projectCount": 6,
+    "fileCount": 23
+  },
+  {
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "projectCount": 12,
+    "fileCount": 48
+  },
+  {
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000,000 บาท",
+    "projectCount": 4,
+    "fileCount": 30
+  }
+]

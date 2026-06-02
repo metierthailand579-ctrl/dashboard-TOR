@@ -1,0 +1,45 @@
+import type { ProcurementType } from "@/types";
+
+/** ประเภททั้งหมด เรียงตามที่ต้องการแสดง */
+export const PROCUREMENT_TYPES: ProcurementType[] = [
+  "ซื้อ",
+  "เช่า",
+  "จ้างก่อสร้าง",
+  "จ้างเหมาบริการ",
+];
+
+/** slug ภาษาอังกฤษสำหรับ URL (เลี่ยงอักษรไทยใน path) */
+export const TYPE_TO_SLUG: Record<ProcurementType, string> = {
+  ซื้อ: "buy",
+  เช่า: "rent",
+  จ้างก่อสร้าง: "construction",
+  จ้างเหมาบริการ: "service",
+};
+
+export const SLUG_TO_TYPE: Record<string, ProcurementType> = Object.fromEntries(
+  Object.entries(TYPE_TO_SLUG).map(([type, slug]) => [slug, type as ProcurementType])
+) as Record<string, ProcurementType>;
+
+/** สีประจำประเภท (Tailwind classes) */
+export const TYPE_STYLE: Record<ProcurementType, { badge: string; accent: string }> = {
+  ซื้อ: { badge: "bg-blue-100 text-blue-700", accent: "border-blue-500" },
+  เช่า: { badge: "bg-emerald-100 text-emerald-700", accent: "border-emerald-500" },
+  จ้างก่อสร้าง: { badge: "bg-amber-100 text-amber-700", accent: "border-amber-500" },
+  จ้างเหมาบริการ: { badge: "bg-purple-100 text-purple-700", accent: "border-purple-500" },
+};
+
+/** ช่วงวงเงิน เรียงจากน้อยไปมาก (ใช้จัดลำดับ filter) */
+export const BUDGET_ORDER = [
+  "ไม่เกิน 500,000 บาท",
+  "มากกว่า 500,000 ถึง 5,000,000 บาท",
+  "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+  "มากกว่า 500,000,000 บาท",
+];
+
+/** ป้ายสั้นของช่วงวงเงิน (ใช้ในชิป/ตาราง) */
+export const BUDGET_SHORT: Record<string, string> = {
+  "ไม่เกิน 500,000 บาท": "≤ 5 แสน",
+  "มากกว่า 500,000 ถึง 5,000,000 บาท": "5 แสน–5 ล้าน",
+  "มากกว่า 5,000,000 ถึง 500,000,000 บาท": "5 ล้าน–500 ล้าน",
+  "มากกว่า 500,000,000 บาท": "> 500 ล้าน",
+};
