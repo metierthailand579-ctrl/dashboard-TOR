@@ -19,11 +19,11 @@ def slug_files(cell):
 
 
 def build_projects(ws, files_by_code):
-    """ชีตหลัก (10 คอลัมน์):
-    ลำดับ|ประเภท|ช่วงวงเงิน|รหัส|ชื่อ|จำนวนไฟล์|
-    กลุ่มหลัก(งาน)|กลุ่มย่อย(งาน)|Metier กลุ่มหลัก|Metier กลุ่มย่อย
+    """ชีตหลัก (8 คอลัมน์):
+    ลำดับ|ประเภท|ช่วงวงเงิน|รหัส|ชื่อ|จำนวนไฟล์|กลุ่มหลัก|กลุ่มย่อย
     รายชื่อไฟล์ดึงจากชีต "เช็คการอ่านไฟล์" ผ่าน files_by_code
-    กลุ่ม/กลุ่มย่อย อ่านจาก Excel โดยตรง (ไม่ใช้ heuristic แล้ว)
+    กลุ่มเป็นชุดเดียว: 7 หมวดงาน (ขึ้นต้นด้วยเลข) + โอกาส Metier (Software/Creative/Media)
+    Metier = derive จากกลุ่มหลักที่ไม่ขึ้นต้นด้วยตัวเลข
     """
     rows = list(ws.iter_rows(values_only=True))
     projects = []
@@ -37,8 +37,10 @@ def build_projects(ws, files_by_code):
 
         work_group = (r[6] or "").strip() if r[6] else "ไม่ระบุ"
         work_sub = (r[7] or "").strip() if r[7] else "ไม่ระบุ"
-        metier_group = (r[8] or "").strip() if r[8] else "NOT_APPLICABLE"
-        metier_sub = (r[9] or "").strip() if r[9] else "NOT_APPLICABLE"
+        # โอกาส Metier = กลุ่มหลักที่ไม่ขึ้นต้นด้วยเลข (Software/Creative/Media Management)
+        is_metier = bool(work_group) and not re.match(r"^\d", work_group)
+        metier_group = work_group if is_metier else "NOT_APPLICABLE"
+        metier_sub = work_sub if is_metier else "NOT_APPLICABLE"
 
         projects.append({
             "order": r[0],

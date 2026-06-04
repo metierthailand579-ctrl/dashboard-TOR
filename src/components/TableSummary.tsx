@@ -129,7 +129,7 @@ export function TableSummary({ summary }: { summary: Summary }) {
           </ul>
         </Panel>
 
-        <Panel title={`กลุ่มงาน (ระบบ A) · ${summary.byGroup.length} กลุ่ม`}>
+        <Panel title={`กลุ่มงาน · ${summary.byGroup.length} กลุ่ม`}>
           <ul className="space-y-2 pr-1">
             {summary.byGroup.map((g) => (
               <li key={g.group} className="flex items-center gap-2">
@@ -151,7 +151,7 @@ export function TableSummary({ summary }: { summary: Summary }) {
 
       {/* โอกาสธุรกิจ Metier */}
       <Panel
-        title="โอกาสธุรกิจ Metier (ระบบ B)"
+        title="โอกาสธุรกิจ Metier"
         subtitle={`${summary.metierOpportunities} โอกาส จาก ${summary.totalProjects} โครงการ`}
       >
         <ul className="grid gap-2 sm:grid-cols-2">

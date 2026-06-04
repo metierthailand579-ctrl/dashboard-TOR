@@ -57,9 +57,9 @@ export default function ProjectPage({ params }: Params) {
         <h1 className="text-lg font-bold leading-relaxed text-slate-800">{project.name}</h1>
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
           <Field label="รหัสโครงการ" value={project.code} mono />
-          <Field label="กลุ่มงาน (ระบบ A)" value={`${project.workGroup} · ${project.workSubGroup}`} />
+          <Field label="กลุ่มงาน" value={`${project.workGroup} · ${project.workSubGroup}`} />
           <Field
-            label="โอกาส Metier (ระบบ B)"
+            label="โอกาสธุรกิจ Metier"
             value={
               project.metierGroup === "NOT_APPLICABLE"
                 ? "ไม่ใช่โอกาส"

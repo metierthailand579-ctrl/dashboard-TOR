@@ -68,16 +68,16 @@ export const METIER_NA = "NOT_APPLICABLE";
 /** ป้ายอ่านง่ายของ Metier กลุ่มหลัก */
 export const METIER_LABEL: Record<string, string> = {
   NOT_APPLICABLE: "ไม่ใช่โอกาส",
-  "SOFTWARE DEVELOPMENT": "Software Dev",
-  "CREATIVE PRODUCTION": "Creative",
-  "MEDIA MANAGEMENT": "Media",
+  Software: "Software",
+  Creative: "Creative",
+  "Media Management": "Media",
 };
 
 /** สีประจำ Metier กลุ่มหลัก */
 export const METIER_STYLE: Record<string, { badge: string; dot: string }> = {
-  "SOFTWARE DEVELOPMENT": { badge: "bg-indigo-100 text-indigo-700", dot: "bg-indigo-500" },
-  "CREATIVE PRODUCTION": { badge: "bg-pink-100 text-pink-700", dot: "bg-pink-500" },
-  "MEDIA MANAGEMENT": { badge: "bg-cyan-100 text-cyan-700", dot: "bg-cyan-500" },
+  Software: { badge: "bg-indigo-100 text-indigo-700", dot: "bg-indigo-500" },
+  Creative: { badge: "bg-pink-100 text-pink-700", dot: "bg-pink-500" },
+  "Media Management": { badge: "bg-cyan-100 text-cyan-700", dot: "bg-cyan-500" },
   NOT_APPLICABLE: { badge: "bg-slate-100 text-slate-400", dot: "bg-slate-300" },
 };
 

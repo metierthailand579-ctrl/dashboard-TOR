@@ -8,14 +8,14 @@ export interface Project {
   budgetRange: string;
   code: string;
   name: string;
-  /** กลุ่มงานหลัก (ระบบ A — work_category) = workGroup */
+  /** กลุ่มหลัก (work_category) = workGroup */
   group: string;
-  /** กลุ่มงานย่อย (ระบบ A) = workSubGroup */
+  /** กลุ่มย่อย = workSubGroup */
   subGroup: string;
-  /** ระบบ A: กลุ่มงาน (เหมือน group/subGroup) */
+  /** กลุ่มงาน (เหมือน group/subGroup) */
   workGroup: string;
   workSubGroup: string;
-  /** ระบบ B: โอกาสธุรกิจ Metier (NOT_APPLICABLE = ไม่ใช่โอกาส) */
+  /** โอกาสธุรกิจ Metier (derive จากกลุ่มที่ไม่ขึ้นต้นด้วยเลข; NOT_APPLICABLE = ไม่ใช่โอกาส) */
   metierGroup: string;
   metierSubGroup: string;
   fileCount: number;
