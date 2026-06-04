@@ -5,9 +5,7 @@ import type { HealthStatus, ProcurementType, ProjectWithHealth } from "@/types";
 import {
   BUDGET_ORDER,
   BUDGET_SHORT,
-  METIER_LABEL,
   METIER_NA,
-  METIER_STYLE,
   PROCUREMENT_TYPES,
   READ_STATUS_ORDER,
   READ_STATUS_STYLE,
@@ -19,21 +17,12 @@ export function SummaryClient({ projects }: { projects: ProjectWithHealth[] }) {
   const [types, setTypes] = useState<Set<ProcurementType>>(new Set());
   const [budgets, setBudgets] = useState<Set<string>>(new Set());
   const [groups, setGroups] = useState<Set<string>>(new Set());
-  const [metiers, setMetiers] = useState<Set<string>>(new Set());
   const [healths, setHealths] = useState<Set<HealthStatus>>(new Set());
-  const [onlyMetier, setOnlyMetier] = useState(false);
 
   const groupOptions = useMemo(
     () => Array.from(new Set(projects.map((p) => p.workGroup))).sort((a, b) => a.localeCompare(b, "th")),
     [projects]
   );
-  const metierOptions = useMemo(() => {
-    const c = new Map<string, number>();
-    for (const p of projects) c.set(p.metierGroup, (c.get(p.metierGroup) ?? 0) + 1);
-    return Array.from(c.entries())
-      .sort((a, b) => (a[0] === METIER_NA ? 1 : b[0] === METIER_NA ? -1 : b[1] - a[1]))
-      .map(([g]) => g);
-  }, [projects]);
   const healthOptions = useMemo(() => {
     const present = new Set(projects.map((p) => p.health.status));
     return READ_STATUS_ORDER.filter((s) => present.has(s));
@@ -45,12 +34,10 @@ export function SummaryClient({ projects }: { projects: ProjectWithHealth[] }) {
         const mType = types.size === 0 || types.has(p.type);
         const mBudget = budgets.size === 0 || budgets.has(p.budgetRange);
         const mGroup = groups.size === 0 || groups.has(p.workGroup);
-        const mMetier = metiers.size === 0 || metiers.has(p.metierGroup);
         const mHealth = healths.size === 0 || healths.has(p.health.status);
-        const mOnly = !onlyMetier || p.metierGroup !== METIER_NA;
-        return mType && mBudget && mGroup && mMetier && mHealth && mOnly;
+        return mType && mBudget && mGroup && mHealth;
       }),
-    [projects, types, budgets, groups, metiers, healths, onlyMetier]
+    [projects, types, budgets, groups, healths]
   );
 
   const summary = useMemo(() => buildSummary(filtered), [filtered]);
@@ -64,13 +51,10 @@ export function SummaryClient({ projects }: { projects: ProjectWithHealth[] }) {
     setTypes(new Set());
     setBudgets(new Set());
     setGroups(new Set());
-    setMetiers(new Set());
     setHealths(new Set());
-    setOnlyMetier(false);
   }
   const hasFilter =
-    types.size > 0 || budgets.size > 0 || groups.size > 0 ||
-    metiers.size > 0 || healths.size > 0 || onlyMetier;
+    types.size > 0 || budgets.size > 0 || groups.size > 0 || healths.size > 0;
 
   return (
     <div className="space-y-5">
@@ -100,19 +84,6 @@ export function SummaryClient({ projects }: { projects: ProjectWithHealth[] }) {
           ))}
         </FilterRow>
 
-        <FilterRow label="Metier">
-          {metierOptions.map((m) => (
-            <Chip
-              key={m}
-              active={metiers.has(m)}
-              onClick={() => setMetiers((s) => toggleSet(s, m))}
-              className={METIER_STYLE[m]?.badge}
-            >
-              {METIER_LABEL[m] ?? m}
-            </Chip>
-          ))}
-        </FilterRow>
-
         <FilterRow label="TOR Health">
           {healthOptions.map((h) => (
             <Chip
@@ -127,15 +98,6 @@ export function SummaryClient({ projects }: { projects: ProjectWithHealth[] }) {
         </FilterRow>
 
         <div className="flex flex-wrap items-center gap-3 pt-1">
-          <label className="flex cursor-pointer items-center gap-2 text-sm text-slate-600">
-            <input
-              type="checkbox"
-              checked={onlyMetier}
-              onChange={(e) => setOnlyMetier(e.target.checked)}
-              className="h-4 w-4 rounded border-slate-300 text-brand-600 focus:ring-brand-500"
-            />
-            เฉพาะโอกาสธุรกิจ Metier
-          </label>
           {hasFilter && (
             <button
               onClick={clearFilters}

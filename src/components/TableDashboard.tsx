@@ -62,10 +62,8 @@ export function TableDashboard({
   const [types, setTypes] = useState<Set<ProcurementType>>(new Set());
   const [budgets, setBudgets] = useState<Set<string>>(new Set());
   const [groups, setGroups] = useState<Set<string>>(new Set());
-  const [metiers, setMetiers] = useState<Set<string>>(new Set());
   const [healths, setHealths] = useState<Set<HealthStatus>>(new Set());
   const [onlyTor, setOnlyTor] = useState(false);
-  const [onlyMetier, setOnlyMetier] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>("order");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [view, setView] = useState<ViewMode>("flat");
@@ -79,19 +77,6 @@ export function TableDashboard({
     );
   }, [projects]);
 
-  // ตัวเลือก Metier (โอกาสก่อน, NOT_APPLICABLE ท้าย)
-  const metierOptions = useMemo(() => {
-    const count = new Map<string, number>();
-    for (const p of projects) count.set(p.metierGroup, (count.get(p.metierGroup) ?? 0) + 1);
-    return Array.from(count.entries())
-      .sort((a, b) => {
-        if (a[0] === METIER_NA) return 1;
-        if (b[0] === METIER_NA) return -1;
-        return b[1] - a[1];
-      })
-      .map(([g]) => g);
-  }, [projects]);
-
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     const rows = projects.filter((p) => {
@@ -100,14 +85,9 @@ export function TableDashboard({
       const matchType = types.size === 0 || types.has(p.type);
       const matchBudget = budgets.size === 0 || budgets.has(p.budgetRange);
       const matchGroup = groups.size === 0 || groups.has(p.workGroup);
-      const matchMetier = metiers.size === 0 || metiers.has(p.metierGroup);
       const matchHealth = healths.size === 0 || healths.has(p.health.status);
       const matchTor = !onlyTor || p.torFiles.length > 0;
-      const matchOnlyMetier = !onlyMetier || p.metierGroup !== METIER_NA;
-      return (
-        matchQuery && matchType && matchBudget && matchGroup &&
-        matchMetier && matchHealth && matchTor && matchOnlyMetier
-      );
+      return matchQuery && matchType && matchBudget && matchGroup && matchHealth && matchTor;
     });
 
     const dir = sortDir === "asc" ? 1 : -1;
@@ -140,7 +120,7 @@ export function TableDashboard({
           return (a.order - b.order) * dir;
       }
     });
-  }, [projects, query, types, budgets, groups, metiers, healths, onlyTor, onlyMetier, sortKey, sortDir]);
+  }, [projects, query, types, budgets, groups, healths, onlyTor, sortKey, sortDir]);
 
   // โครงสร้างจัดกลุ่ม: (กลุ่มหลัก -> กลุ่มย่อย -> โครงการ) ตามมิติที่เลือก
   const grouped = useMemo(() => {
@@ -182,10 +162,8 @@ export function TableDashboard({
     setTypes(new Set());
     setBudgets(new Set());
     setGroups(new Set());
-    setMetiers(new Set());
     setHealths(new Set());
     setOnlyTor(false);
-    setOnlyMetier(false);
   }
 
   function exportCsv() {
@@ -223,10 +201,8 @@ export function TableDashboard({
     types.size > 0 ||
     budgets.size > 0 ||
     groups.size > 0 ||
-    metiers.size > 0 ||
     healths.size > 0 ||
-    onlyTor ||
-    onlyMetier;
+    onlyTor;
 
   return (
     <div className="space-y-4">
@@ -274,19 +250,6 @@ export function TableDashboard({
           ))}
         </FilterRow>
 
-        <FilterRow label="Metier">
-          {metierOptions.map((m) => (
-            <Chip
-              key={m}
-              active={metiers.has(m)}
-              onClick={() => setMetiers((s) => toggleSet(s, m))}
-              className={METIER_STYLE[m]?.badge}
-            >
-              {METIER_LABEL[m] ?? m}
-            </Chip>
-          ))}
-        </FilterRow>
-
         <FilterRow label="TOR Health">
           {HEALTH_OPTIONS.filter((h) => (healthSummary[h] ?? 0) > 0).map((h) => (
             <Chip
@@ -309,15 +272,6 @@ export function TableDashboard({
               className="h-4 w-4 rounded border-slate-300 text-brand-600 focus:ring-brand-500"
             />
             เฉพาะที่มีไฟล์ TOR
-          </label>
-          <label className="flex cursor-pointer items-center gap-2 text-sm text-slate-600">
-            <input
-              type="checkbox"
-              checked={onlyMetier}
-              onChange={(e) => setOnlyMetier(e.target.checked)}
-              className="h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"
-            />
-            เฉพาะโอกาสธุรกิจ Metier
           </label>
 
           {/* สลับมุมมอง */}
