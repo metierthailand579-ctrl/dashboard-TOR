@@ -272,9 +272,10 @@ function Legend({
 }
 
 function Bar({ value, max, className }: { value: number; max: number; className: string }) {
+  const w = max > 0 ? (value / max) * 100 : 0;
   return (
     <div className="h-2 w-full overflow-hidden rounded-full bg-slate-100">
-      <div className={cn("h-full rounded-full", className)} style={{ width: `${(value / max) * 100}%` }} />
+      <div className={cn("h-full rounded-full", className)} style={{ width: `${w}%` }} />
     </div>
   );
 }
