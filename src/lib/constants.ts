@@ -71,6 +71,7 @@ export const METIER_LABEL: Record<string, string> = {
   Software: "Software",
   Creative: "Creative",
   "Media Management": "Media",
+  Marketing: "Marketing",
 };
 
 /** สีประจำ Metier กลุ่มหลัก */
@@ -78,6 +79,7 @@ export const METIER_STYLE: Record<string, { badge: string; dot: string }> = {
   Software: { badge: "bg-indigo-100 text-indigo-700", dot: "bg-indigo-500" },
   Creative: { badge: "bg-pink-100 text-pink-700", dot: "bg-pink-500" },
   "Media Management": { badge: "bg-cyan-100 text-cyan-700", dot: "bg-cyan-500" },
+  Marketing: { badge: "bg-rose-100 text-rose-700", dot: "bg-rose-500" },
   NOT_APPLICABLE: { badge: "bg-slate-100 text-slate-400", dot: "bg-slate-300" },
 };
 
