@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { PROCUREMENT_TYPES, TYPE_TO_SLUG } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -15,11 +16,18 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
-        <Link href="/" className="flex items-center gap-2 font-semibold text-slate-800">
-          <span className="grid h-8 w-8 place-items-center rounded-lg bg-brand-600 text-white">
-            TOR
+        <Link href="/" className="flex items-center gap-3" aria-label="Metier — หน้าแรก">
+          <Image
+            src="/brand/Metier-Color.png"
+            alt="Metier Thailand"
+            width={1920}
+            height={621}
+            priority
+            className="h-7 w-auto"
+          />
+          <span className="border-l border-slate-200 pl-3 text-sm font-semibold text-slate-800 sm:text-base">
+            ระบบเอกสาร TOR
           </span>
-          <span className="text-sm sm:text-base">ระบบเอกสารจัดซื้อจัดจ้าง</span>
         </Link>
 
         <nav className="flex flex-wrap items-center gap-1 text-sm">

@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Noto_Sans_Thai } from "next/font/google";
+import { IBM_Plex_Sans_Thai } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 
-const notoThai = Noto_Sans_Thai({
+// Metier brand typeface — IBM Plex Sans Thai
+const plexThai = IBM_Plex_Sans_Thai({
   subsets: ["thai", "latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-noto-thai",
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-plex-thai",
   display: "swap",
 });
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="th" className={notoThai.variable}>
+    <html lang="th" className={plexThai.variable}>
       <body className="font-sans">
         <SiteHeader />
         <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>

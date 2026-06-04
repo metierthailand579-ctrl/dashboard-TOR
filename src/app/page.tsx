@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getOverview, getStats } from "@/lib/data";
 import {
   BUDGET_ORDER,
@@ -15,12 +16,21 @@ export default function HomePage() {
 
   return (
     <div className="space-y-10">
-      {/* Hero */}
-      <section className="rounded-2xl bg-gradient-to-br from-brand-700 to-brand-900 p-8 text-white">
-        <h1 className="text-2xl font-bold sm:text-3xl">
-          ระบบเอกสารจัดซื้อจัดจ้าง (TOR)
+      {/* Hero — Metier brand: พื้นดำ + accent ส้ม + โลโก้ขาว */}
+      <section className="relative overflow-hidden rounded-2xl bg-black p-8 text-white">
+        {/* accent ส้มมุมขวาบน (ใช้น้อยตามแบรนด์) */}
+        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-brand-600/20 blur-2xl" />
+        <Image
+          src="/brand/Metier-Lockup-White.png"
+          alt="Metier Thailand"
+          width={1920}
+          height={622}
+          className="h-8 w-auto"
+        />
+        <h1 className="mt-5 text-2xl font-bold sm:text-3xl">
+          ระบบเอกสารจัดซื้อจัดจ้าง <span className="text-brand-500">(TOR)</span>
         </h1>
-        <p className="mt-2 max-w-2xl text-sm text-brand-100">
+        <p className="mt-2 max-w-2xl text-sm font-light text-slate-300">
           เปิดดูและค้นหาเอกสาร TOR ของทุกโครงการ จำแนกตามประเภทการจัดซื้อจัดจ้าง
           และช่วงวงเงินงบประมาณ
         </p>
@@ -110,9 +120,9 @@ export default function HomePage() {
 
 function Stat({ label, value }: { label: string; value: number }) {
   return (
-    <div className="rounded-lg bg-white/10 px-3 py-3 text-center">
-      <p className="text-2xl font-bold">{value}</p>
-      <p className="text-xs text-brand-100">{label}</p>
+    <div className="rounded-lg bg-white/10 px-3 py-3 text-center ring-1 ring-white/10">
+      <p className="text-2xl font-bold">{value.toLocaleString("th-TH")}</p>
+      <p className="text-xs font-light text-slate-400">{label}</p>
     </div>
   );
 }
