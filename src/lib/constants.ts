@@ -1,4 +1,4 @@
-import type { ProcurementType } from "@/types";
+import type { ProcurementType, TorStatus } from "@/types";
 
 /** ประเภททั้งหมด เรียงตามที่ต้องการแสดง */
 export const PROCUREMENT_TYPES: ProcurementType[] = [
@@ -87,6 +87,38 @@ export const METIER_STYLE: Record<string, { badge: string; dot: string }> = {
 export const OCR_STYLE: Record<string, string> = {
   "OCR อ่านได้": "bg-emerald-50 text-emerald-600",
   "OCR อ่านไม่ได้": "bg-red-50 text-red-600",
+};
+
+/** สถานะการจัดทำ TOR เรียงตามลำดับ workflow (to do → … → เสร็จสมบูรณ์) */
+export const TOR_STATUS_ORDER: TorStatus[] = [
+  "to do",
+  "skill.md",
+  "วางโครงร่างTOR",
+  "TOR เสร็จสมบูรณ์",
+];
+
+/** สีประจำสถานะการจัดทำ TOR */
+export const TOR_STATUS_STYLE: Record<TorStatus, { badge: string; dot: string; ring: string }> = {
+  "to do": {
+    badge: "bg-slate-100 text-slate-600",
+    dot: "bg-slate-400",
+    ring: "border-slate-300 focus:border-slate-400 focus:ring-slate-100",
+  },
+  "skill.md": {
+    badge: "bg-sky-100 text-sky-700",
+    dot: "bg-sky-500",
+    ring: "border-sky-300 focus:border-sky-400 focus:ring-sky-100",
+  },
+  วางโครงร่างTOR: {
+    badge: "bg-amber-100 text-amber-700",
+    dot: "bg-amber-500",
+    ring: "border-amber-300 focus:border-amber-400 focus:ring-amber-100",
+  },
+  "TOR เสร็จสมบูรณ์": {
+    badge: "bg-emerald-100 text-emerald-700",
+    dot: "bg-emerald-500",
+    ring: "border-emerald-300 focus:border-emerald-400 focus:ring-emerald-100",
+  },
 };
 
 /** ป้ายสั้นของช่วงวงเงิน (ใช้ในชิป/ตาราง) */

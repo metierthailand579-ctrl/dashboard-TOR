@@ -63,6 +63,35 @@ def build_projects(ws, files_by_code):
     return projects
 
 
+# ---- งานจัดทำ TOR: อ่านจากชีต "TOR" --------------------------------------
+# สถานะการจัดทำ TOR (workflow) — เลือก/บันทึกฝั่ง browser (localStorage)
+TOR_STATUSES = ["to do", "skill.md", "วางโครงร่างTOR", "TOR เสร็จสมบูรณ์"]
+TOR_DEFAULT_STATUS = "to do"
+
+
+def build_tor(ws):
+    """ชีต "TOR" (3 คอลัมน์): โครงการ | จำนวน TOR | Status
+    คืนรายการงานจัดทำ TOR พร้อมสถานะเริ่มต้น
+    (Status ใน Excel ว่าง → ใช้ค่าเริ่มต้น "to do"; ผู้ใช้เปลี่ยน/บันทึกในเว็บ)
+    """
+    items = []
+    order = 0
+    for r in list(ws.iter_rows(values_only=True))[1:]:
+        name = str(r[0]).strip() if r[0] is not None else ""
+        if not name:
+            continue
+        order += 1
+        raw_status = str(r[2]).strip() if r[2] is not None else ""
+        status = raw_status if raw_status in TOR_STATUSES else TOR_DEFAULT_STATUS
+        items.append({
+            "order": order,
+            "name": name,
+            "torCount": int(r[1]) if isinstance(r[1], (int, float)) else 0,
+            "status": status,
+        })
+    return items
+
+
 def build_overview(ws):
     """ชีตภาพรวม: ประเภท | ช่วงวงเงิน | จำนวนโครงการ | จำนวนไฟล์"""
     rows = list(ws.iter_rows(values_only=True))
@@ -217,6 +246,7 @@ def main():
     files_by_code = {code: [f["name"] for f in h["files"]] for code, h in health.items()}
     projects = build_projects(wb["รายการโครงการทั้งหมด"], files_by_code)
     overview = build_overview(wb["ภาพรวม"])
+    tor = build_tor(wb["TOR"]) if "TOR" in wb.sheetnames else []
 
     # โครงการที่ไม่มีข้อมูลตรวจ → สถานะ "ไม่มีข้อมูล"
     none_health = {"status": ST_NONE, "summary": ST_NONE,
@@ -238,6 +268,8 @@ def main():
         json.dump(projects, f, ensure_ascii=False, indent=2)
     with open(os.path.join(OUT, "overview.json"), "w", encoding="utf-8") as f:
         json.dump(overview, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(OUT, "tor.json"), "w", encoding="utf-8") as f:
+        json.dump(tor, f, ensure_ascii=False, indent=2)
     with open(os.path.join(OUT, "healthcheck.json"), "w", encoding="utf-8") as f:
         json.dump({
             "engine": "excel:เช็คการอ่านไฟล์",
@@ -250,6 +282,7 @@ def main():
     budgets = sorted(set(p["budgetRange"] for p in projects))
     print(f"✓ projects.json: {len(projects)} โครงการ")
     print(f"✓ overview.json: {len(overview)} แถว")
+    print(f"✓ tor.json: {len(tor)} งานจัดทำ TOR")
     print(f"✓ healthcheck.json: สรุปต่อโครงการ {project_summary}")
     print(f"  เข้าถึงข้อความได้ {file_summary['accessible']}/{file_summary['total']} ไฟล์ "
           f"(text {file_summary['textReady']} + OCR {file_summary['ocrOk']})")

@@ -92,6 +92,19 @@ export interface ProjectWithHealth extends Project {
   health: ProjectHealth;
 }
 
+/** สถานะการจัดทำ TOR (workflow) ตามชีต "TOR" */
+export type TorStatus = "to do" | "skill.md" | "วางโครงร่างTOR" | "TOR เสร็จสมบูรณ์";
+
+/** งานจัดทำ TOR 1 รายการ (ตรงกับชีต "TOR") */
+export interface TorItem {
+  order: number;
+  name: string;
+  /** จำนวน TOR ที่ต้องจัดทำในโครงการนี้ */
+  torCount: number;
+  /** สถานะเริ่มต้นจาก Excel (ผู้ใช้เปลี่ยน/บันทึกในเว็บผ่าน localStorage) */
+  status: TorStatus;
+}
+
 /** แถวสรุปจากชีต "ภาพรวม" (ประเภท × ช่วงวงเงิน) */
 export interface OverviewRow {
   type: ProcurementType;

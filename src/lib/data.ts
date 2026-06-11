@@ -2,6 +2,7 @@ import "server-only";
 import projectsJson from "@data/projects.json";
 import overviewJson from "@data/overview.json";
 import healthJson from "@data/healthcheck.json";
+import torJson from "@data/tor.json";
 import type {
   FileSummary,
   OverviewRow,
@@ -9,11 +10,13 @@ import type {
   Project,
   ProjectHealth,
   ProjectWithHealth,
+  TorItem,
 } from "@/types";
 import { BUDGET_ORDER, PROCUREMENT_TYPES } from "@/lib/constants";
 
 const projects = projectsJson as Project[];
 const overview = overviewJson as OverviewRow[];
+const torItems = torJson as TorItem[];
 const health = healthJson as {
   engine: string;
   summary: Record<string, number>;
@@ -61,6 +64,11 @@ export function getAllProjects(): Project[] {
 /** ตารางสรุปภาพรวม */
 export function getOverview(): OverviewRow[] {
   return overview;
+}
+
+/** งานจัดทำ TOR ทั้งหมด (จากชีต "TOR") */
+export function getTorItems(): TorItem[] {
+  return torItems;
 }
 
 /** โครงการตามรหัส */

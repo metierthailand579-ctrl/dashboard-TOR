@@ -37,6 +37,9 @@ export function SiteHeader() {
           <NavLink href="/table" active={isActive("/table")} primary>
             ตารางข้อมูล
           </NavLink>
+          <NavLink href="/tor" active={isActive("/tor")} primary>
+            งานจัดทำ TOR
+          </NavLink>
           {PROCUREMENT_TYPES.map((type) => {
             const href = `/type/${TYPE_TO_SLUG[type]}`;
             return (
