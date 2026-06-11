@@ -98,27 +98,11 @@ export const TOR_STATUS_ORDER: TorStatus[] = [
 ];
 
 /** สีประจำสถานะการจัดทำ TOR */
-export const TOR_STATUS_STYLE: Record<TorStatus, { badge: string; dot: string; ring: string }> = {
-  "to do": {
-    badge: "bg-slate-100 text-slate-600",
-    dot: "bg-slate-400",
-    ring: "border-slate-300 focus:border-slate-400 focus:ring-slate-100",
-  },
-  "skill.md": {
-    badge: "bg-sky-100 text-sky-700",
-    dot: "bg-sky-500",
-    ring: "border-sky-300 focus:border-sky-400 focus:ring-sky-100",
-  },
-  วางโครงร่างTOR: {
-    badge: "bg-amber-100 text-amber-700",
-    dot: "bg-amber-500",
-    ring: "border-amber-300 focus:border-amber-400 focus:ring-amber-100",
-  },
-  "TOR เสร็จสมบูรณ์": {
-    badge: "bg-emerald-100 text-emerald-700",
-    dot: "bg-emerald-500",
-    ring: "border-emerald-300 focus:border-emerald-400 focus:ring-emerald-100",
-  },
+export const TOR_STATUS_STYLE: Record<TorStatus, { badge: string; dot: string }> = {
+  "to do": { badge: "bg-slate-100 text-slate-600", dot: "bg-slate-400" },
+  "skill.md": { badge: "bg-sky-100 text-sky-700", dot: "bg-sky-500" },
+  วางโครงร่างTOR: { badge: "bg-amber-100 text-amber-700", dot: "bg-amber-500" },
+  "TOR เสร็จสมบูรณ์": { badge: "bg-emerald-100 text-emerald-700", dot: "bg-emerald-500" },
 };
 
 /** ป้ายสั้นของช่วงวงเงิน (ใช้ในชิป/ตาราง) */

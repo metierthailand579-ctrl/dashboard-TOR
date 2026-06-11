@@ -1,26 +1,68 @@
 [
   {
     "order": 1,
-    "name": "โครงการจัดทำแผนการสื่อสารประชาสัมพันธ์เทศบาลเมืองคลองหลวง",
-    "torCount": 3,
-    "status": "to do"
+    "name": "1. บริหารจัดการ",
+    "torCount": 52,
+    "status": "skill.md"
   },
   {
     "order": 2,
-    "name": "โครงการจัดทำแอพพลิเคชั่นเทศบาลเมืองคลองหลวง",
-    "torCount": 6,
-    "status": "to do"
+    "name": "2. โครงสร้างพื้นฐาน",
+    "torCount": 78,
+    "status": "skill.md"
   },
   {
     "order": 3,
-    "name": "โครงการปรับปรุงเว็บไซต์เทศบาลเมืองคลองหลวง",
-    "torCount": 12,
-    "status": "to do"
+    "name": "3. คุณภาพชีวิต",
+    "torCount": 34,
+    "status": "skill.md"
   },
   {
     "order": 4,
-    "name": "โครงการสัมมนาเชิงปฏิบัติการ Digital Transformation สำหรับองค์กรปกครองส่วนท้องถิ่น",
-    "torCount": 20,
-    "status": "to do"
+    "name": "4. ชุมชนเข้มแข็ง",
+    "torCount": 5,
+    "status": "skill.md"
+  },
+  {
+    "order": 5,
+    "name": "5. การศึกษา ศาสนา กีฬา",
+    "torCount": 8,
+    "status": "skill.md"
+  },
+  {
+    "order": 6,
+    "name": "6. ความสะอาดและสิ่งแวดล้อม",
+    "torCount": 19,
+    "status": "skill.md"
+  },
+  {
+    "order": 7,
+    "name": "7. ครุภัณฑ์",
+    "torCount": 64,
+    "status": "skill.md"
+  },
+  {
+    "order": 8,
+    "name": "Software Metier",
+    "torCount": 28,
+    "status": "skill.md"
+  },
+  {
+    "order": 9,
+    "name": "Creative Metier",
+    "torCount": 11,
+    "status": "skill.md"
+  },
+  {
+    "order": 10,
+    "name": "Media Metier",
+    "torCount": 1,
+    "status": "skill.md"
+  },
+  {
+    "order": 11,
+    "name": "Marketing Metier",
+    "torCount": 1,
+    "status": "skill.md"
   }
 ]
