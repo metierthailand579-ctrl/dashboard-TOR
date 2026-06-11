@@ -3566,6 +3566,33 @@
     "order": 126,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68059072912",
+    "name": "จ้างเหมาตรวจวิเคราะห์ทางห้องปฏิบัติการพยาธิวิทยากายวิภาค ด้วยวิธีอิเ",
+    "group": "3. คุณภาพชีวิต",
+    "subGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "workGroup": "3. คุณภาพชีวิต",
+    "workSubGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 5,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_2.pdf",
+      "Attach_TOR_1.pdf",
+      "annoudoc_00113350080000000_68059072912.pdf",
+      "doc_00113350080000000_68059072912.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 127,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68069196315",
     "name": "จ้างจัดทำสื่อประชาสัมพันธ์สร้างภาพลักษณ์องค์กร ปี พ.ศ. 2569 ด้วยวิธี",
     "group": "Marketing Metier",
@@ -3588,7 +3615,7 @@
     ]
   },
   {
-    "order": 127,
+    "order": 128,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68069325757",
@@ -3615,7 +3642,7 @@
     ]
   },
   {
-    "order": 128,
+    "order": 129,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68069413444",
@@ -3632,7 +3659,32 @@
     "torFiles": []
   },
   {
-    "order": 129,
+    "order": 130,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68069485523",
+    "name": "จ้างโครงการตัดเครื่องแบบกรมสรรพสามิตให้แก่บุคลากรสังกัดส่วนกลาง ประจำปี 2568 ภ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "จัดหาเครื่องแต่งกาย/วัสดุทั่วไป",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "จัดหาเครื่องแต่งกาย/วัสดุทั่วไป",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0300600000_68069485523.pdf",
+      "doc_0300600000_68069485523.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 131,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68079066256",
@@ -3659,7 +3711,7 @@
     ]
   },
   {
-    "order": 130,
+    "order": 132,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68079336848",
@@ -3684,7 +3736,32 @@
     ]
   },
   {
-    "order": 131,
+    "order": 133,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68079417423",
+    "name": "จ้างเหมาบำรุงรักษาเครื่องจักรกลและระบบควบคุมการทำงานของเครื่องจักรกลในระบบบำบั",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_310000110000358_68079417423.pdf",
+      "doc_310000110000358_68079417423.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 134,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68079523140",
@@ -3709,7 +3786,32 @@
     ]
   },
   {
-    "order": 132,
+    "order": 135,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68079557989",
+    "name": "จ้างเหมาบริการพนักงานทำความสะอาดสถานที่ ด้วยวิธีอิเล็กทรอนิกส์ (e-bi",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "ทำความสะอาด",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "ทำความสะอาด",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_2100200197_68079557989.pdf",
+      "doc_2100200197_68079557989.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 136,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68079639317",
@@ -3735,7 +3837,30 @@
     ]
   },
   {
-    "order": 133,
+    "order": 137,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68079655913",
+    "name": "จ้างเหมาบำรุงรักษาเครื่องปรับอากาศชนิดแยกส่วนและชนิดรวมศูนย์ ปีงบประมาณ พ.ศ.๒๕",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "CCF23092568.pdf",
+      "annoudoc_00107290070000000_68079655913.pdf",
+      "doc_00107290070000000_68079655913.pdf"
+    ],
+    "torFiles": []
+  },
+  {
+    "order": 138,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68089269520",
@@ -3764,7 +3889,34 @@
     ]
   },
   {
-    "order": 134,
+    "order": 139,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089381355",
+    "name": "จ้างติดตั้งระบบผลิตไฟฟ้าพลังงานแสงอาทิตย์ ( Solar Rooftop) ให้กับโรงเรียนและวั",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ไฟฟ้า-พลังงานแสงอาทิตย์",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ไฟฟ้า-พลังงานแสงอาทิตย์",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "annoudoc_1200200059_68089381355.pdf",
+      "doc_1200200059_68089381355.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf"
+    ]
+  },
+  {
+    "order": 140,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68089404244",
@@ -3789,7 +3941,7 @@
     ]
   },
   {
-    "order": 135,
+    "order": 141,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68089422744",
@@ -3814,7 +3966,82 @@
     ]
   },
   {
-    "order": 136,
+    "order": 142,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089459073",
+    "name": "จ้างซ่อมแซมป้ายไฟริมทางหลวง(Tower Sign)และซ่อมแซมป้ายชื่อโรงพยาบาลวัดเพลงบริเว",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "annoudoc_00112770070000000_68089459073.pdf",
+      "doc_00112770070000000_68089459073.pdf",
+      "tor_68089459073_df3f2074-1c30-4550-8314-d771467d0fae.pdf"
+    ],
+    "torFiles": [
+      "tor_68089459073_df3f2074-1c30-4550-8314-d771467d0fae.pdf"
+    ]
+  },
+  {
+    "order": 143,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089512838",
+    "name": "จ้างเหมาประกอบ ติดตั้ง บำรุงรักษา และพัฒนาระบบตรวจวัดจัดเก็บสภาวะแวดล้อมเชิงพื",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_190513000001_68089512838.pdf",
+      "doc_190513000001_68089512838.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 144,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089523580",
+    "name": "จ้างรวบรวมข้อมูลข้อความและทำความสะอาดข้อมูลข้อความด้านคุณลักษณะความเป็นไทยเพื่",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "ทำความสะอาด",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "ทำความสะอาด",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_190513000001_68089523580.pdf",
+      "doc_190513000001_68089523580.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 145,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68089537413",
@@ -3839,7 +4066,340 @@
     ]
   },
   {
-    "order": 137,
+    "order": 146,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089617745",
+    "name": "จ้างเหมาบริการตรวจวิเคราะห์ทางห้องปฏิบัติการ ด้วยวิธีอิเล็กทรอนิกส์",
+    "group": "3. คุณภาพชีวิต",
+    "subGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "workGroup": "3. คุณภาพชีวิต",
+    "workSubGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_00107870015000000_68089617745.pdf",
+      "doc_00107870015000000_68089617745.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 147,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089660602",
+    "name": "จ้างบำรุงรักษาระบบ Gateway M-Flow ประจำปีงบประมาณ ๒๕๖๙ ด้วยวิธีอิเล็",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_5030100000_68089660602.pdf",
+      "doc_5030100000_68089660602.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 148,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68089674846",
+    "name": "จ้างปรับปรุงห้องผ่าตัด ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding)",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "20250911141110429.pdf",
+      "annoudoc_00113300080000000_68089674846.pdf",
+      "doc_00113300080000000_68089674846.pdf"
+    ],
+    "torFiles": []
+  },
+  {
+    "order": 149,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099035039",
+    "name": "จ้างเหมาทำฟันปลอม ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding)",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_2100200176_68099035039.pdf",
+      "doc_2100200176_68099035039.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 150,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099038797",
+    "name": "จ้างโครงการระบบเพิ่มประสิทธิภาพการให้บริการเทคโนโลยีสารสนเทศ พร้อมค่าติดตั้ง จ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "ระบบสารสนเทศ/ดิจิทัล/ซอฟต์แวร์",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "ระบบสารสนเทศ/ดิจิทัล/ซอฟต์แวร์",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 7,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "Attach_TOR_4.pdf",
+      "annoudoc_141010120010000000_68099038797.pdf",
+      "doc_141010120010000000_68099038797.pdf",
+      "tor_68099038797_d4f3ec7e-6080-4dac-b36b-d2738c9f58c9.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "Attach_TOR_4.pdf",
+      "tor_68099038797_d4f3ec7e-6080-4dac-b36b-d2738c9f58c9.pdf"
+    ]
+  },
+  {
+    "order": 151,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099049896",
+    "name": "จ้างพัฒนาระบบบริหารจัดการทรัพยากรองค์กร จำนวน 1 ระบบ ด้วยวิธีอิเล็กท",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0701700000_68099049896.pdf",
+      "doc_0701700000_68099049896.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 152,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099060611",
+    "name": "จ้างจ้างเหมาบุคคลภายนอกดำเนินการเกี่ยวกับมิเตอร์แรงต่ำ ปี 2568 (งานตัด-ต่อกลับ",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-สำนักงาน",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-สำนักงาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_S50653000001_68099060611.pdf",
+      "doc_S50653000001_68099060611.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 153,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099110709",
+    "name": "จ้างเหมาติดตั้งระบบเครือข่ายคอมพิวเตอร์หลักความเร็วสูง ด้วยวิธีอิเล็",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-คอมพิวเตอร์/IT",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-คอมพิวเตอร์/IT",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_00107870015000000_68099110709.pdf",
+      "doc_00107870015000000_68099110709.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 154,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099134189",
+    "name": "จ้างเหมาบริการรักษาความปลอดภัย (12 คน) จำนวน 1 งาน ระยะเวลาในการจ้าง 12 เดือน",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "รักษาความปลอดภัย",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "รักษาความปลอดภัย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_2101200000_68099134189.pdf",
+      "doc_2101200000_68099134189.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 155,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099137423",
+    "name": "จ้างเหมาตรวจชิ้นเนื้อทางพยาธิวิทยา ประจำปีงบประมาณ 2569-2570 โรงพยาบาลอู่ทอง ด",
+    "group": "3. คุณภาพชีวิต",
+    "subGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "workGroup": "3. คุณภาพชีวิต",
+    "workSubGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_00112950072000000_68099137423.pdf",
+      "doc_00112950072000000_68099137423.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 156,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099140831",
+    "name": "จ้างเหมาตรวจทางห้องปฏิบัติการภายนอก ประจำปีงบประมาณ 2569 โรงพยาบาลอู่ทอง ด้วยว",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_00112950072000000_68099140831.pdf",
+      "doc_00112950072000000_68099140831.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 157,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099156707",
+    "name": "จ้างทำระบบสารสนเทศอัจฉริยะ TU GPT 1 ระบบ ด้วยวิธีอิเล็กทรอนิกส์ (e-b",
+    "group": "Software Metier",
+    "subGroup": "Smart City/Platform Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "Smart City/Platform Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "Smart City/Platform Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_141310050213000000_68099156707.pdf",
+      "doc_141310050213000000_68099156707.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 158,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099158130",
+    "name": "จ้างเหมาบริการพนักงานทำความสะอาดและคนสวน ประจำปีงบประมาณ พ.ศ. 2569 ด้วยวิธีประ",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "ทำความสะอาด",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "ทำความสะอาด",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0300500053_68099158130.pdf",
+      "doc_0300500053_68099158130.pdf",
+      "tor_68099158130_3375500d-60d5-4e5f-bdf3-bc5ccdcea579.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "tor_68099158130_3375500d-60d5-4e5f-bdf3-bc5ccdcea579.pdf"
+    ]
+  },
+  {
+    "order": 159,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099190175",
@@ -3864,7 +4424,7 @@
     ]
   },
   {
-    "order": 138,
+    "order": 160,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099194003",
@@ -3889,7 +4449,7 @@
     ]
   },
   {
-    "order": 139,
+    "order": 161,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099214375",
@@ -3916,7 +4476,57 @@
     ]
   },
   {
-    "order": 140,
+    "order": 162,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099233506",
+    "name": "จ้างโครงการเพิ่มประสิทธิภาพการวิเคราะห์ข้อมูลงบการเงินบริษัทประกันภัยด้วยเทคโน",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "annoudoc_0301300000_68099233506.pdf",
+      "doc_0301300000_68099233506.pdf",
+      "tor.pdf"
+    ],
+    "torFiles": [
+      "tor.pdf"
+    ]
+  },
+  {
+    "order": 163,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099234754",
+    "name": "จ้างปรับปรุงหอผู้ป่วยศัลยกรรมวิกฤตชาย ชั้น 7 และ ชั้น 9 อาคารนวราชจักรี ด้วยวิ",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_00114700010000001_68099234754.pdf",
+      "doc_00114700010000001_68099234754.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 164,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099239213",
@@ -3945,7 +4555,35 @@
     ]
   },
   {
-    "order": 141,
+    "order": 165,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099241450",
+    "name": "จ้างเหมาเจ้าหน้าที่รักษาความปลอดภัยบริเวณโดยรอบท่าเทียบเรือเพ อำเภอเมืองระยอง",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "รักษาความปลอดภัย",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "รักษาความปลอดภัย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 5,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "annoudoc_1509905273_68099241450.pdf",
+      "doc_1509905273_68099241450.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf"
+    ]
+  },
+  {
+    "order": 166,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099246632",
@@ -3970,7 +4608,110 @@
     ]
   },
   {
-    "order": 142,
+    "order": 167,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099261740",
+    "name": "จ้างจ้างจัดงาน Defense Security ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding)",
+    "group": "Creative Metier",
+    "subGroup": "Event Marketing/Festival",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Event Marketing/Festival",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Event Marketing/Festival",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0200900000_68099261740.pdf",
+      "doc_0200900000_68099261740.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 168,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099263803",
+    "name": "จ้างจ้างตัดวัสดุงานบ้านงานครัว จำนวน 17 รายการ ด้วยวิธีอิเล็กทรอนิกส",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "จัดหาเครื่องแต่งกาย/วัสดุทั่วไป",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "จัดหาเครื่องแต่งกาย/วัสดุทั่วไป",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_00124380010000000_68099263803.pdf",
+      "doc_00124380010000000_68099263803.pdf",
+      "tor_68099263803_dfe129b9-3fda-4a6b-aa99-067dc817b334.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "tor_68099263803_dfe129b9-3fda-4a6b-aa99-067dc817b334.pdf"
+    ]
+  },
+  {
+    "order": 169,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099268861",
+    "name": "จ้างดำเนินการปรับปรุงกระแสไฟฟ้าสำหรับห้องปฏิบัติการระบบเครือข่ายคอมพิวเตอร์ (D",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-คอมพิวเตอร์/IT",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-คอมพิวเตอร์/IT",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_0500400000_68099268861.pdf",
+      "doc_0500400000_68099268861.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 170,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099270043",
+    "name": "จ้างเหมาประกอบอาหาร(ปรุงสำเร็จ) สำหรับผู้ป่วยใน โรงพยาบาลปากน้ำหลังสวน ปีงบประ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "annoudoc_00113800086000000_68099270043.pdf",
+      "doc_00113800086000000_68099270043.pdf",
+      "tor_68099270043_19e297c1-a097-484a-b911-d21e0ffe76a3.pdf"
+    ],
+    "torFiles": [
+      "tor_68099270043_19e297c1-a097-484a-b911-d21e0ffe76a3.pdf"
+    ]
+  },
+  {
+    "order": 171,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099277342",
@@ -3995,7 +4736,462 @@
     ]
   },
   {
-    "order": 143,
+    "order": 172,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099282565",
+    "name": "จ้างผู้ให้บริการภายนอกตรวจสอบกองทุนพัฒนาไฟฟ้าในพื้นที่ประกาศ ที่อยู่ภายใต้การก",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "ตรวจสอบ-ที่ปรึกษา",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "ตรวจสอบ-ที่ปรึกษา",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_120810000001_68099282565.pdf",
+      "doc_120810000001_68099282565.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 173,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099284064",
+    "name": "จ้างโครงการผลิตชุดนิทรรศการเคลื่อนที่ Roll Up ด้วยวิธีอิเล็กทรอนิกส์",
+    "group": "Creative Metier",
+    "subGroup": "Event Marketing/Festival",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Event Marketing/Festival",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Event Marketing/Festival",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_1700600000_68099284064.pdf",
+      "doc_1700600000_68099284064.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 174,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099288594",
+    "name": "จ้างจ้างเผยแพร่สื่อโฆษณาผ่านพื้นที่โฆษณาเหมาจ่ายผ่านทาง Online platform, สื่อโ",
+    "group": "Software Metier",
+    "subGroup": "Smart City/Platform Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "Smart City/Platform Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "Smart City/Platform Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_141022270010000000_68099288594.pdf",
+      "doc_141022270010000000_68099288594.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 175,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099292524",
+    "name": "จ้างโครงการจัดการแข่งขันกระดานยืนพายชิงชนะเลิศแห่งประเทศไทย สนามเขื่อนรัชชประภ",
+    "group": "5. การศึกษา ศาสนา กีฬา",
+    "subGroup": "กีฬา-การแข่งขัน",
+    "workGroup": "5. การศึกษา ศาสนา กีฬา",
+    "workSubGroup": "กีฬา-การแข่งขัน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_050284000002_68099292524.pdf",
+      "doc_050284000002_68099292524.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 176,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099301187",
+    "name": "จ้างเอกชนดำเนินการล้างรถขยะ ประจำปีงบประมาณ 2569 ด้วยวิธีอิเล็กทรอนิ",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "กำจัดขยะ/ของเสีย",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "กำจัดขยะ/ของเสีย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_TOR_1.pdf",
+      "annoudoc_383010183000000_68099301187.pdf",
+      "doc_383010183000000_68099301187.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 177,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099327525",
+    "name": "จ้างครุภัณฑ์ปรับปรุงและพัฒนาระบบทะเบียนและประมวลผล ตำบลหันตรา อำเภอพระนครศรีอย",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "annoudoc_2017200000_68099327525.pdf",
+      "doc_2017200000_68099327525.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf"
+    ]
+  },
+  {
+    "order": 178,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099345642",
+    "name": "จ้างเหมาเอกชนรักษาความสะอาดกวาดถนนและทางเท้า เทศบาลนครนครปฐม ประจำปีงบประมาณ พ",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "กำจัดขยะ/ของเสีย",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "กำจัดขยะ/ของเสีย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_1509901973_68099345642.pdf",
+      "doc_1509901973_68099345642.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 179,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099360046",
+    "name": "จ้างทำและติดตั้งเครื่องยกพร้อมเพลา และบานระบาย พร้อมอุปกรณ์ประกอบ รวม 4 รายการ",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ประปา-แหล่งน้ำ",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ประปา-แหล่งน้ำ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_TOR_1.pdf",
+      "annoudoc_0700300189_68099360046.pdf",
+      "doc_0700300189_68099360046.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 180,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099362549",
+    "name": "จ้างเหมาบริการพนักงานรักษาความปลอดภัยดูแลทรัพย์สิน และรักษาความปลอดภัยให้กับโร",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "รักษาความปลอดภัย",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "รักษาความปลอดภัย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "annoudoc_101031900510000000_68099362549.pdf",
+      "doc_101031900510000000_68099362549.pdf",
+      "tor_68099362549_4e3d0a57-29fe-4fa2-ab85-8a655e46a13b.pdf"
+    ],
+    "torFiles": [
+      "tor_68099362549_4e3d0a57-29fe-4fa2-ab85-8a655e46a13b.pdf"
+    ]
+  },
+  {
+    "order": 181,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099371424",
+    "name": "จ้างเหมาบริการเครื่องสลายนิ่วระบบทางเดินปัสสาวะ แบบเคลื่อนที่ จำนวน 1 งาน ด้วย",
+    "group": "3. คุณภาพชีวิต",
+    "subGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "workGroup": "3. คุณภาพชีวิต",
+    "workSubGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 6,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_2.pdf",
+      "Attach_PUB_3.pdf",
+      "annoudoc_2100200080_68099371424.pdf",
+      "doc_2100200080_68099371424.pdf",
+      "tor_68099371424_d66790b6-7339-4717-999c-574c9449dffa.pdf"
+    ],
+    "torFiles": [
+      "tor_68099371424_d66790b6-7339-4717-999c-574c9449dffa.pdf"
+    ]
+  },
+  {
+    "order": 182,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099373811",
+    "name": "จ้างเหมาเจ้าหน้าที่รักษาความปลอดภัย, เจ้าหน้าที่รักษาความสะอาด และจ้างเหมาบำรุ",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "กำจัดขยะ/ของเสีย",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "กำจัดขยะ/ของเสีย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 7,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_2.pdf",
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "annoudoc_1509905273_68099373811.pdf",
+      "doc_1509905273_68099373811.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf"
+    ]
+  },
+  {
+    "order": 183,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099374121",
+    "name": "จ้างบริการและบำรุงรักษาระบบปรับอากาศ อาคารศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 6,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_3.pdf",
+      "PB01.pdf",
+      "annoudoc_2100200080_68099374121.pdf",
+      "doc_2100200080_68099374121.pdf",
+      "tor_68099374121_7dea5894-e68e-4357-8109-df39ebb7e5f1.pdf"
+    ],
+    "torFiles": [
+      "tor_68099374121_7dea5894-e68e-4357-8109-df39ebb7e5f1.pdf"
+    ]
+  },
+  {
+    "order": 184,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099375212",
+    "name": "จ้างซ่อมครุภัณฑ์วิทยาศาสตร์ 2 รายการ (ครั้งที่ ๒) ด้วยวิธีอิเล็กทรอน",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-วิทยาศาสตร์/การแพทย์",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-วิทยาศาสตร์/การแพทย์",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0900900017_68099375212.pdf",
+      "doc_0900900017_68099375212.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 185,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099380083",
+    "name": "จ้างปรับปรุงจอแอลอีดีและเวทีห้องประชุมชั้น 3 อาคารอเนกประสงค์ ด้วยวิธีประกวดรา",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_102101200121000000_68099380083.pdf",
+      "doc_102101200121000000_68099380083.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 186,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099387432",
+    "name": "จ้างเหมาบริการทำความสะอาดสถานีขนส่งผู้โดยสารจังหวัดระยอง แห่งที่ ๒ จำนวน ๔ ราย",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "ทำความสะอาด",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "ทำความสะอาด",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 5,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_2.pdf",
+      "TOR.pdf",
+      "annoudoc_1509905273_68099387432.pdf",
+      "doc_1509905273_68099387432.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 187,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099389481",
+    "name": "จ้างจัดหาและติดตั้งเครื่องสูบน้ำชนิดหอยโข่งพร้อมอุปกรณ์ครบชุด จำนวน 4 รายการ ส",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ประปา-แหล่งน้ำ",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ประปา-แหล่งน้ำ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 9,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "Attach_TOR_4.pdf",
+      "Attach_TOR_5.pdf",
+      "Attach_TOR_6.pdf",
+      "annoudoc_0700300219_68099389481.pdf",
+      "doc_0700300219_68099389481.pdf",
+      "tor_68099389481_4631850f-68f1-4093-8195-4cd3243aec51.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "Attach_TOR_4.pdf",
+      "Attach_TOR_5.pdf",
+      "Attach_TOR_6.pdf",
+      "tor_68099389481_4631850f-68f1-4093-8195-4cd3243aec51.pdf"
+    ]
+  },
+  {
+    "order": 188,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099401037",
+    "name": "จ้างงานสำรวจหาจุดรั่วในระบบจ่ายน้ำ พื้นที่สำนักงานประปาสาขาสมุทรปราการ โซน 01",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ประปา-แหล่งน้ำ",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ประปา-แหล่งน้ำ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_S60111000001_68099401037.pdf",
+      "doc_S60111000001_68099401037.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 189,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099401240",
@@ -4022,7 +5218,7 @@
     ]
   },
   {
-    "order": 144,
+    "order": 190,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099404668",
@@ -4047,7 +5243,32 @@
     ]
   },
   {
-    "order": 145,
+    "order": 191,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099408532",
+    "name": "จ้างพัฒนาระบบติดตามและประเมินผลการดำเนินการตามตัวชี้วัดของสำนักงานมาตรฐานสินค้",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0701400000_68099408532.pdf",
+      "doc_0701400000_68099408532.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 192,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099408546",
@@ -4074,7 +5295,87 @@
     ]
   },
   {
-    "order": 146,
+    "order": 193,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099411651",
+    "name": "จ้างโครงการจัดจ้างบริการบำรุงรักษาระบบ Data Loss_Leak Prevention (DLP) ด้วยวิธ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_5071100000_68099411651.pdf",
+      "doc_5071100000_68099411651.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 194,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099416845",
+    "name": "จ้างงานจัดจ้างผู้ให้บริการตรวจสอบป้ายหรือสิ่งที่สร้างขึ้นสำหรับติดตั้งป้ายของธ",
+    "group": "3. คุณภาพชีวิต",
+    "subGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "workGroup": "3. คุณภาพชีวิต",
+    "workSubGroup": "บริการตรวจวินิจฉัย/แล็บ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 7,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_2.pdf",
+      "Attach_PUB_3.pdf",
+      "Attach_PUB_4.pdf",
+      "Attach_TOR_1.pdf",
+      "annoudoc_5070800000_68099416845.pdf",
+      "doc_5070800000_68099416845.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 195,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099417197",
+    "name": "จ้างจ้างเหมาบริการกำจัดขยะมูลฝอยและสิ่งปฏิกูลภายในเขตพื้นที่ตำบลตะนาวศรี ประจำ",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "กำจัดขยะ/ของเสีย",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "กำจัดขยะ/ของเสีย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_TOR_1.pdf",
+      "annoudoc_1509905380_68099417197.pdf",
+      "doc_1509905380_68099417197.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 196,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099422223",
@@ -4100,7 +5401,92 @@
     ]
   },
   {
-    "order": 147,
+    "order": 197,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099423352",
+    "name": "จ้างครูชาวต่างประเทศสอนภาษาอังกฤษ ภาคเรียนที่ 2_2568 - 1_2569 จำนวน 1 งาน รายล",
+    "group": "5. การศึกษา ศาสนา กีฬา",
+    "subGroup": "สื่อ/อุปกรณ์การเรียนการสอน",
+    "workGroup": "5. การศึกษา ศาสนา กีฬา",
+    "workSubGroup": "สื่อ/อุปกรณ์การเรียนการสอน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 7,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_PUB_2.pdf",
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "annoudoc_107401200574000000_68099423352.pdf",
+      "doc_107401200574000000_68099423352.pdf",
+      "tor_68099423352_8bf8b6a6-a4aa-4b9c-b8ef-78a7feef7b51.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "tor_68099423352_8bf8b6a6-a4aa-4b9c-b8ef-78a7feef7b51.pdf"
+    ]
+  },
+  {
+    "order": 198,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099424670",
+    "name": "จ้างโครงการจ้างเหมาบริการรักษาความปลอดภัยในเขตเทศบาลเมืองบ้านฉาง จำนวน ๓ แห่ง",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "รักษาความปลอดภัย",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "รักษาความปลอดภัย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 5,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "annoudoc_421020121000000_68099424670.pdf",
+      "doc_421020121000000_68099424670.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf"
+    ]
+  },
+  {
+    "order": 199,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099425017",
+    "name": "จ้างค่าจ้างเหมาทำความสะอาดอาคารสำนักงานเขตพระนคร ประจำปีงบประมาณ พ.ศ.2569 จำนว",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "ทำความสะอาด",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "ทำความสะอาด",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_310000110000257_68099425017.pdf",
+      "doc_310000110000257_68099425017.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 200,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099428035",
@@ -4117,7 +5503,7 @@
     "torFiles": []
   },
   {
-    "order": 148,
+    "order": 201,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099430905",
@@ -4144,7 +5530,7 @@
     ]
   },
   {
-    "order": 149,
+    "order": 202,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099431615",
@@ -4171,7 +5557,32 @@
     ]
   },
   {
-    "order": 150,
+    "order": 203,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099444959",
+    "name": "จ้างระบบการจัดการแฟ้มสะสมผลงานอิเล็กทรอนิกส์สำหรับนักศึกษา (e-Portfolio) ส่วนเ",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_141022270010000000_68099444959.pdf",
+      "doc_141022270010000000_68099444959.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 204,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099445270",
@@ -4198,7 +5609,32 @@
     ]
   },
   {
-    "order": 151,
+    "order": 205,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099452820",
+    "name": "จ้างงานปรับปรุงถอดเปลี่ยน ยก ย้ายมาตรวัดน้ำและงานที่เกี่ยวข้อง พื้นที่สำนักงาน",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ประปา-แหล่งน้ำ",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ประปา-แหล่งน้ำ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_S60110000007_68099452820.pdf",
+      "doc_S60110000007_68099452820.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 206,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099453139",
@@ -4215,7 +5651,160 @@
     "torFiles": []
   },
   {
-    "order": 152,
+    "order": 207,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099464989",
+    "name": "จ้างจ้างเหมาทำความสะอาดอาคารศาลากลางจังหวัดเชียงรายและอาคารหอประชุม ประจำปีงบป",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "ทำความสะอาด",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "ทำความสะอาด",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_1500200065_68099464989.pdf",
+      "doc_1500200065_68099464989.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 208,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099470256",
+    "name": "จ้างทำและติดตั้งถังประปารูปถ้วยแชมเปญ ขนาด ๓๐ ลบ.ม. สูง ๓๐ ม. ตามแบบ สชป.๔-๑๓๗",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ประปา-แหล่งน้ำ",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ประปา-แหล่งน้ำ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_0700300194_68099470256.pdf",
+      "doc_0700300194_68099470256.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 209,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099470577",
+    "name": "จ้างงานปรับปรุง ถอดเปลี่ยน ยก_ย้ายมาตรวัดน้ำและงานที่เกี่ยวข้อง พื้นที่สำนักงา",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ประปา-แหล่งน้ำ",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ประปา-แหล่งน้ำ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_S60111000001_68099470577.pdf",
+      "doc_S60111000001_68099470577.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 210,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099472906",
+    "name": "จ้างเหมาบริการจัดการเรียนการสอนโครงการ Intensive English Program IEP ภาคเรียนท",
+    "group": "5. การศึกษา ศาสนา กีฬา",
+    "subGroup": "สื่อ/อุปกรณ์การเรียนการสอน",
+    "workGroup": "5. การศึกษา ศาสนา กีฬา",
+    "workSubGroup": "สื่อ/อุปกรณ์การเรียนการสอน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "annoudoc_101002201310000000_68099472906.pdf",
+      "doc_101002201310000000_68099472906.pdf",
+      "tor_68099472906_2da9216d-74fd-4ed1-9d37-6d1d1e175f1d.pdf"
+    ],
+    "torFiles": [
+      "tor_68099472906_2da9216d-74fd-4ed1-9d37-6d1d1e175f1d.pdf"
+    ]
+  },
+  {
+    "order": 211,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099473543",
+    "name": "จ้างเหมาบริการรักษาความสะอาดอาคารที่พักบุคลากร พระวรุณ ๑-๕ จำนวน ๑๑ เดือน (๑ พ",
+    "group": "6. ความสะอาดและสิ่งแวดล้อม",
+    "subGroup": "กำจัดขยะ/ของเสีย",
+    "workGroup": "6. ความสะอาดและสิ่งแวดล้อม",
+    "workSubGroup": "กำจัดขยะ/ของเสีย",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_2014700000_68099473543.pdf",
+      "doc_2014700000_68099473543.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 212,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099503783",
+    "name": "จ้างงานบำรุงรักษาและตรวจสอบโบราณสถานและอนุสาวรีย์ในเขตกรุงเทพมหานคร (งานบำรุงร",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "บำรุงรักษา/ซ่อม",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "บำรุงรักษา/ซ่อม",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 6,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "1-TOR.pdf",
+      "2-PLAN.pdf",
+      "3-BIDREG.pdf",
+      "4-PRICE-TABLE.pdf",
+      "annoudoc_3100001100000179_68099503783.pdf",
+      "doc_3100001100000179_68099503783.pdf"
+    ],
+    "torFiles": [
+      "1-TOR.pdf"
+    ]
+  },
+  {
+    "order": 213,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099510542",
@@ -4252,7 +5841,7 @@
     ]
   },
   {
-    "order": 153,
+    "order": 214,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099511254",
@@ -4277,7 +5866,32 @@
     ]
   },
   {
-    "order": 154,
+    "order": 215,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099515672",
+    "name": "จ้างปรับปรุงห้องประชุม ๑ , ๒ และ ๓ อาคาร ๑ ชั้น ๘ กรมทรัพยากรน้ำบาดาล จำนวน ๑",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR8123.pdf",
+      "annoudoc_0900700001_68099515672.pdf",
+      "doc_0900700001_68099515672.pdf"
+    ],
+    "torFiles": [
+      "TOR8123.pdf"
+    ]
+  },
+  {
+    "order": 216,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099522652",
@@ -4302,7 +5916,109 @@
     ]
   },
   {
-    "order": 155,
+    "order": 217,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099536369",
+    "name": "จ้างงานจ้างเหมาบริการถ่ายภาพหมู่บัณฑิต จำนวน 1 งาน ด้วยวิธีอิเล็กทรอ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_2014400000_68099536369.pdf",
+      "doc_2014400000_68099536369.pdf",
+      "tor_68099536369_d2c73350-9d89-4333-bd19-ff5bb0029917.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "tor_68099536369_d2c73350-9d89-4333-bd19-ff5bb0029917.pdf"
+    ]
+  },
+  {
+    "order": 218,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099544496",
+    "name": "จ้างโครงการจ้างเหมาบริการระบบรักษาความมั่นคงปลอดภัย และการเฝ้าระวังภัยคุกคามทา",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_0104200000_68099544496.pdf",
+      "doc_0104200000_68099544496.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 219,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099545400",
+    "name": "จ้างบริการบำรุงรักษาและซ่อมแซมแก้ไขคอมพิวเตอร์สำหรับโครงการพัฒนาระบบสารสนเทศเพ",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "3.1 TOR.pdf",
+      "annoudoc_0301100000_68099545400.pdf",
+      "doc_0301100000_68099545400.pdf"
+    ],
+    "torFiles": [
+      "3.1 TOR.pdf"
+    ]
+  },
+  {
+    "order": 220,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099548161",
+    "name": "จ้างเหมาประกอบอาหารผู้ป่วย (ปรุงสำเร็จ) ปีงบประมาณ 2569 ด้วยวิธีอิเล",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.25.9.68.pdf",
+      "annoudoc_00111390050000000_68099548161.pdf",
+      "doc_00111390050000000_68099548161.pdf"
+    ],
+    "torFiles": [
+      "TOR.25.9.68.pdf"
+    ]
+  },
+  {
+    "order": 221,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099554254",
@@ -4327,7 +6043,32 @@
     ]
   },
   {
-    "order": 156,
+    "order": 222,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099556336",
+    "name": "จ้างโครงการพัฒนาทักษะการบริหารจัดการโครงการไฟฟ้าพลังน้ำ และโรงไฟฟ้าพลังงานแสงอ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "ฝึกอบรม-พัฒนาบุคลากร",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "ฝึกอบรม-พัฒนาบุคลากร",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_1200500000_68099556336.pdf",
+      "doc_1200500000_68099556336.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 223,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099563228",
@@ -4352,7 +6093,7 @@
     ]
   },
   {
-    "order": 157,
+    "order": 224,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099564203",
@@ -4378,7 +6119,65 @@
     ]
   },
   {
-    "order": 158,
+    "order": 225,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099573477",
+    "name": "จ้างงานจ้างปรับปรุงวัสดุกันรั่วดาดฟ้า อาคาร Garden Wing ด้วยวิธีอิเล",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_S32511000000_68099573477.pdf",
+      "doc_S32511000000_68099573477.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 226,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099579670",
+    "name": "จ้างพัฒนาระบบให้บริการยืมทรัพยากรผ่านมือถือ (Mobile Check-Out) พร้อมค่าติดตั้ง",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 8,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_5.pdf",
+      "TOR.pdf",
+      "annoudoc_141010120010000000_68099579670.pdf",
+      "blank_boq.pdf",
+      "boq.pdf",
+      "doc_141010120010000000_68099579670.pdf",
+      "tor_68099579670_aaafd3ad-dbcf-47df-9535-5c280f0be847.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_5.pdf",
+      "TOR.pdf",
+      "tor_68099579670_aaafd3ad-dbcf-47df-9535-5c280f0be847.pdf"
+    ]
+  },
+  {
+    "order": 227,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099589082",
@@ -4403,7 +6202,96 @@
     ]
   },
   {
-    "order": 159,
+    "order": 228,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099593467",
+    "name": "จ้างจ้างเหมาบริการผ่าตัดต้อกระจก จำนวน ๖๐๐ ข้าง ด้วยวิธีอิเล็กทรอนิก",
+    "group": "3. คุณภาพชีวิต",
+    "subGroup": "เวชภัณฑ์ยา/วัสดุการแพทย์",
+    "workGroup": "3. คุณภาพชีวิต",
+    "workSubGroup": "เวชภัณฑ์ยา/วัสดุการแพทย์",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 9,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "Attach_TOR_4.pdf",
+      "Attach_TOR_5.pdf",
+      "Attach_TOR_6.pdf",
+      "annoudoc_00107520011000000_68099593467.pdf",
+      "doc_00107520011000000_68099593467.pdf",
+      "tor_68099593467_e750f660-3f7c-4fae-9fd3-892149275256.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "Attach_TOR_2.pdf",
+      "Attach_TOR_3.pdf",
+      "Attach_TOR_4.pdf",
+      "Attach_TOR_5.pdf",
+      "Attach_TOR_6.pdf",
+      "tor_68099593467_e750f660-3f7c-4fae-9fd3-892149275256.pdf"
+    ]
+  },
+  {
+    "order": 229,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099595306",
+    "name": "จ้างจ้างเหมาบริการจัดเก็บขยะมูลฝอยในพื้นที่ตำบลทรงคนอง ปีงบประมาณ 2569 (ตั้งแต",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_2.pdf",
+      "TOR.pdf",
+      "annoudoc_1509906563_68099595306.pdf",
+      "doc_1509906563_68099595306.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_2.pdf",
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 230,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099605258",
+    "name": "จ้างออกแบบและเตรียมพื้นที่ทดสอบนอกห้องปฏิบัติการพร้อมอุปกรณ์ทดสอบการชนรถยนต์แบ",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-ยานพาหนะ",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-ยานพาหนะ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_5050100000_68099605258.pdf",
+      "doc_5050100000_68099605258.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 231,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099608315",
@@ -4428,7 +6316,85 @@
     ]
   },
   {
-    "order": 160,
+    "order": 232,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099611461",
+    "name": "จ้างเหมาบริการรถยนต์โดยสารปรับอากาศสองชั้น ในกิจกรรมทัศนศึกษาแหล่งเรียนรู้ ปีก",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-ยานพาหนะ",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-ยานพาหนะ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_1.pdf",
+      "Attach_TOR_1.pdf",
+      "annoudoc_102701200227000000_68099611461.pdf",
+      "doc_102701200227000000_68099611461.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 233,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099617282",
+    "name": "จ้างค่าจ้างเหมาป้องกันและกำจัดปลวกภายในโรงเรียนสังกัดกรุงเทพมหานคร ด้วยวิธีประ",
+    "group": "1. บริหารจัดการ",
+    "subGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "workGroup": "1. บริหารจัดการ",
+    "workSubGroup": "เช่า-จ้างเหมาบริการ (ทั่วไป)",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 4,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_310000110000028_68099617282.pdf",
+      "doc_310000110000028_68099617282.pdf",
+      "tor_68099617282_05a88b3d-a2ed-474f-bf80-d8a4732c538d.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf",
+      "tor_68099617282_05a88b3d-a2ed-474f-bf80-d8a4732c538d.pdf"
+    ]
+  },
+  {
+    "order": 234,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099619319",
+    "name": "จ้างตกแต่งเพิ่มเติมภายในพื้นที่สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (แห่ง",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "อาคาร/สิ่งก่อสร้าง/ลาน",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "TOR.pdf",
+      "annoudoc_110110000001_68099619319.pdf",
+      "doc_110110000001_68099619319.pdf"
+    ],
+    "torFiles": [
+      "TOR.pdf"
+    ]
+  },
+  {
+    "order": 235,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099626891",
@@ -4455,7 +6421,7 @@
     ]
   },
   {
-    "order": 161,
+    "order": 236,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099641658",
@@ -4480,7 +6446,32 @@
     ]
   },
   {
-    "order": 162,
+    "order": 237,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "68099649969",
+    "name": "จ้างออกแบบและเตรียมพื้นที่ทดสอบนอกห้องปฏิบัติการพร้อมอุปกรณ์ทดสอบการชนรถยนต์แบ",
+    "group": "7. ครุภัณฑ์",
+    "subGroup": "ครุภัณฑ์-ยานพาหนะ",
+    "workGroup": "7. ครุภัณฑ์",
+    "workSubGroup": "ครุภัณฑ์-ยานพาหนะ",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_5050100000_68099649969.pdf",
+      "doc_5050100000_68099649969.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 238,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099655417",
@@ -4505,7 +6496,7 @@
     ]
   },
   {
-    "order": 163,
+    "order": 239,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099661781",
@@ -4530,7 +6521,7 @@
     ]
   },
   {
-    "order": 164,
+    "order": 240,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099668415",
@@ -4555,7 +6546,7 @@
     ]
   },
   {
-    "order": 165,
+    "order": 241,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68099685415",
@@ -4582,7 +6573,7 @@
     ]
   },
   {
-    "order": 166,
+    "order": 242,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109027416",
@@ -4607,7 +6598,7 @@
     ]
   },
   {
-    "order": 167,
+    "order": 243,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109062531",
@@ -4634,7 +6625,7 @@
     ]
   },
   {
-    "order": 168,
+    "order": 244,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109122664",
@@ -4659,7 +6650,7 @@
     ]
   },
   {
-    "order": 169,
+    "order": 245,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109142121",
@@ -4685,7 +6676,7 @@
     ]
   },
   {
-    "order": 170,
+    "order": 246,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109202854",
@@ -4710,7 +6701,7 @@
     ]
   },
   {
-    "order": 171,
+    "order": 247,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109216161",
@@ -4735,7 +6726,7 @@
     ]
   },
   {
-    "order": 172,
+    "order": 248,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109229179",
@@ -4760,7 +6751,7 @@
     ]
   },
   {
-    "order": 173,
+    "order": 249,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109312087",
@@ -4785,7 +6776,7 @@
     ]
   },
   {
-    "order": 174,
+    "order": 250,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109349204",
@@ -4810,7 +6801,7 @@
     ]
   },
   {
-    "order": 175,
+    "order": 251,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68109467403",
@@ -4827,7 +6818,7 @@
     "torFiles": []
   },
   {
-    "order": 176,
+    "order": 252,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68119280383",
@@ -4857,7 +6848,7 @@
     ]
   },
   {
-    "order": 177,
+    "order": 253,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68119313024",
@@ -4874,7 +6865,7 @@
     "torFiles": []
   },
   {
-    "order": 178,
+    "order": 254,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68119407661",
@@ -4901,7 +6892,7 @@
     ]
   },
   {
-    "order": 179,
+    "order": 255,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68119442116",
@@ -4926,7 +6917,7 @@
     ]
   },
   {
-    "order": 180,
+    "order": 256,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "68129058496",
@@ -4951,7 +6942,7 @@
     ]
   },
   {
-    "order": 181,
+    "order": 257,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69029032322",
@@ -4979,7 +6970,7 @@
     ]
   },
   {
-    "order": 182,
+    "order": 258,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69029034336",
@@ -5004,7 +6995,7 @@
     ]
   },
   {
-    "order": 183,
+    "order": 259,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69029348173",
@@ -5029,7 +7020,7 @@
     ]
   },
   {
-    "order": 184,
+    "order": 260,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69029398682",
@@ -5064,7 +7055,7 @@
     ]
   },
   {
-    "order": 185,
+    "order": 261,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69029525560",
@@ -5093,7 +7084,7 @@
     ]
   },
   {
-    "order": 186,
+    "order": 262,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69029528110",
@@ -5119,7 +7110,7 @@
     ]
   },
   {
-    "order": 187,
+    "order": 263,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69039215432",
@@ -5144,7 +7135,7 @@
     ]
   },
   {
-    "order": 188,
+    "order": 264,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69039314438",
@@ -5171,7 +7162,7 @@
     ]
   },
   {
-    "order": 189,
+    "order": 265,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69039395606",
@@ -5196,7 +7187,7 @@
     ]
   },
   {
-    "order": 190,
+    "order": 266,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69039555489",
@@ -5221,7 +7212,7 @@
     ]
   },
   {
-    "order": 191,
+    "order": 267,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69049208292",
@@ -5248,7 +7239,7 @@
     ]
   },
   {
-    "order": 192,
+    "order": 268,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69059057568",
@@ -5273,7 +7264,7 @@
     ]
   },
   {
-    "order": 193,
+    "order": 269,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69059221796",
@@ -5298,7 +7289,7 @@
     ]
   },
   {
-    "order": 194,
+    "order": 270,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69059280229",
@@ -5325,7 +7316,7 @@
     ]
   },
   {
-    "order": 195,
+    "order": 271,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69059456536",
@@ -5350,7 +7341,7 @@
     ]
   },
   {
-    "order": 196,
+    "order": 272,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
     "code": "69069004049",
@@ -5375,7 +7366,239 @@
     ]
   },
   {
-    "order": 197,
+    "order": 273,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างจัดโครงการฝึกอบรมหลักสูตร นักประชาสัมพันธ์ดิจิทัล Smart PR รุ่นที่ 4 ประจำปีงบประมาณ 2569 ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (เลขที่โครงการ _ 69029392732)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 2,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 274,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างจ้างจัดกิจกรรมการประชาสัมพันธ์เชิงรุกเพื่อสร้างการรับรู้เกี่ยวกับสำนักงาน กสทช. ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (เลขที่โครงการ _ 69049286250)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 4,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 275,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างดำเนินงานผลิตและเผยแพร่สื่อประชาสัมพันธ์สิทธิหลักประกันสุขภาพแห่งชาติผ่านช่องทางออนไลน์ ประจำปี 2569 ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (69059221796)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 3,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 276,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างบริหารจัดการรางวัลอุตสาหกรรมดีเด่น ประเภทเศรษฐกิจหมุนเวียน และจัดการสัมมนาวิชาการด้านเศรษฐกิจหมุนเวียน ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (68109129922)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 3,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 277,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างเหมาจัดกิจกรรมสัมมนาประจำปี 2569 คณะวิทยาการจัดการ ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding)  (69049182616)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 3,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 278,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างเหมาดำเนินงานกิจกรรมฝึกอบรมภายใน (In House Training) ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (เลขที่โครงการ _ 69049381511)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 0,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 279,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างโครงการจ้างผลิตสื่อและเผยแพร่ประชาสัมพันธ์กิจการเทศบาลเมืองป่าตอง ประจำปีงบประมาณ พ.ศ. ๒๕๖๘ ระยะเวลา ๑๐ เดือน  (วันที่ ๑ ธันวาคม ๒๕๖๗ - ๓๐ กันยายน ๒๕๖๘)  ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (เลขที่โครงการ _ 67109181343)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 3,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 280,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างโครงการประชาสัมพันธ์ผลการดำเนินงานขององค์การบริหารส่วนจังหวัดเพชรบูรณ์ ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (เลขที่โครงการ _ 69049230975)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 3,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 281,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
+    "code": "None",
+    "name": "จ้างโครงการประชาสัมพันธ์สำนักงานเศรษฐกิจอุตสาหกรรม ประจำปีงบประมาณ พ.ศ. ๒๕๖๙ ด้วยวิธีอิเล็กทรอนิกส์ (e-bidding) (เลขที่โครงการ _ 69019098356)",
+    "group": "Creative Metier",
+    "subGroup": "Content Creation / Graphic Design",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Content Creation / Graphic Design",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Content Creation / Graphic Design",
+    "fileCount": 3,
+    "fileTypes": [],
+    "files": [],
+    "torFiles": []
+  },
+  {
+    "order": 282,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "code": "68029191064",
+    "name": "จ้างติดตั้ง Stationary Battery with Monitoring System ด้วยวิธีอิเล็ก",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ไฟฟ้า-แสงสว่าง/สาธารณูปโภค",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ไฟฟ้า-แสงสว่าง/สาธารณูปโภค",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_S50610000181_68029191064.pdf",
+      "doc_S50610000181_68029191064.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 283,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "code": "68089307129",
+    "name": "จ้างบริการจัดหาตู้ตัดตอนไฟฟ้า (Switchgear) สถานีไฟฟ้าย่อยที่ 5 (ทดแทน) ด้วยวิธ",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ไฟฟ้า-แสงสว่าง/สาธารณูปโภค",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ไฟฟ้า-แสงสว่าง/สาธารณูปโภค",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 5,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_3.pdf",
+      "BOQ sub 5.pdf",
+      "TOR sub 5.pdf",
+      "annoudoc_S30420000001_68089307129.pdf",
+      "doc_S30420000001_68089307129.pdf"
+    ],
+    "torFiles": [
+      "TOR sub 5.pdf"
+    ]
+  },
+  {
+    "order": 284,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "code": "68089349862",
+    "name": "จ้างบริการจัดหาตู้ตัดตอนไฟฟ้า (Switchgear) สถานีไฟฟ้าย่อยที่ 3 (ทดแทน) ด้วยวิธ",
+    "group": "2. โครงสร้างพื้นฐาน",
+    "subGroup": "ไฟฟ้า-แสงสว่าง/สาธารณูปโภค",
+    "workGroup": "2. โครงสร้างพื้นฐาน",
+    "workSubGroup": "ไฟฟ้า-แสงสว่าง/สาธารณูปโภค",
+    "metierGroup": "NOT_APPLICABLE",
+    "metierSubGroup": "NOT_APPLICABLE",
+    "fileCount": 5,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_PUB_3.pdf",
+      "BOQ sub3.pdf",
+      "TOR sub 3.pdf",
+      "annoudoc_S30420000001_68089349862.pdf",
+      "doc_S30420000001_68089349862.pdf"
+    ],
+    "torFiles": [
+      "TOR sub 3.pdf"
+    ]
+  },
+  {
+    "order": 285,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69029334350",
@@ -5400,7 +7623,7 @@
     ]
   },
   {
-    "order": 198,
+    "order": 286,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69029493977",
@@ -5427,7 +7650,7 @@
     ]
   },
   {
-    "order": 199,
+    "order": 287,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69039228566",
@@ -5452,7 +7675,7 @@
     ]
   },
   {
-    "order": 200,
+    "order": 288,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69039516674",
@@ -5479,7 +7702,7 @@
     ]
   },
   {
-    "order": 201,
+    "order": 289,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69039545417",
@@ -5504,7 +7727,7 @@
     ]
   },
   {
-    "order": 202,
+    "order": 290,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69049171877",
@@ -5532,7 +7755,7 @@
     ]
   },
   {
-    "order": 203,
+    "order": 291,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69049263428",
@@ -5558,7 +7781,7 @@
     ]
   },
   {
-    "order": 204,
+    "order": 292,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69049277025",
@@ -5583,7 +7806,7 @@
     ]
   },
   {
-    "order": 205,
+    "order": 293,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69049424933",
@@ -5613,7 +7836,32 @@
     ]
   },
   {
-    "order": 206,
+    "order": 294,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "code": "69049438631",
+    "name": "จ้างโครงการพัฒนาระบบศูนย์บริการข้อมูล 1567 เพื่อประชาชน (Voice bot สายด่วน 156",
+    "group": "Software Metier",
+    "subGroup": "System Development",
+    "workGroup": "Software Metier",
+    "workSubGroup": "System Development",
+    "metierGroup": "Software Metier",
+    "metierSubGroup": "System Development",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_1500200000_69049438631.pdf",
+      "doc_1500200000_69049438631.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 295,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059005878",
@@ -5638,7 +7886,7 @@
     ]
   },
   {
-    "order": 207,
+    "order": 296,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059014485",
@@ -5663,7 +7911,32 @@
     ]
   },
   {
-    "order": 208,
+    "order": 297,
+    "type": "จ้างเหมาบริการ",
+    "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
+    "code": "69059040136",
+    "name": "จ้างโครงการมหกรรมประหยัดพลังงานกระตุ้นเศรษฐกิจพลังงานไทยสู่สังคมอย่างยั่งยืน (",
+    "group": "Creative Metier",
+    "subGroup": "Event Marketing/Festival",
+    "workGroup": "Creative Metier",
+    "workSubGroup": "Event Marketing/Festival",
+    "metierGroup": "Creative Metier",
+    "metierSubGroup": "Event Marketing/Festival",
+    "fileCount": 3,
+    "fileTypes": [
+      ".pdf"
+    ],
+    "files": [
+      "Attach_TOR_1.pdf",
+      "annoudoc_1200500000_69059040136.pdf",
+      "doc_1200500000_69059040136.pdf"
+    ],
+    "torFiles": [
+      "Attach_TOR_1.pdf"
+    ]
+  },
+  {
+    "order": 298,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059045394",
@@ -5690,7 +7963,7 @@
     ]
   },
   {
-    "order": 209,
+    "order": 299,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059098234",
@@ -5733,7 +8006,7 @@
     ]
   },
   {
-    "order": 210,
+    "order": 300,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059240470",
@@ -5758,7 +8031,7 @@
     ]
   },
   {
-    "order": 211,
+    "order": 301,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059366967",
@@ -5783,7 +8056,7 @@
     ]
   },
   {
-    "order": 212,
+    "order": 302,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059379766",
@@ -5808,7 +8081,7 @@
     ]
   },
   {
-    "order": 213,
+    "order": 303,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059408969",
@@ -5836,7 +8109,7 @@
     ]
   },
   {
-    "order": 214,
+    "order": 304,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059442451",
@@ -5863,7 +8136,7 @@
     ]
   },
   {
-    "order": 215,
+    "order": 305,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
     "code": "69059527411",
@@ -5888,7 +8161,7 @@
     ]
   },
   {
-    "order": 216,
+    "order": 306,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000,000 บาท",
     "code": "68129368616",
@@ -5937,7 +8210,7 @@
     ]
   },
   {
-    "order": 217,
+    "order": 307,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000,000 บาท",
     "code": "68129458483",
@@ -5966,7 +8239,7 @@
     ]
   },
   {
-    "order": 218,
+    "order": 308,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000,000 บาท",
     "code": "69019089331",
@@ -5994,7 +8267,7 @@
     ]
   },
   {
-    "order": 219,
+    "order": 309,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000,000 บาท",
     "code": "69049047148",
@@ -6020,7 +8293,7 @@
     ]
   },
   {
-    "order": 220,
+    "order": 310,
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000,000 บาท",
     "code": "69049065552",

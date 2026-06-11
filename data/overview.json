@@ -68,14 +68,14 @@
   {
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 500,000 ถึง 5,000,000 บาท",
-    "projectCount": 72,
-    "fileCount": 252
+    "projectCount": 157,
+    "fileCount": 566
   },
   {
     "type": "จ้างเหมาบริการ",
     "budgetRange": "มากกว่า 5,000,000 ถึง 500,000,000 บาท",
-    "projectCount": 19,
-    "fileCount": 81
+    "projectCount": 24,
+    "fileCount": 100
   },
   {
     "type": "จ้างเหมาบริการ",

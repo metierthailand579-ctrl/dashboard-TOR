@@ -1,18 +1,18 @@
 {
   "engine": "excel:เช็คการอ่านไฟล์",
   "summary": {
-    "อ่านได้บางส่วน": 173,
-    "อ่านได้": 36,
+    "อ่านได้บางส่วน": 239,
+    "อ่านได้": 51,
     "อ่านไม่ได้": 6,
-    "ไม่มีข้อมูล": 5
+    "ไม่มีข้อมูล": 14
   },
   "fileSummary": {
-    "textReady": 649,
-    "ocrOk": 386,
+    "textReady": 868,
+    "ocrOk": 500,
     "ocrFail": 3,
     "corrupt": 6,
-    "accessible": 1035,
-    "total": 1044
+    "accessible": 1368,
+    "total": 1377
   },
   "projects": {
     "68109277503": {
@@ -7604,6 +7604,63 @@
         }
       ]
     },
+    "68059072912": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 5/5 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 3,
+        "unreadable": 0,
+        "ocrOk": 3,
+        "ocrFail": 0,
+        "accessible": 5,
+        "total": 5
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2037.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,539 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3720.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,136 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 13055.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,754 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00113350080000000_68059072912.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.4,
+          "detail": "ดึงข้อความได้ 1,404 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00113350080000000_68059072912.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.1,
+          "detail": "ดึงข้อความได้ 33,459 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68069196315": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -7710,6 +7767,47 @@
       },
       "files": []
     },
+    "68069485523": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4898.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,939 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0300600000_68069485523.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 114.8,
+          "detail": "ดึงข้อความได้ 1,553 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0300600000_68069485523.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.5,
+          "detail": "ดึงข้อความได้ 29,355 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68079066256": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:3 / ต้อง OCR:1",
@@ -7800,6 +7898,47 @@
         }
       ]
     },
+    "68079417423": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4992.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,449 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_310000110000358_68079417423.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 102.1,
+          "detail": "ดึงข้อความได้ 1,444 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_310000110000358_68079417423.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.4,
+          "detail": "ดึงข้อความได้ 33,390 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68079523140": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -7837,6 +7976,47 @@
           "ocr": "OCR อ่านได้",
           "sizeKB": 5817.2,
           "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,062 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        }
+      ]
+    },
+    "68079557989": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 482.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,347 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2100200197_68079557989.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.3,
+          "detail": "ดึงข้อความได้ 1,454 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2100200197_68079557989.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.2,
+          "detail": "ดึงข้อความได้ 28,955 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -7886,6 +8066,47 @@
           "ocr": "— (มี text)",
           "sizeKB": 182.6,
           "detail": "ดึงข้อความได้ 31,248 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68079655913": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "CCF23092568.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 8228.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,004 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00107290070000000_68079655913.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 113.2,
+          "detail": "ดึงข้อความได้ 1,769 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00107290070000000_68079655913.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.1,
+          "detail": "ดึงข้อความได้ 28,757 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -7951,6 +8172,55 @@
           "ocr": "— (มี text)",
           "sizeKB": 189.7,
           "detail": "ดึงข้อความได้ 30,985 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089381355": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 159.8,
+          "detail": "ดึงข้อความได้ 2,099 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6433.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 357 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1200200059_68089381355.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 111.0,
+          "detail": "ดึงข้อความได้ 1,851 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1200200059_68089381355.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 185.7,
+          "detail": "ดึงข้อความได้ 30,496 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -8037,6 +8307,129 @@
         }
       ]
     },
+    "68089459073": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "annoudoc_00112770070000000_68089459073.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 111.3,
+          "detail": "ดึงข้อความได้ 1,514 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00112770070000000_68089459073.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.4,
+          "detail": "ดึงข้อความได้ 29,480 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68089459073_df3f2074-1c30-4550-8314-d771467d0fae.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 158.5,
+          "detail": "ดึงข้อความได้ 4,033 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089512838": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 1937.3,
+          "detail": "ดึงข้อความได้ 55,632 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_190513000001_68089512838.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 124.5,
+          "detail": "ดึงข้อความได้ 2,339 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_190513000001_68089512838.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 188.0,
+          "detail": "ดึงข้อความได้ 32,024 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089523580": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 1206.3,
+          "detail": "ดึงข้อความได้ 35,128 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_190513000001_68089523580.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 117.3,
+          "detail": "ดึงข้อความได้ 2,652 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_190513000001_68089523580.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 189.6,
+          "detail": "ดึงข้อความได้ 31,743 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68089537413": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -8074,6 +8467,579 @@
           "ocr": "— (มี text)",
           "sizeKB": 181.2,
           "detail": "ดึงข้อความได้ 29,431 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089617745": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 7943.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,954 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00107870015000000_68089617745.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.7,
+          "detail": "ดึงข้อความได้ 1,418 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00107870015000000_68089617745.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 174.0,
+          "detail": "ดึงข้อความได้ 28,664 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089660602": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3057.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,217 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_5030100000_68089660602.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 111.4,
+          "detail": "ดึงข้อความได้ 1,348 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_5030100000_68089660602.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 185.6,
+          "detail": "ดึงข้อความได้ 31,758 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089674846": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "20250911141110429.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 520.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,435 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00113300080000000_68089674846.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 106.8,
+          "detail": "ดึงข้อความได้ 1,802 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00113300080000000_68089674846.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 175.6,
+          "detail": "ดึงข้อความได้ 29,290 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099035039": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 459.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,457 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2100200176_68099035039.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.5,
+          "detail": "ดึงข้อความได้ 1,371 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2100200176_68099035039.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.5,
+          "detail": "ดึงข้อความได้ 28,964 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099038797": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 7/7 ไฟล์",
+      "counts": {
+        "readable": 4,
+        "ocr": 3,
+        "unreadable": 0,
+        "ocrOk": 3,
+        "ocrFail": 0,
+        "accessible": 7,
+        "total": 7
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 5205.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 891 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 820.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,499 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 11068.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 713 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_4.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 306.7,
+          "detail": "ดึงข้อความได้ 33,004 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_141010120010000000_68099038797.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 117.0,
+          "detail": "ดึงข้อความได้ 2,025 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_141010120010000000_68099038797.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.1,
+          "detail": "ดึงข้อความได้ 30,651 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099038797_d4f3ec7e-6080-4dac-b36b-d2738c9f58c9.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 140.0,
+          "detail": "ดึงข้อความได้ 6,520 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099049896": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 1115.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 141 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0701700000_68099049896.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.8,
+          "detail": "ดึงข้อความได้ 1,665 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0701700000_68099049896.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 185.0,
+          "detail": "ดึงข้อความได้ 30,715 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099060611": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 99.1,
+          "detail": "ดึงข้อความได้ 5,047 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S50653000001_68099060611.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 106.9,
+          "detail": "ดึงข้อความได้ 1,443 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S50653000001_68099060611.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 177.6,
+          "detail": "ดึงข้อความได้ 28,997 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099110709": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 8788.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,113 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00107870015000000_68099110709.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 101.4,
+          "detail": "ดึงข้อความได้ 1,308 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00107870015000000_68099110709.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 174.0,
+          "detail": "ดึงข้อความได้ 28,686 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099134189": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 1451.7,
+          "detail": "ดึงข้อความได้ 2,838 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2101200000_68099134189.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 102.9,
+          "detail": "ดึงข้อความได้ 1,347 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2101200000_68099134189.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.6,
+          "detail": "ดึงข้อความได้ 31,066 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099137423": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6443.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,429 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00112950072000000_68099137423.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 112.0,
+          "detail": "ดึงข้อความได้ 1,425 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00112950072000000_68099137423.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.3,
+          "detail": "ดึงข้อความได้ 29,115 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099140831": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6321.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,208 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00112950072000000_68099140831.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 112.6,
+          "detail": "ดึงข้อความได้ 1,426 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00112950072000000_68099140831.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 177.6,
+          "detail": "ดึงข้อความได้ 29,148 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099156707": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2070.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,371 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_141310050213000000_68099156707.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 100.5,
+          "detail": "ดึงข้อความได้ 1,371 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_141310050213000000_68099156707.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.2,
+          "detail": "ดึงข้อความได้ 29,205 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099158130": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:4",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 4,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 182.4,
+          "detail": "ดึงข้อความได้ 18,642 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0300500053_68099158130.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 109.5,
+          "detail": "ดึงข้อความได้ 1,631 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0300500053_68099158130.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.4,
+          "detail": "ดึงข้อความได้ 30,998 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099158130_3375500d-60d5-4e5f-bdf3-bc5ccdcea579.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 159.0,
+          "detail": "ดึงข้อความได้ 6,198 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -8209,6 +9175,88 @@
         }
       ]
     },
+    "68099233506": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "annoudoc_0301300000_68099233506.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.6,
+          "detail": "ดึงข้อความได้ 1,981 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0301300000_68099233506.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.0,
+          "detail": "ดึงข้อความได้ 28,648 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 11213.7,
+          "detail": "ดึงข้อความได้ 4,122 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099234754": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3500.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,931 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00114700010000001_68099234754.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 109.3,
+          "detail": "ดึงข้อความได้ 1,702 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00114700010000001_68099234754.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 177.3,
+          "detail": "ดึงข้อความได้ 29,088 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099239213": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:3 / ต้อง OCR:2",
@@ -8266,6 +9314,63 @@
         }
       ]
     },
+    "68099241450": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 5/5 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 5,
+        "total": 5
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 824.7,
+          "detail": "ดึงข้อความได้ 11,147 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 25.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 875 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 260.4,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,055 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1509905273_68099241450.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.4,
+          "detail": "ดึงข้อความได้ 1,503 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1509905273_68099241450.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.8,
+          "detail": "ดึงข้อความได้ 35,232 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099246632": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -8307,6 +9412,186 @@
         }
       ]
     },
+    "68099261740": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 10392.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,885 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0200900000_68099261740.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.7,
+          "detail": "ดึงข้อความได้ 1,770 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0200900000_68099261740.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 191.5,
+          "detail": "ดึงข้อความได้ 33,798 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099263803": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:4",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 4,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 1595.5,
+          "detail": "ดึงข้อความได้ 6,167 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00124380010000000_68099263803.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 108.2,
+          "detail": "ดึงข้อความได้ 1,385 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00124380010000000_68099263803.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.9,
+          "detail": "ดึงข้อความได้ 28,831 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099263803_dfe129b9-3fda-4a6b-aa99-067dc817b334.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 163.1,
+          "detail": "ดึงข้อความได้ 5,376 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099268861": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 582.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,428 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0500400000_68099268861.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 118.9,
+          "detail": "ดึงข้อความได้ 1,558 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0500400000_68099268861.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.5,
+          "detail": "ดึงข้อความได้ 29,698 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099270043": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2405.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,574 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00113800086000000_68099270043.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 111.0,
+          "detail": "ดึงข้อความได้ 1,406 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00113800086000000_68099270043.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.9,
+          "detail": "ดึงข้อความได้ 33,191 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099270043_19e297c1-a097-484a-b911-d21e0ffe76a3.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 131.1,
+          "detail": "ดึงข้อความได้ 9,742 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099277342": {
       "status": "อ่านได้",
       "summary": "อ่านได้:3",
@@ -8344,6 +9629,871 @@
           "ocr": "— (มี text)",
           "sizeKB": 182.8,
           "detail": "ดึงข้อความได้ 36,816 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099282565": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 5955.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,766 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_120810000001_68099282565.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 108.2,
+          "detail": "ดึงข้อความได้ 1,489 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_120810000001_68099282565.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 177.8,
+          "detail": "ดึงข้อความได้ 28,823 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099284064": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4411.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,604 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1700600000_68099284064.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.8,
+          "detail": "ดึงข้อความได้ 1,344 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1700600000_68099284064.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 179.5,
+          "detail": "ดึงข้อความได้ 30,318 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099288594": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4035.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,802 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_141022270010000000_68099288594.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 119.1,
+          "detail": "ดึงข้อความได้ 1,738 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_141022270010000000_68099288594.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 190.2,
+          "detail": "ดึงข้อความได้ 30,102 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099292524": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 8233.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,537 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_050284000002_68099292524.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 115.5,
+          "detail": "ดึงข้อความได้ 1,827 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_050284000002_68099292524.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.4,
+          "detail": "ดึงข้อความได้ 31,901 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099301187": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 125.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,308 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 506.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,480 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_383010183000000_68099301187.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.1,
+          "detail": "ดึงข้อความได้ 1,435 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_383010183000000_68099301187.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.9,
+          "detail": "ดึงข้อความได้ 33,087 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099327525": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 380.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,626 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 532.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,351 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2017200000_68099327525.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 115.6,
+          "detail": "ดึงข้อความได้ 1,567 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2017200000_68099327525.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.1,
+          "detail": "ดึงข้อความได้ 29,731 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099345642": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 364.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,447 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1509901973_68099345642.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 112.7,
+          "detail": "ดึงข้อความได้ 1,834 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1509901973_68099345642.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.9,
+          "detail": "ดึงข้อความได้ 28,621 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099360046": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 678.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 133 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 12892.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,924 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0700300189_68099360046.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 118.6,
+          "detail": "ดึงข้อความได้ 2,282 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0700300189_68099360046.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.3,
+          "detail": "ดึงข้อความได้ 31,835 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099362549": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "annoudoc_101031900510000000_68099362549.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 116.2,
+          "detail": "ดึงข้อความได้ 1,901 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_101031900510000000_68099362549.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.1,
+          "detail": "ดึงข้อความได้ 33,062 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099362549_4e3d0a57-29fe-4fa2-ab85-8a655e46a13b.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 167.8,
+          "detail": "ดึงข้อความได้ 9,355 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099371424": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:6",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 6/6 ไฟล์",
+      "counts": {
+        "readable": 6,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 6,
+        "total": 6
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 212.5,
+          "detail": "ดึงข้อความได้ 1,018 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 123.2,
+          "detail": "ดึงข้อความได้ 894 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 1577.6,
+          "detail": "ดึงข้อความได้ 10,487 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2100200080_68099371424.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 113.5,
+          "detail": "ดึงข้อความได้ 1,970 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2100200080_68099371424.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.8,
+          "detail": "ดึงข้อความได้ 30,220 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099371424_d66790b6-7339-4717-999c-574c9449dffa.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 155.2,
+          "detail": "ดึงข้อความได้ 10,390 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099373811": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:4",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 7/7 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 4,
+        "unreadable": 0,
+        "ocrOk": 4,
+        "ocrFail": 0,
+        "accessible": 7,
+        "total": 7
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 824.7,
+          "detail": "ดึงข้อความได้ 11,147 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 154.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 319 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2039.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,066 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3280.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,565 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2704.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,156 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1509905273_68099373811.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 112.7,
+          "detail": "ดึงข้อความได้ 1,853 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1509905273_68099373811.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 189.3,
+          "detail": "ดึงข้อความได้ 36,488 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099374121": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:6",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 6/6 ไฟล์",
+      "counts": {
+        "readable": 6,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 6,
+        "total": 6
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 51.2,
+          "detail": "ดึงข้อความได้ 863 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 2017.7,
+          "detail": "ดึงข้อความได้ 9,605 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "PB01.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 125.2,
+          "detail": "ดึงข้อความได้ 878 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2100200080_68099374121.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.2,
+          "detail": "ดึงข้อความได้ 1,980 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2100200080_68099374121.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.1,
+          "detail": "ดึงข้อความได้ 29,875 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099374121_7dea5894-e68e-4357-8109-df39ebb7e5f1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 131.9,
+          "detail": "ดึงข้อความได้ 10,155 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099375212": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2483.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,325 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0900900017_68099375212.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 111.9,
+          "detail": "ดึงข้อความได้ 1,438 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0900900017_68099375212.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 179.8,
+          "detail": "ดึงข้อความได้ 29,139 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099380083": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 1169.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,443 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_102101200121000000_68099380083.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 98.8,
+          "detail": "ดึงข้อความได้ 1,350 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_102101200121000000_68099380083.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.7,
+          "detail": "ดึงข้อความได้ 29,360 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099387432": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 5/5 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 5,
+        "total": 5
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 218.0,
+          "detail": "ดึงข้อความได้ 2,922 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 154.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 319 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 1833.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,116 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1509905273_68099387432.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 104.6,
+          "detail": "ดึงข้อความได้ 1,560 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1509905273_68099387432.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.5,
+          "detail": "ดึงข้อความได้ 34,189 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099389481": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:6",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 9/9 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 6,
+        "unreadable": 0,
+        "ocrOk": 6,
+        "ocrFail": 0,
+        "accessible": 9,
+        "total": 9
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 5236.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,258 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3561.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,715 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 927.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,726 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_4.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 1225.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,070 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_5.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 440.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 996 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_6.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 441.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,221 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0700300219_68099389481.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 120.9,
+          "detail": "ดึงข้อความได้ 2,581 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0700300219_68099389481.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 188.8,
+          "detail": "ดึงข้อความได้ 31,326 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099389481_4631850f-68f1-4093-8195-4cd3243aec51.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.6,
+          "detail": "ดึงข้อความได้ 9,564 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099401037": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4856.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,982 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S60111000001_68099401037.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.6,
+          "detail": "ดึงข้อความได้ 1,468 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S60111000001_68099401037.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.9,
+          "detail": "ดึงข้อความได้ 30,596 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -8438,6 +10588,47 @@
         }
       ]
     },
+    "68099408532": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 13116.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 3,003 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0701400000_68099408532.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.5,
+          "detail": "ดึงข้อความได้ 1,488 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0701400000_68099408532.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 193.1,
+          "detail": "ดึงข้อความได้ 37,779 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099408546": {
       "status": "อ่านได้",
       "summary": "อ่านได้:4",
@@ -8487,6 +10678,169 @@
         }
       ]
     },
+    "68099411651": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 13795.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,326 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_5071100000_68099411651.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.9,
+          "detail": "ดึงข้อความได้ 1,409 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_5071100000_68099411651.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 183.9,
+          "detail": "ดึงข้อความได้ 30,368 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099416845": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:6 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 7/7 ไฟล์",
+      "counts": {
+        "readable": 6,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 7,
+        "total": 7
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 472.3,
+          "detail": "ดึงข้อความได้ 19,777 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 261.6,
+          "detail": "ดึงข้อความได้ 8,508 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 170.7,
+          "detail": "ดึงข้อความได้ 1,591 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_4.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 103.6,
+          "detail": "ดึงข้อความได้ 6,219 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 770.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,049 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_5070800000_68099416845.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 117.6,
+          "detail": "ดึงข้อความได้ 1,887 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_5070800000_68099416845.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 182.1,
+          "detail": "ดึงข้อความได้ 30,729 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099417197": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 1058.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,987 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 1058.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,987 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1509905380_68099417197.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 113.8,
+          "detail": "ดึงข้อความได้ 1,403 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1509905380_68099417197.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.6,
+          "detail": "ดึงข้อความได้ 29,793 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099422223": {
       "status": "อ่านได้",
       "summary": "อ่านได้:4",
@@ -8532,6 +10886,177 @@
           "ocr": "— (มี text)",
           "sizeKB": 184.8,
           "detail": "ดึงข้อความได้ 31,978 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099423352": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:4",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 7/7 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 4,
+        "unreadable": 0,
+        "ocrOk": 4,
+        "ocrFail": 0,
+        "accessible": 7,
+        "total": 7
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2579.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,813 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_PUB_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 794.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,548 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2579.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,813 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 794.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,548 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_107401200574000000_68099423352.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 118.8,
+          "detail": "ดึงข้อความได้ 1,725 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_107401200574000000_68099423352.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.4,
+          "detail": "ดึงข้อความได้ 30,961 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099423352_8bf8b6a6-a4aa-4b9c-b8ef-78a7feef7b51.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 168.4,
+          "detail": "ดึงข้อความได้ 7,638 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099424670": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 5/5 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 3,
+        "unreadable": 0,
+        "ocrOk": 3,
+        "ocrFail": 0,
+        "accessible": 5,
+        "total": 5
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 409.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,025 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 514.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,152 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 787.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,807 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_421020121000000_68099424670.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 120.9,
+          "detail": "ดึงข้อความได้ 3,181 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_421020121000000_68099424670.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.5,
+          "detail": "ดึงข้อความได้ 33,097 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099425017": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 632.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,473 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_310000110000257_68099425017.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 130.7,
+          "detail": "ดึงข้อความได้ 6,223 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_310000110000257_68099425017.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.9,
+          "detail": "ดึงข้อความได้ 32,654 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -8650,6 +11175,47 @@
         }
       ]
     },
+    "68099444959": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 25683.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,927 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_141022270010000000_68099444959.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 113.0,
+          "detail": "ดึงข้อความได้ 1,486 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_141022270010000000_68099444959.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.4,
+          "detail": "ดึงข้อความได้ 29,732 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099445270": {
       "status": "อ่านได้",
       "summary": "อ่านได้:4",
@@ -8699,6 +11265,47 @@
         }
       ]
     },
+    "68099452820": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 5726.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 923 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S60110000007_68099452820.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.8,
+          "detail": "ดึงข้อความได้ 1,698 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S60110000007_68099452820.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.3,
+          "detail": "ดึงข้อความได้ 30,071 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099453139": {
       "status": "ไม่มีข้อมูล",
       "summary": "ไม่มีข้อมูล",
@@ -8714,6 +11321,276 @@
         "total": 0
       },
       "files": []
+    },
+    "68099464989": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 2442.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,239 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1500200065_68099464989.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 106.9,
+          "detail": "ดึงข้อความได้ 1,437 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1500200065_68099464989.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 175.3,
+          "detail": "ดึงข้อความได้ 31,111 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099470256": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 13284.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,385 ตัวอักษร (หน้า 2)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0700300194_68099470256.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 126.6,
+          "detail": "ดึงข้อความได้ 2,450 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0700300194_68099470256.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.0,
+          "detail": "ดึงข้อความได้ 34,916 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099470577": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4381.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,811 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S60111000001_68099470577.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.3,
+          "detail": "ดึงข้อความได้ 1,513 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S60111000001_68099470577.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.1,
+          "detail": "ดึงข้อความได้ 29,905 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099472906": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "annoudoc_101002201310000000_68099472906.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 119.1,
+          "detail": "ดึงข้อความได้ 1,481 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_101002201310000000_68099472906.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 185.9,
+          "detail": "ดึงข้อความได้ 30,405 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099472906_2da9216d-74fd-4ed1-9d37-6d1d1e175f1d.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 163.0,
+          "detail": "ดึงข้อความได้ 5,187 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099473543": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6462.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 950 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2014700000_68099473543.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 117.3,
+          "detail": "ดึงข้อความได้ 1,781 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2014700000_68099473543.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.2,
+          "detail": "ดึงข้อความได้ 31,680 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099503783": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 6/6 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 3,
+        "unreadable": 0,
+        "ocrOk": 3,
+        "ocrFail": 0,
+        "accessible": 6,
+        "total": 6
+      },
+      "files": [
+        {
+          "name": "1-TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 16768.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,376 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "2-PLAN.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 51229.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 624 ตัวอักษร (หน้า 2)",
+          "accessible": true
+        },
+        {
+          "name": "3-BIDREG.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 11657.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,198 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "4-PRICE-TABLE.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 74.2,
+          "detail": "ดึงข้อความได้ 7,025 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_3100001100000179_68099503783.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 113.6,
+          "detail": "ดึงข้อความได้ 1,820 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_3100001100000179_68099503783.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.8,
+          "detail": "ดึงข้อความได้ 30,727 ตัวอักษร",
+          "accessible": true
+        }
+      ]
     },
     "68099510542": {
       "status": "อ่านได้บางส่วน",
@@ -8845,6 +11722,47 @@
         }
       ]
     },
+    "68099515672": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR8123.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6828.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,114 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0900700001_68099515672.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.8,
+          "detail": "ดึงข้อความได้ 1,436 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0900700001_68099515672.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.1,
+          "detail": "ดึงข้อความได้ 29,914 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099522652": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -8886,6 +11804,178 @@
         }
       ]
     },
+    "68099536369": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 715.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,096 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_2014400000_68099536369.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 114.2,
+          "detail": "ดึงข้อความได้ 1,829 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_2014400000_68099536369.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 179.5,
+          "detail": "ดึงข้อความได้ 30,467 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099536369_d2c73350-9d89-4333-bd19-ff5bb0029917.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 160.1,
+          "detail": "ดึงข้อความได้ 4,868 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099544496": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 19230.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,953 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0104200000_68099544496.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 115.4,
+          "detail": "ดึงข้อความได้ 1,576 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0104200000_68099544496.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 189.5,
+          "detail": "ดึงข้อความได้ 32,835 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099545400": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "3.1 TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 13369.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,311 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_0301100000_68099545400.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 118.7,
+          "detail": "ดึงข้อความได้ 1,561 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_0301100000_68099545400.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 188.2,
+          "detail": "ดึงข้อความได้ 32,758 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099548161": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.25.9.68.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6745.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,466 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00111390050000000_68099548161.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 112.1,
+          "detail": "ดึงข้อความได้ 1,705 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00111390050000000_68099548161.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 177.0,
+          "detail": "ดึงข้อความได้ 32,180 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099554254": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -8923,6 +12013,47 @@
           "ocr": "— (มี text)",
           "sizeKB": 178.3,
           "detail": "ดึงข้อความได้ 25,787 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099556336": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4257.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 418 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1200500000_68099556336.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 109.7,
+          "detail": "ดึงข้อความได้ 1,504 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1200500000_68099556336.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 183.2,
+          "detail": "ดึงข้อความได้ 30,690 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -9017,6 +12148,128 @@
         }
       ]
     },
+    "68099573477": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 18278.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,840 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S32511000000_68099573477.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.6,
+          "detail": "ดึงข้อความได้ 1,839 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S32511000000_68099573477.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 181.5,
+          "detail": "ดึงข้อความได้ 28,856 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099579670": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:4 / ต้อง OCR:4",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 8/8 ไฟล์",
+      "counts": {
+        "readable": 4,
+        "ocr": 4,
+        "unreadable": 0,
+        "ocrOk": 4,
+        "ocrFail": 0,
+        "accessible": 8,
+        "total": 8
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4583.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,374 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_5.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 298.9,
+          "detail": "ดึงข้อความได้ 33,507 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 786.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,423 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_141010120010000000_68099579670.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 123.1,
+          "detail": "ดึงข้อความได้ 2,110 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "blank_boq.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 6267.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 518 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "boq.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 5931.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 605 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "doc_141010120010000000_68099579670.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 195.9,
+          "detail": "ดึงข้อความได้ 31,343 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099579670_aaafd3ad-dbcf-47df-9535-5c280f0be847.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 177.4,
+          "detail": "ดึงข้อความได้ 7,126 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099589082": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -9058,6 +12311,185 @@
         }
       ]
     },
+    "68099593467": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:6",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 9/9 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 6,
+        "unreadable": 0,
+        "ocrOk": 6,
+        "ocrFail": 0,
+        "accessible": 9,
+        "total": 9
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 616.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,588 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 632.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,805 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 807.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 960 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_4.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 342.7,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,929 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_5.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 936.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,691 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_6.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 756.8,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 3,032 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_00107520011000000_68099593467.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 102.2,
+          "detail": "ดึงข้อความได้ 1,337 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_00107520011000000_68099593467.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.2,
+          "detail": "ดึงข้อความได้ 29,025 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099593467_e750f660-3f7c-4fae-9fd3-892149275256.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 167.7,
+          "detail": "ดึงข้อความได้ 5,857 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099595306": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:2",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 2,
+        "unreadable": 0,
+        "ocrOk": 2,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_2.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 394.5,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,352 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "TOR.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 5889.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,718 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1509906563_68099595306.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 113.2,
+          "detail": "ดึงข้อความได้ 1,485 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1509906563_68099595306.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 176.3,
+          "detail": "ดึงข้อความได้ 31,875 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099605258": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 8557.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,702 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_5050100000_68099605258.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 123.0,
+          "detail": "ดึงข้อความได้ 1,901 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_5050100000_68099605258.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 185.2,
+          "detail": "ดึงข้อความได้ 31,913 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "68099608315": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -9095,6 +12527,145 @@
           "ocr": "— (มี text)",
           "sizeKB": 181.7,
           "detail": "ดึงข้อความได้ 28,651 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099611461": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:4",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 4,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 453.8,
+          "detail": "ดึงข้อความได้ 5,502 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 136.9,
+          "detail": "ดึงข้อความได้ 14,935 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_102701200227000000_68099611461.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 106.8,
+          "detail": "ดึงข้อความได้ 1,311 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_102701200227000000_68099611461.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 179.4,
+          "detail": "ดึงข้อความได้ 28,935 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099617282": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:3 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 4/4 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 4,
+        "total": 4
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3421.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,973 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_310000110000028_68099617282.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 105.4,
+          "detail": "ดึงข้อความได้ 1,732 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_310000110000028_68099617282.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 178.1,
+          "detail": "ดึงข้อความได้ 30,054 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "tor_68099617282_05a88b3d-a2ed-474f-bf80-d8a4732c538d.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 158.2,
+          "detail": "ดึงข้อความได้ 4,631 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099619319": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "TOR.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 15969.3,
+          "detail": "ดึงข้อความได้ 41,885 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_110110000001_68099619319.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 108.1,
+          "detail": "ดึงข้อความได้ 1,509 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_110110000001_68099619319.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 180.2,
+          "detail": "ดึงข้อความได้ 31,263 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -9185,6 +12756,47 @@
           "ocr": "— (มี text)",
           "sizeKB": 181.6,
           "detail": "ดึงข้อความได้ 30,384 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68099649969": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 8557.6,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,702 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_5050100000_68099649969.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 123.0,
+          "detail": "ดึงข้อความได้ 1,901 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_5050100000_68099649969.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 184.9,
+          "detail": "ดึงข้อความได้ 31,916 ตัวอักษร",
           "accessible": true
         }
       ]
@@ -10790,6 +14402,177 @@
         }
       ]
     },
+    "None": {
+      "status": "ไม่มีข้อมูล",
+      "summary": "ไม่มีข้อมูล",
+      "accessStatus": "ไม่มีข้อมูล",
+      "accessSummary": "ไม่มีข้อมูล",
+      "counts": {
+        "readable": 0,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 0,
+        "total": 0
+      },
+      "files": []
+    },
+    "68029191064": {
+      "status": "อ่านได้",
+      "summary": "อ่านได้:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 3,
+        "ocr": 0,
+        "unreadable": 0,
+        "ocrOk": 0,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 25285.1,
+          "detail": "ดึงข้อความได้ 538,305 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S50610000181_68029191064.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 110.4,
+          "detail": "ดึงข้อความได้ 1,577 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S50610000181_68029191064.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.4,
+          "detail": "ดึงข้อความได้ 46,470 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089307129": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 5/5 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 3,
+        "unreadable": 0,
+        "ocrOk": 3,
+        "ocrFail": 0,
+        "accessible": 5,
+        "total": 5
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 76.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,367 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "BOQ sub 5.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 550.2,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 685 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "TOR sub 5.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 4592.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,415 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S30420000001_68089307129.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 108.9,
+          "detail": "ดึงข้อความได้ 1,851 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S30420000001_68089307129.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.5,
+          "detail": "ดึงข้อความได้ 31,357 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "68089349862": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:3",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 5/5 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 3,
+        "unreadable": 0,
+        "ocrOk": 3,
+        "ocrFail": 0,
+        "accessible": 5,
+        "total": 5
+      },
+      "files": [
+        {
+          "name": "Attach_PUB_3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 72.1,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 1,342 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "BOQ sub3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 546.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 511 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "TOR sub 3.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 3877.9,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,432 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_S30420000001_68089349862.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 109.3,
+          "detail": "ดึงข้อความได้ 1,861 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_S30420000001_68089349862.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 186.9,
+          "detail": "ดึงข้อความได้ 31,537 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "69029334350": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -11239,6 +15022,47 @@
         }
       ]
     },
+    "69049438631": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 12523.0,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 2,499 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1500200000_69049438631.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 117.1,
+          "detail": "ดึงข้อความได้ 1,749 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1500200000_69049438631.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 187.9,
+          "detail": "ดึงข้อความได้ 33,108 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
     "69059005878": {
       "status": "อ่านได้บางส่วน",
       "summary": "อ่านได้:2 / ต้อง OCR:1",
@@ -11317,6 +15141,47 @@
           "ocr": "— (มี text)",
           "sizeKB": 194.6,
           "detail": "ดึงข้อความได้ 36,884 ตัวอักษร",
+          "accessible": true
+        }
+      ]
+    },
+    "69059040136": {
+      "status": "อ่านได้บางส่วน",
+      "summary": "อ่านได้:2 / ต้อง OCR:1",
+      "accessStatus": "เข้าถึงได้ทั้งหมด",
+      "accessSummary": "เข้าถึงข้อความได้ 3/3 ไฟล์",
+      "counts": {
+        "readable": 2,
+        "ocr": 1,
+        "unreadable": 0,
+        "ocrOk": 1,
+        "ocrFail": 0,
+        "accessible": 3,
+        "total": 3
+      },
+      "files": [
+        {
+          "name": "Attach_TOR_1.pdf",
+          "status": "ต้อง OCR",
+          "ocr": "OCR อ่านได้",
+          "sizeKB": 8309.3,
+          "detail": "เปิดได้แต่เป็นภาพสแกน (ข้อความ 0 ตัวอักษร) | OCR ดึงข้อความได้ 472 ตัวอักษร (หน้า 1)",
+          "accessible": true
+        },
+        {
+          "name": "annoudoc_1200500000_69059040136.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 116.3,
+          "detail": "ดึงข้อความได้ 1,761 ตัวอักษร",
+          "accessible": true
+        },
+        {
+          "name": "doc_1200500000_69059040136.pdf",
+          "status": "อ่านได้",
+          "ocr": "— (มี text)",
+          "sizeKB": 201.3,
+          "detail": "ดึงข้อความได้ 37,884 ตัวอักษร",
           "accessible": true
         }
       ]
