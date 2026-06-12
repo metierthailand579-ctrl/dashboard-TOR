@@ -78,6 +78,26 @@ export function TorBoard({ items }: { items: TorItem[] }) {
                       </td>
                     </tr>
                   ))}
+                  {/* กลุ่ม Metier ที่ยังไม่มีโครงการในกลุ่ม — ระบุไว้ในระบบเสมอ */}
+                  {metierStyle && subGroups.length === 0 && (
+                    <tr className="border-b border-slate-100 bg-amber-50/20 text-slate-400 last:border-0">
+                      <td className="px-4 py-2" />
+                      <td className="px-4 py-2 text-sm">
+                        <span className="inline-flex items-center gap-2 pl-4">
+                          <span className="font-mono text-xs text-slate-300">└─</span>
+                          <span className="italic">ยังไม่มีโครงการในกลุ่มนี้</span>
+                        </span>
+                      </td>
+                      <td className="px-4 py-2 text-center">
+                        <span className="inline-flex items-center rounded-md bg-white px-2 py-0.5 text-xs font-medium text-slate-400 ring-1 ring-slate-200">
+                          0 โครงการ
+                        </span>
+                      </td>
+                      <td className="px-4 py-2">
+                        <StatusBadge status={it.status} />
+                      </td>
+                    </tr>
+                  )}
                 </Fragment>
               );
             })}

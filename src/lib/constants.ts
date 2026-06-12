@@ -65,6 +65,14 @@ export const ACCESS_STATUS_STYLE: Record<string, { badge: string; dot: string }>
 /** Metier: ค่าที่ไม่ใช่โอกาสธุรกิจ */
 export const METIER_NA = "NOT_APPLICABLE";
 
+/** กลุ่ม Metier ทั้งหมด (canonical, เรียงตามลำดับแสดง) — ระบุในระบบเสมอแม้ไม่มีโครงการในกลุ่ม */
+export const METIER_GROUPS = [
+  "Software Metier",
+  "Creative Metier",
+  "Media Metier",
+  "Marketing Metier",
+] as const;
+
 /** ป้ายอ่านง่ายของ Metier กลุ่มหลัก */
 export const METIER_LABEL: Record<string, string> = {
   NOT_APPLICABLE: "ไม่ใช่โอกาส",

@@ -99,6 +99,14 @@ def rebuild_summary(wb, ws_projects):
     for g in GROUP_ORDER:
         subs = breakdown.get(g)
         if not subs:
+            # ระบุกลุ่ม Metier ที่ยังไม่มีโครงการไว้เสมอ (ตามคำขอ: Marketing ต้องอยู่ในระบบ)
+            if g in METIER_GROUPS:
+                ws.append([g, "(ยังไม่มีโครงการในกลุ่ม)", 0])
+                for c in ws[ws.max_row]:
+                    c.fill = yellow
+                ws.append([f"รวม {g}", "", 0])
+                for c in ws[ws.max_row]:
+                    c.font = bold
             continue
         is_metier = g in METIER_GROUPS
         first = True

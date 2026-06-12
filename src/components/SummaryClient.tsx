@@ -5,6 +5,7 @@ import type { HealthStatus, ProcurementType, ProjectWithHealth } from "@/types";
 import {
   BUDGET_ORDER,
   BUDGET_SHORT,
+  METIER_GROUPS,
   METIER_NA,
   PROCUREMENT_TYPES,
   READ_STATUS_ORDER,
@@ -171,6 +172,8 @@ function buildSummary(projects: ProjectWithHealth[]) {
     .sort((a, b) => a.group.localeCompare(b.group, "th"));
 
   const metierMap = new Map<string, number>();
+  // seed ทุกกลุ่ม Metier ไว้ก่อน → ระบุในระบบเสมอแม้กลุ่มนั้นมี 0 โครงการ (เช่น Marketing)
+  for (const g of METIER_GROUPS) metierMap.set(g, 0);
   for (const p of projects) metierMap.set(p.metierGroup, (metierMap.get(p.metierGroup) ?? 0) + 1);
   const byMetier = Array.from(metierMap.entries())
     .map(([group, count]) => ({ group, count }))
