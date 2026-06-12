@@ -95,6 +95,13 @@ export interface ProjectWithHealth extends Project {
 /** สถานะการจัดทำ TOR (workflow) ตามชีต "TOR" */
 export type TorStatus = "to do" | "skill.md" | "วางโครงร่างTOR" | "TOR เสร็จสมบูรณ์";
 
+/** กลุ่มย่อยของหมวดงาน Metier (derive จาก projects.json) */
+export interface TorSubGroup {
+  name: string;
+  /** จำนวนโครงการในกลุ่มย่อยนี้ */
+  projectCount: number;
+}
+
 /** งานจัดทำ TOR 1 รายการ (ตรงกับชีต "TOR") */
 export interface TorItem {
   order: number;
@@ -103,6 +110,8 @@ export interface TorItem {
   torCount: number;
   /** สถานะเริ่มต้นจาก Excel (ผู้ใช้เปลี่ยน/บันทึกในเว็บผ่าน localStorage) */
   status: TorStatus;
+  /** กลุ่มย่อย — เฉพาะหมวด Metier (Software/Creative/Media/Marketing) */
+  subGroups?: TorSubGroup[];
 }
 
 /** แถวสรุปจากชีต "ภาพรวม" (ประเภท × ช่วงวงเงิน) */

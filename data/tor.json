@@ -45,24 +45,76 @@
     "order": 8,
     "name": "Software Metier",
     "torCount": 28,
-    "status": "skill.md"
+    "status": "skill.md",
+    "subGroups": [
+      {
+        "name": "System Development",
+        "projectCount": 19
+      },
+      {
+        "name": "Smart City/Platform Development",
+        "projectCount": 4
+      },
+      {
+        "name": "Cybersecurity/Certificate",
+        "projectCount": 3
+      },
+      {
+        "name": "Mobile Application",
+        "projectCount": 1
+      },
+      {
+        "name": "Software/License",
+        "projectCount": 1
+      }
+    ]
   },
   {
     "order": 9,
     "name": "Creative Metier",
     "torCount": 11,
-    "status": "skill.md"
+    "status": "skill.md",
+    "subGroups": [
+      {
+        "name": "Event Marketing/Festival",
+        "projectCount": 9
+      },
+      {
+        "name": "Content Creation / Graphic Design",
+        "projectCount": 5
+      },
+      {
+        "name": "Branding & Display Production",
+        "projectCount": 1
+      }
+    ]
   },
   {
     "order": 10,
     "name": "Media Metier",
     "torCount": 1,
-    "status": "skill.md"
+    "status": "skill.md",
+    "subGroups": [
+      {
+        "name": "Public Relations",
+        "projectCount": 4
+      },
+      {
+        "name": "Offline Media",
+        "projectCount": 1
+      }
+    ]
   },
   {
     "order": 11,
     "name": "Marketing Metier",
     "torCount": 1,
-    "status": "skill.md"
+    "status": "skill.md",
+    "subGroups": [
+      {
+        "name": "Brand/Corporate Image",
+        "projectCount": 1
+      }
+    ]
   }
 ]

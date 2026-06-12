@@ -1,53 +1,13 @@
+import { Fragment } from "react";
 import type { TorItem, TorStatus } from "@/types";
-import { TOR_STATUS_ORDER, TOR_STATUS_STYLE } from "@/lib/constants";
+import { METIER_STYLE, TOR_STATUS_STYLE } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export function TorBoard({ items }: { items: TorItem[] }) {
-  // สรุปจำนวนต่อสถานะ + ความคืบหน้า (อ่านสถานะจาก Excel ตรง ๆ)
-  const counts: Record<TorStatus, number> = {
-    "to do": 0,
-    "skill.md": 0,
-    วางโครงร่างTOR: 0,
-    "TOR เสร็จสมบูรณ์": 0,
-  };
-  for (const it of items) counts[it.status]++;
-
   const totalTor = items.reduce((sum, it) => sum + it.torCount, 0);
-  const done = counts["TOR เสร็จสมบูรณ์"];
-  const percent = items.length ? Math.round((done / items.length) * 100) : 0;
 
   return (
     <div className="space-y-5">
-      {/* สรุป + ความคืบหน้า */}
-      <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-sm font-medium text-slate-500">สรุปสถานะ</span>
-          {TOR_STATUS_ORDER.map((s) => (
-            <span
-              key={s}
-              className={cn(
-                "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium",
-                TOR_STATUS_STYLE[s].badge
-              )}
-            >
-              <span className={cn("h-1.5 w-1.5 rounded-full", TOR_STATUS_STYLE[s].dot)} />
-              {s}
-              <span className="font-semibold">{counts[s]}</span>
-            </span>
-          ))}
-          <span className="ml-auto text-sm text-slate-500">
-            เสร็จสมบูรณ์{" "}
-            <span className="font-semibold text-emerald-600">{done}</span> / {items.length} หมวด
-          </span>
-        </div>
-        <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-slate-100">
-          <div
-            className="h-full rounded-full bg-emerald-500 transition-all"
-            style={{ width: `${percent}%` }}
-          />
-        </div>
-      </div>
-
       {/* ตารางงานจัดทำ TOR */}
       <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
         <table className="w-full min-w-[560px] text-sm">
@@ -60,23 +20,67 @@ export function TorBoard({ items }: { items: TorItem[] }) {
             </tr>
           </thead>
           <tbody>
-            {items.map((it) => (
-              <tr
-                key={it.name}
-                className="border-b border-slate-100 transition last:border-0 hover:bg-slate-50"
-              >
-                <td className="px-4 py-3 text-center text-slate-400">{it.order}</td>
-                <td className="px-4 py-3 font-medium text-slate-700">{it.name}</td>
-                <td className="px-4 py-3 text-center">
-                  <span className="inline-flex items-center rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
-                    {it.torCount}
-                  </span>
-                </td>
-                <td className="px-4 py-3">
-                  <StatusBadge status={it.status} />
-                </td>
-              </tr>
-            ))}
+            {items.map((it) => {
+              const subGroups = it.subGroups ?? [];
+              const metierStyle = METIER_STYLE[it.name];
+              return (
+                <Fragment key={it.name}>
+                  <tr
+                    className={cn(
+                      "border-b border-slate-100 transition hover:bg-slate-50",
+                      subGroups.length > 0 && "bg-amber-50/40"
+                    )}
+                  >
+                    <td className="px-4 py-3 text-center text-slate-400">{it.order}</td>
+                    <td className="px-4 py-3 font-medium text-slate-700">
+                      <span className="inline-flex items-center gap-2">
+                        {metierStyle && (
+                          <span className={cn("h-2 w-2 rounded-full", metierStyle.dot)} />
+                        )}
+                        {it.name}
+                        {subGroups.length > 0 && (
+                          <span className="text-xs font-normal text-slate-400">
+                            ({subGroups.length} กลุ่มย่อย)
+                          </span>
+                        )}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3 text-center">
+                      <span className="inline-flex items-center rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
+                        {it.torCount}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3">
+                      <StatusBadge status={it.status} />
+                    </td>
+                  </tr>
+                  {subGroups.map((sub, i) => (
+                    <tr
+                      key={`${it.name}—${sub.name}`}
+                      className="border-b border-slate-100 bg-amber-50/20 text-slate-600 transition last:border-0 hover:bg-amber-50/40"
+                    >
+                      <td className="px-4 py-2" />
+                      <td className="px-4 py-2 text-sm">
+                        <span className="inline-flex items-center gap-2 pl-4">
+                          <span className="font-mono text-xs text-slate-300">
+                            {i === subGroups.length - 1 ? "└─" : "├─"}
+                          </span>
+                          {sub.name}
+                        </span>
+                      </td>
+                      <td className="px-4 py-2 text-center">
+                        <span className="inline-flex items-center rounded-md bg-white px-2 py-0.5 text-xs font-medium text-slate-500 ring-1 ring-slate-200">
+                          {sub.projectCount} โครงการ
+                        </span>
+                      </td>
+                      <td className="px-4 py-2">
+                        <StatusBadge status={it.status} />
+                      </td>
+                    </tr>
+                  ))}
+                </Fragment>
+              );
+            })}
             {items.length === 0 && (
               <tr>
                 <td colSpan={4} className="px-4 py-12 text-center text-slate-400">
@@ -101,6 +105,9 @@ export function TorBoard({ items }: { items: TorItem[] }) {
       <p className="text-xs text-slate-400">
         สถานะอ่านจากชีต “TOR” ในไฟล์ Excel โดยตรง — แก้ไขสถานะที่ Excel แล้วรัน{" "}
         <code className="rounded bg-slate-100 px-1 py-0.5 text-[11px]">npm run build:data</code>
+        <br />
+        หมวด Metier (Software/Creative/Media/Marketing) แตกกลุ่มย่อยจากการจัดกลุ่มโครงการ —
+        ตัวเลข “โครงการ” ของกลุ่มย่อยคือจำนวนโครงการ (อาจต่างจาก “จำนวน TOR” ของหมวด)
       </p>
     </div>
   );

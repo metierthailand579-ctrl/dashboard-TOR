@@ -7,6 +7,8 @@
 import json
 import os
 import re
+from collections import Counter, defaultdict
+
 import openpyxl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -90,6 +92,27 @@ def build_tor(ws):
             "status": status,
         })
     return items
+
+
+def attach_metier_subgroups(tor, projects):
+    """แนบกลุ่มย่อยให้รายการ TOR ที่เป็นกลุ่ม Metier (Software/Creative/Media/Marketing)
+    derive จาก projects.json (metierGroup → metierSubGroup) — ไม่ hardcode
+    เรียงกลุ่มย่อยจากจำนวนโครงการมาก→น้อย แล้วตามชื่อ
+    หมายเหตุ: projectCount = จำนวนโครงการในกลุ่มย่อย (อาจต่างจาก torCount ของกลุ่ม)
+    """
+    breakdown = defaultdict(Counter)
+    for p in projects:
+        g = p.get("metierGroup")
+        if g and g != "NOT_APPLICABLE":
+            breakdown[g][p.get("metierSubGroup") or "ไม่ระบุ"] += 1
+    for item in tor:
+        subs = breakdown.get(item["name"])
+        if subs:
+            item["subGroups"] = [
+                {"name": name, "projectCount": cnt}
+                for name, cnt in sorted(subs.items(), key=lambda kv: (-kv[1], kv[0]))
+            ]
+    return tor
 
 
 def build_overview(ws):
@@ -247,6 +270,7 @@ def main():
     projects = build_projects(wb["รายการโครงการทั้งหมด"], files_by_code)
     overview = build_overview(wb["ภาพรวม"])
     tor = build_tor(wb["TOR"]) if "TOR" in wb.sheetnames else []
+    attach_metier_subgroups(tor, projects)
 
     # โครงการที่ไม่มีข้อมูลตรวจ → สถานะ "ไม่มีข้อมูล"
     none_health = {"status": ST_NONE, "summary": ST_NONE,
