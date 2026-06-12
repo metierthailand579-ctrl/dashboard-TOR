@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   },
   description:
     "ระบบเปิดดูและค้นหาเอกสาร TOR งานจัดซื้อจัดจ้าง จำแนกตามประเภทและช่วงวงเงินงบประมาณ",
+  // ไม่ต้องการให้ search engine จัดทำดัชนี — เข้าถึงได้เฉพาะผู้มีลิงก์เท่านั้น
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
