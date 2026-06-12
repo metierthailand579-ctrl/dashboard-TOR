@@ -48,24 +48,16 @@
     "status": "skill.md",
     "subGroups": [
       {
-        "name": "System Development",
-        "projectCount": 19
-      },
-      {
         "name": "Smart City/Platform Development",
-        "projectCount": 4
+        "projectCount": 21
       },
       {
-        "name": "Cybersecurity/Certificate",
-        "projectCount": 3
+        "name": "Server/IT Infrastructure",
+        "projectCount": 5
       },
       {
         "name": "Mobile Application",
-        "projectCount": 1
-      },
-      {
-        "name": "Software/License",
-        "projectCount": 1
+        "projectCount": 2
       }
     ]
   },
@@ -80,11 +72,15 @@
         "projectCount": 9
       },
       {
-        "name": "Content Creation / Graphic Design",
-        "projectCount": 5
+        "name": "Content Creation",
+        "projectCount": 4
       },
       {
         "name": "Branding & Display Production",
+        "projectCount": 1
+      },
+      {
+        "name": "Graphic Design",
         "projectCount": 1
       }
     ]
@@ -97,7 +93,7 @@
     "subGroups": [
       {
         "name": "Public Relations",
-        "projectCount": 4
+        "projectCount": 5
       },
       {
         "name": "Offline Media",
@@ -109,12 +105,6 @@
     "order": 11,
     "name": "Marketing Metier",
     "torCount": 1,
-    "status": "skill.md",
-    "subGroups": [
-      {
-        "name": "Brand/Corporate Image",
-        "projectCount": 1
-      }
-    ]
+    "status": "skill.md"
   }
 ]

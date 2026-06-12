@@ -41,9 +41,15 @@ python3 scripts/reclassify.py --write             # เขียนทับ (ba
 | ฟิลด์ | ตรงกับการจัดมือ | อ่านผล |
 |------|-----------------|--------|
 | `metierGroup` | **96.1%** | เกณฑ์ keyword จัด Metier ได้แม่นมาก — ใช้ได้จริงกับแถวใหม่ |
-| `metierSubGroup` | **95.8%** | เช่นกัน |
+| `metierSubGroup` | **96.1%** | เช่นกัน (กลุ่มย่อยใช้ชื่อตาม SKILL §3 ทั้งหมด) |
 | `workGroup` | 47.4% | หมวดเทศบาลอิงบริบท/ยุทธศาสตร์ ไม่ใช่แค่คำในชื่อ → เป็น "ตัวเสนอ" |
 | `workSubGroup` | 40.0% | ต้องให้คนตรวจประกอบ |
+
+> **หมายเหตุ conformance:** กลุ่มย่อย Metier ใน Excel ถูก reconcile ให้ตรง SKILL §3 ครบ 100%
+> แล้ว (ดู `scripts/conform_to_skill.py`) — Software ใช้ Smart City/Platform Development ·
+> Server/IT Infrastructure · Mobile Application · Creative ใช้ Event Marketing/Festival ·
+> Content Creation · Graphic Design · Branding & Display · Media ใช้ Public Relations ·
+> Offline Media · **Marketing = 0 ตาม SKILL** ("อย่าฝืน promote MARKETING")
 
 **สรุปการใช้งาน:**
 - **ระบบ Metier** (ระบบ B) → เชื่อสคริปต์ได้ ใช้จัด/ตรวจอัตโนมัติได้เลย

@@ -33,26 +33,27 @@ METIER_NA = "NOT_APPLICABLE"
 
 # ── ระบบ B: Metier service area (priority สูง→ต่ำ) ────────────────────────────
 # (metierGroup, metierSubGroup, [keywords...]) — บนชนะล่าง, first-match-wins
-# SOFTWARE > CREATIVE > MEDIA > MARKETING (SKILL §3)
+# ใช้ "ชื่อกลุ่มย่อยตาม SKILL §3 (Layer 2)" เท่านั้น
+# priority: SOFTWARE > CREATIVE > MEDIA  (MARKETING = 0 ตาม SKILL "อย่าฝืน promote")
 METIER_RULES = [
-    # ── Software Metier ──
-    ("Software Metier", "Cybersecurity/Certificate",
+    # ── Software Metier ── (Mobile/Infra เฉพาะกว่า → บน, Platform กว้าง → ล่าง)
+    ("Software Metier", "Mobile Application",
+     ["แอปพลิเคชัน", "แอปพลิเคชั่น", "application", "mobile app", "mobile check",
+      "ผ่านมือถือ"]),
+    ("Software Metier", "Server/IT Infrastructure",
      ["ไซเบอร์", "cyber", "ภัยคุกคามทางด้าน", "certification authority",
-      "ใบรับรองอิเล็กทรอนิกส์", "ความปลอดภัยของระบบเทคโนโลยีสารสนเทศ"]),
+      "ใบรับรองอิเล็กทรอนิกส์", "ความปลอดภัยของระบบเทคโนโลยีสารสนเทศ",
+      "ลิขสิทธิ์ซอฟต์แวร์", "license", "canva", "ซ่อมแซมแก้ไขคอมพิวเตอร์",
+      "server", "แม่ข่าย"]),
     ("Software Metier", "Smart City/Platform Development",
      ["smart city", "smart survey", "อัจฉริยะ", "platform", "แพลตฟอร์ม",
-      "merchant management"]),
-    ("Software Metier", "Mobile Application",
-     ["แอปพลิเคชัน", "แอปพลิเคชั่น", "application", "mobile app", "mobile check"]),
-    ("Software Metier", "Software/License",
-     ["ลิขสิทธิ์ซอฟต์แวร์", "ซอฟต์แวร์", "software", "license", "canva"]),
-    ("Software Metier", "System Development",
-     ["พัฒนาระบบ", "จัดทำระบบ", "จัดหาระบบ", "ระบบสารสนเทศ", "ระบบบริหารจัดการ",
-      "e-portfolio", "portfolio", "registry", "voice bot", "ระบบลงทะเบียน",
-      "ระบบติดตาม", "ระบบการจัดการ", "ระบบทะเบียน", "ระบบศูนย์บริการข้อมูล",
-      "ระบบการประเมิน", "ระบบให้บริการ", "ระบบตรวจสอบ", "พัฒนาและออกแบบระบบ",
-      "ปรับปรุงระบบเพื่อบริหาร", "ระบบการดูแลผู้ป่วย"]),
-    # ── Creative Metier ──
+      "merchant management", "พัฒนาระบบ", "จัดทำระบบ", "จัดหาระบบ", "ระบบสารสนเทศ",
+      "ระบบบริหารจัดการ", "e-portfolio", "portfolio", "registry", "voice bot",
+      "ระบบลงทะเบียน", "ระบบติดตาม", "ระบบการจัดการ", "ระบบทะเบียน",
+      "ระบบศูนย์บริการข้อมูล", "ระบบการประเมิน", "ระบบให้บริการ", "ระบบตรวจสอบ",
+      "พัฒนาและออกแบบระบบ", "ปรับปรุงระบบเพื่อบริหาร", "ระบบการดูแลผู้ป่วย",
+      "ระบบการบริหารจัดการ"]),
+    # ── Creative Metier ── (Display/Event/Graphic เฉพาะ → บน, Content กว้าง → ล่าง)
     ("Creative Metier", "Branding & Display Production",
      ["ป้ายประชาสัมพันธ์อิเล็กทรอนิกส์", "led outdoor", "จอแสดงผล", "ป้ายอิเล็กทรอนิกส์"]),
     ("Creative Metier", "Event Marketing/Festival",
@@ -60,20 +61,18 @@ METIER_RULES = [
       "มหกรรม", "เทศกาล", "festival", "event", "งานสัปดาห์", "ลอยกระทง",
       "การแข่งขัน", "รางวัล", "official contractor", "roll up", "วันสำคัญ",
       "ส่งเสริมการใช้ภาษาไทย"]),
-    ("Creative Metier", "Content Creation / Graphic Design",
-     ["ผลิตสื่อ", "ผลิตและเผยแพร่สื่อ", "สื่อสิ่งพิมพ์", "สื่อสิืงพิมพ์",
-      "graphic", "ออกแบบสื่อ", "คอนเทนต์", "content", "ผลิตชุดนิทรรศการ",
-      "in house training"]),
-    # ── Media Metier ──
+    ("Creative Metier", "Graphic Design",
+     ["สื่อสิ่งพิมพ์", "สื่อสิืงพิมพ์", "สิ่งพิมพ์", "graphic", "ออกแบบสื่อ"]),
+    ("Creative Metier", "Content Creation",
+     ["ผลิตสื่อ", "ผลิตและเผยแพร่สื่อ", "คอนเทนต์", "content", "ผลิตชุดนิทรรศการ",
+      "in house training", "กิจกรรมฝึกอบรมภายใน"]),
+    # ── Media Metier ── (Offline เฉพาะ → บน, PR กว้าง → ล่าง)
     ("Media Metier", "Offline Media",
      ["หอกระจายข่าว", "เสียงไร้สาย", "เสียงตามสาย"]),
     ("Media Metier", "Public Relations",
-     ["ประชาสัมพันธ์", "เผยแพร่ข่าวสาร", "เผยแพร่ข้อมูลข่าวสาร", "social media",
-      "kol", "influencer", "โฆษณาออนไลน์"]),
-    # ── Marketing Metier ──
-    ("Marketing Metier", "Brand/Corporate Image",
-     ["ภาพลักษณ์องค์กร", "brand strategy", "กลยุทธ์แบรนด์", "corporate image",
-      "แผนการสื่อสาร", "communication strategy"]),
+     ["ประชาสัมพันธ์", "ภาพลักษณ์องค์กร", "corporate image", "เผยแพร่ข่าวสาร",
+      "เผยแพร่ข้อมูลข่าวสาร", "social media", "kol", "influencer", "โฆษณาออนไลน์"]),
+    # ── Marketing Metier = 0 (SKILL §3: เอกสารราชการไม่มี brand/comm strategy ตรง ๆ) ──
 ]
 
 # ── ระบบ A ชั้น 1: 7 หมวดงานเทศบาล (อนุมานจากเนื้อหา) ──────────────────────────
