@@ -26,6 +26,22 @@ SKILL ใช้ 4 ฟิลด์ → ตรงกับฟิลด์ใน `d
 หมายเหตุ ชื่อ Metier ในเว็บนี้ใช้ `* Metier` (เช่น `Software Metier`) ส่วน SKILL ต้นทางใช้
 `SOFTWARE DEVELOPMENT` ฯลฯ — เป็น area เดียวกัน mapping ตรงตัว
 
+## ⚠️ ชื่อกลุ่มย่อย Metier (canonical) — ยึดตาม skill 08–11 ไม่ใช่ SKILL.md §3
+
+`SKILL.md` = **วิธีคิด/วิธีจัดกลุ่ม (methodology)** ที่ยืมมาจากโปรเจกต์ต้นทาง (Khlong Luang) —
+ตัวอย่างชื่อกลุ่มย่อยใน §3 (Smart City/Platform, Server/IT, Brand Website ฯลฯ) เป็นของ
+**dataset ต้นทาง ไม่ใช่ของโปรเจกต์นี้** → อย่า remap กลุ่มย่อยให้ตรง §3
+
+**ชื่อกลุ่มย่อย Metier ที่เป็นทางการของโปรเจกต์นี้ ยึดตามไฟล์ skill 08–11**
+(`รวม TOR/TOR Data/skill/`) ซึ่งตรงกับ Excel + `data/projects.json`:
+
+| กลุ่มหลัก | ไฟล์ skill | กลุ่มย่อย (canonical) |
+|----------|-----------|----------------------|
+| Software Metier | `08-software-metier.md` | System Development · Smart City/Platform Development · Cybersecurity/Certificate · Software/License · Mobile Application |
+| Creative Metier | `09-creative-metier.md` | Event Marketing/Festival · Content Creation / Graphic Design · Branding & Display Production |
+| Media Metier | `10-media-metier.md` | Public Relations · Offline Media |
+| Marketing Metier | `11-marketing-metier.md` | Brand/Corporate Image |
+
 ## เครื่องมือ: `scripts/reclassify.py`
 
 ลง keyword decision tree ของ SKILL จริง (reproducible — ดู `s5c_reclassify.py` ต้นทาง)
@@ -41,15 +57,9 @@ python3 scripts/reclassify.py --write             # เขียนทับ (ba
 | ฟิลด์ | ตรงกับการจัดมือ | อ่านผล |
 |------|-----------------|--------|
 | `metierGroup` | **96.1%** | เกณฑ์ keyword จัด Metier ได้แม่นมาก — ใช้ได้จริงกับแถวใหม่ |
-| `metierSubGroup` | **96.1%** | เช่นกัน (กลุ่มย่อยใช้ชื่อตาม SKILL §3 ทั้งหมด) |
+| `metierSubGroup` | **95.8%** | เช่นกัน |
 | `workGroup` | 47.4% | หมวดเทศบาลอิงบริบท/ยุทธศาสตร์ ไม่ใช่แค่คำในชื่อ → เป็น "ตัวเสนอ" |
 | `workSubGroup` | 40.0% | ต้องให้คนตรวจประกอบ |
-
-> **หมายเหตุ conformance:** กลุ่มย่อย Metier ใน Excel ถูก reconcile ให้ตรง SKILL §3 ครบ 100%
-> แล้ว (ดู `scripts/conform_to_skill.py`) — Software ใช้ Smart City/Platform Development ·
-> Server/IT Infrastructure · Mobile Application · Creative ใช้ Event Marketing/Festival ·
-> Content Creation · Graphic Design · Branding & Display · Media ใช้ Public Relations ·
-> Offline Media · **Marketing = 0 ตาม SKILL** ("อย่าฝืน promote MARKETING")
 
 **สรุปการใช้งาน:**
 - **ระบบ Metier** (ระบบ B) → เชื่อสคริปต์ได้ ใช้จัด/ตรวจอัตโนมัติได้เลย
