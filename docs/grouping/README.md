@@ -26,21 +26,20 @@ SKILL ใช้ 4 ฟิลด์ → ตรงกับฟิลด์ใน `d
 หมายเหตุ ชื่อ Metier ในเว็บนี้ใช้ `* Metier` (เช่น `Software Metier`) ส่วน SKILL ต้นทางใช้
 `SOFTWARE DEVELOPMENT` ฯลฯ — เป็น area เดียวกัน mapping ตรงตัว
 
-## ⚠️ ชื่อกลุ่มย่อย Metier (canonical) — ยึดตาม skill 08–11 ไม่ใช่ SKILL.md §3
+## ✅ ชื่อกลุ่มย่อย Metier (canonical sub-service) — ยึดตาม dropdown UI ของ Metier
 
-`SKILL.md` = **วิธีคิด/วิธีจัดกลุ่ม (methodology)** ที่ยืมมาจากโปรเจกต์ต้นทาง (Khlong Luang) —
-ตัวอย่างชื่อกลุ่มย่อยใน §3 (Smart City/Platform, Server/IT, Brand Website ฯลฯ) เป็นของ
-**dataset ต้นทาง ไม่ใช่ของโปรเจกต์นี้** → อย่า remap กลุ่มย่อยให้ตรง §3
+กลุ่มหลักคงเป็น `* Metier` · **กลุ่มย่อยต้องเป็น sub-service ในชุดนี้เท่านั้น** (ห้ามสร้างชื่อใหม่)
+ที่ไม่ตรงช่องไหน → `อื่น ๆ (ยังไม่จัดประเภท)` · map เข้า Excel/`data` ด้วย `scripts/apply_canonical_subgroups.py`
 
-**ชื่อกลุ่มย่อย Metier ที่เป็นทางการของโปรเจกต์นี้ ยึดตามไฟล์ skill 08–11**
-(`รวม TOR/TOR Data/skill/`) ซึ่งตรงกับ Excel + `data/projects.json`:
+| กลุ่มหลัก | sub-service ที่อนุญาต (canonical) |
+|----------|----------------------------------|
+| Software Metier | UX / UI Design · Brand Website · Mobile Application · E-commerce Website · ERP/CRM Systems · Software Quality Assurance & Cyber Security · *อื่น ๆ* |
+| Creative Metier | Branding and Identity · Graphic Design · Content Creation · Video & 3D · Event Marketing · Campaign Execution · *อื่น ๆ* |
+| Media Metier | Ads Planning · Ads Optimisation · AI Search Optimisation · SEO Services · KOLs / Influencer · Public Relations · E-Commerce Ads · Email Marketing · Offline Media · *อื่น ๆ* |
+| Marketing Metier | Business Development · Brand Strategy · Communication Strategy · Marketing Training · Sales Strategy · Crisis Management · CRM Strategy · *อื่น ๆ* |
 
-| กลุ่มหลัก | ไฟล์ skill | กลุ่มย่อย (canonical) |
-|----------|-----------|----------------------|
-| Software Metier | `08-software-metier.md` | System Development · Smart City/Platform Development · Cybersecurity/Certificate · Software/License · Mobile Application |
-| Creative Metier | `09-creative-metier.md` | Event Marketing/Festival · Content Creation / Graphic Design · Branding & Display Production |
-| Media Metier | `10-media-metier.md` | Public Relations · Offline Media |
-| Marketing Metier | `11-marketing-metier.md` | Brand/Corporate Image |
+> ชุดนี้ **แทนที่** taxonomy เก่า (System Development, Smart City/Platform, Cybersecurity ฯลฯ ใน skill 08–11
+> และ SKILL.md §3) — ถ้ามี skill 08–11 เวอร์ชันเก่าให้อัปเดตตามชุดนี้
 
 ## เครื่องมือ: `scripts/reclassify.py`
 

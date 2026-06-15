@@ -48,24 +48,20 @@
     "status": "skill.md",
     "subGroups": [
       {
-        "name": "System Development",
-        "projectCount": 19
+        "name": "ERP/CRM Systems",
+        "projectCount": 20
       },
       {
-        "name": "Smart City/Platform Development",
+        "name": "อื่น ๆ (ยังไม่จัดประเภท)",
         "projectCount": 4
       },
       {
-        "name": "Cybersecurity/Certificate",
-        "projectCount": 3
-      },
-      {
         "name": "Mobile Application",
-        "projectCount": 1
+        "projectCount": 2
       },
       {
-        "name": "Software/License",
-        "projectCount": 1
+        "name": "Software Quality Assurance & Cyber Security",
+        "projectCount": 2
       }
     ]
   },
@@ -76,15 +72,19 @@
     "status": "skill.md",
     "subGroups": [
       {
-        "name": "Event Marketing/Festival",
-        "projectCount": 9
+        "name": "Event Marketing",
+        "projectCount": 10
       },
       {
-        "name": "Content Creation / Graphic Design",
-        "projectCount": 5
+        "name": "Content Creation",
+        "projectCount": 3
       },
       {
-        "name": "Branding & Display Production",
+        "name": "Graphic Design",
+        "projectCount": 1
+      },
+      {
+        "name": "อื่น ๆ (ยังไม่จัดประเภท)",
         "projectCount": 1
       }
     ]
@@ -112,7 +112,7 @@
     "status": "skill.md",
     "subGroups": [
       {
-        "name": "Brand/Corporate Image",
+        "name": "Brand Strategy",
         "projectCount": 1
       }
     ]

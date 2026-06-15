@@ -33,48 +33,65 @@ METIER_NA = "NOT_APPLICABLE"
 
 # ── ระบบ B: Metier service area (priority สูง→ต่ำ) ────────────────────────────
 # (metierGroup, metierSubGroup, [keywords...]) — บนชนะล่าง, first-match-wins
-# SOFTWARE > CREATIVE > MEDIA > MARKETING (SKILL §3)
+# กลุ่มย่อย = canonical sub-service (จาก dropdown UI ของ Metier) เท่านั้น
+# กลุ่มหลักคงเป็น "X Metier" · SOFTWARE > CREATIVE > MEDIA > MARKETING
+SUB_OTHER = "อื่น ๆ (ยังไม่จัดประเภท)"
 METIER_RULES = [
-    # ── Software Metier ──
-    ("Software Metier", "Cybersecurity/Certificate",
-     ["ไซเบอร์", "cyber", "ภัยคุกคามทางด้าน", "certification authority",
-      "ใบรับรองอิเล็กทรอนิกส์", "ความปลอดภัยของระบบเทคโนโลยีสารสนเทศ"]),
-    ("Software Metier", "Smart City/Platform Development",
-     ["smart city", "smart survey", "อัจฉริยะ", "platform", "แพลตฟอร์ม",
-      "merchant management"]),
+    # ── Software Metier (เฉพาะ→บน, ระบบกว้าง→ล่าง) ──
     ("Software Metier", "Mobile Application",
-     ["แอปพลิเคชัน", "แอปพลิเคชั่น", "application", "mobile app", "mobile check"]),
-    ("Software Metier", "Software/License",
-     ["ลิขสิทธิ์ซอฟต์แวร์", "ซอฟต์แวร์", "software", "license", "canva"]),
-    ("Software Metier", "System Development",
-     ["พัฒนาระบบ", "จัดทำระบบ", "จัดหาระบบ", "ระบบสารสนเทศ", "ระบบบริหารจัดการ",
-      "e-portfolio", "portfolio", "registry", "voice bot", "ระบบลงทะเบียน",
-      "ระบบติดตาม", "ระบบการจัดการ", "ระบบทะเบียน", "ระบบศูนย์บริการข้อมูล",
-      "ระบบการประเมิน", "ระบบให้บริการ", "ระบบตรวจสอบ", "พัฒนาและออกแบบระบบ",
-      "ปรับปรุงระบบเพื่อบริหาร", "ระบบการดูแลผู้ป่วย"]),
+     ["แอปพลิเคชัน", "แอปพลิเคชั่น", "application", "mobile app", "mobile check", "ผ่านมือถือ"]),
+    ("Software Metier", "Software Quality Assurance & Cyber Security",
+     ["ไซเบอร์", "cyber", "ภัยคุกคามทางด้าน", "certification authority",
+      "ใบรับรองอิเล็กทรอนิกส์", "ความปลอดภัยของระบบเทคโนโลยีสารสนเทศ", "quality assurance"]),
+    ("Software Metier", "E-commerce Website",
+     ["e-commerce", "พาณิชย์อิเล็กทรอนิกส์", "ร้านค้าออนไลน์"]),
+    ("Software Metier", "ERP/CRM Systems",
+     ["erp", "crm", "พัฒนาระบบ", "จัดทำระบบ", "จัดหาระบบ", "ระบบสารสนเทศ",
+      "ระบบบริหารจัดการ", "ระบบการบริหารจัดการ", "e-portfolio", "portfolio", "registry",
+      "voice bot", "ระบบลงทะเบียน", "ระบบติดตาม", "ระบบการจัดการ", "ระบบทะเบียน",
+      "ระบบศูนย์บริการข้อมูล", "ระบบการประเมิน", "ระบบให้บริการ", "ระบบตรวจสอบ",
+      "พัฒนาและออกแบบระบบ", "ปรับปรุงระบบ", "ระบบการดูแลผู้ป่วย", "platform", "แพลตฟอร์ม",
+      "smart survey", "merchant management", "อัจฉริยะ"]),
+    # UX/UI Design · Brand Website — นิยามไว้ใน taxonomy แต่ dataset นี้ยังไม่มีเข้าเกณฑ์
     # ── Creative Metier ──
-    ("Creative Metier", "Branding & Display Production",
-     ["ป้ายประชาสัมพันธ์อิเล็กทรอนิกส์", "led outdoor", "จอแสดงผล", "ป้ายอิเล็กทรอนิกส์"]),
-    ("Creative Metier", "Event Marketing/Festival",
+    ("Creative Metier", "Event Marketing",
      ["จัดงาน", "จัดกิจกรรม", "นิทรรศการ", "ประเพณี", "ประเหณี", "สัมมนา",
       "มหกรรม", "เทศกาล", "festival", "event", "งานสัปดาห์", "ลอยกระทง",
       "การแข่งขัน", "รางวัล", "official contractor", "roll up", "วันสำคัญ",
-      "ส่งเสริมการใช้ภาษาไทย"]),
-    ("Creative Metier", "Content Creation / Graphic Design",
-     ["ผลิตสื่อ", "ผลิตและเผยแพร่สื่อ", "สื่อสิ่งพิมพ์", "สื่อสิืงพิมพ์",
-      "graphic", "ออกแบบสื่อ", "คอนเทนต์", "content", "ผลิตชุดนิทรรศการ",
-      "in house training"]),
+      "ส่งเสริมการใช้ภาษาไทย", "in house training"]),
+    ("Creative Metier", "Graphic Design",
+     ["สื่อสิ่งพิมพ์", "สื่อสิืงพิมพ์", "สิ่งพิมพ์", "graphic", "ออกแบบสื่อ"]),
+    ("Creative Metier", "Content Creation",
+     ["ผลิตสื่อ", "ผลิตและเผยแพร่สื่อ", "คอนเทนต์", "content"]),
+    # Branding and Identity · Video & 3D · Campaign Execution — นิยามไว้ ยังไม่มีเข้าเกณฑ์
     # ── Media Metier ──
     ("Media Metier", "Offline Media",
      ["หอกระจายข่าว", "เสียงไร้สาย", "เสียงตามสาย"]),
     ("Media Metier", "Public Relations",
-     ["ประชาสัมพันธ์", "เผยแพร่ข่าวสาร", "เผยแพร่ข้อมูลข่าวสาร", "social media",
-      "kol", "influencer", "โฆษณาออนไลน์"]),
+     ["ประชาสัมพันธ์", "เผยแพร่ข่าวสาร", "เผยแพร่ข้อมูลข่าวสาร"]),
+    # Ads Planning/Optimisation · AI Search Optimisation · SEO · KOLs · E-Commerce Ads
+    # · Email Marketing — นิยามไว้ ยังไม่มีเข้าเกณฑ์
     # ── Marketing Metier ──
-    ("Marketing Metier", "Brand/Corporate Image",
-     ["ภาพลักษณ์องค์กร", "brand strategy", "กลยุทธ์แบรนด์", "corporate image",
-      "แผนการสื่อสาร", "communication strategy"]),
+    ("Marketing Metier", "Brand Strategy",
+     ["ภาพลักษณ์องค์กร", "brand strategy", "กลยุทธ์แบรนด์", "corporate image"]),
+    # Business Development · Communication Strategy · Marketing Training · Sales Strategy
+    # · Crisis Management · CRM Strategy — นิยามไว้ ยังไม่มีเข้าเกณฑ์
 ]
+
+# canonical sub-service ทั้งหมดต่อกลุ่มหลัก (ชุดที่อนุญาต — ตรงกับ dropdown UI)
+METIER_SUBSERVICES = {
+    "Software Metier": ["UX / UI Design", "Brand Website", "Mobile Application",
+                        "E-commerce Website", "ERP/CRM Systems",
+                        "Software Quality Assurance & Cyber Security", SUB_OTHER],
+    "Creative Metier": ["Branding and Identity", "Graphic Design", "Content Creation",
+                        "Video & 3D", "Event Marketing", "Campaign Execution", SUB_OTHER],
+    "Media Metier": ["Ads Planning", "Ads Optimisation", "AI Search Optimisation",
+                     "SEO Services", "KOLs / Influencer", "Public Relations",
+                     "E-Commerce Ads", "Email Marketing", "Offline Media", SUB_OTHER],
+    "Marketing Metier": ["Business Development", "Brand Strategy", "Communication Strategy",
+                         "Marketing Training", "Sales Strategy", "Crisis Management",
+                         "CRM Strategy", SUB_OTHER],
+}
 
 # ── ระบบ A ชั้น 1: 7 หมวดงานเทศบาล (อนุมานจากเนื้อหา) ──────────────────────────
 # ครุภัณฑ์มาก่อน (ข้ามทุกยุทธศาสตร์ — SKILL §2 ข้อ 2)
